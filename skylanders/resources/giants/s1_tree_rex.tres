@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dw8synrl8or3y"]
+
+[ext_resource type="Texture2D" uid="uid://dms7oii66oh70" path="res://images/giants/S1_TREE_REX.png" id="1_nieor"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_rxk3k"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_rxk3k")
+character_name = "Tree Rex"
+element = "Life"
+image = ExtResource("1_nieor")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Giant"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

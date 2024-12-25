@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dcupotxripesi"]
+
+[ext_resource type="Texture2D" uid="uid://brsl7sqq1ikkt" path="res://images/giants/S1_JET_VAC_LEGENDARY.png" id="1_nemgv"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_m74o0"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_m74o0")
+character_name = "Legendary Jet-Vac"
+element = "Air"
+image = ExtResource("1_nemgv")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 75.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://xwd77105vn8q"]
+
+[ext_resource type="Texture2D" uid="uid://d35b0ptxlmuwx" path="res://images/swap_force/S1_ZOO_LOU_LEGENDARY.png" id="1_ptj66"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_ssui8"]
+
+[resource]
+script = ExtResource("2_ssui8")
+character_name = "Legendary Zoo Lou"
+element = "Life"
+image = ExtResource("1_ptj66")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

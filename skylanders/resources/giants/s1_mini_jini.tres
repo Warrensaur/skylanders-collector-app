@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://b7k81ebivayn3"]
+
+[ext_resource type="Texture2D" uid="uid://di6w2gslwiefm" path="res://images/giants/S1_MINI_JINI.png" id="1_ecrpa"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_s4njb"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_s4njb")
+character_name = "Mini-Jini"
+element = "Magic"
+image = ExtResource("1_ecrpa")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Sidekick"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

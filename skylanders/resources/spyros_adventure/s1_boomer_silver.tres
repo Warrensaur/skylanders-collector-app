@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://b34mru5r2a873"]
+
+[ext_resource type="Texture2D" uid="uid://blnwaxx6rffuj" path="res://images/spyros_adventure/BOOMER_S1_SILVER.png" id="1_vq4yj"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_jlh38"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_jlh38")
+character_name = "Silver Boomer"
+element = "Tech"
+image = ExtResource("1_vq4yj")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 500.0
+max_value = 1250.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

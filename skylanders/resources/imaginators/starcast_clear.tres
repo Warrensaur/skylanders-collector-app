@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bb5cfeul05suf"]
+
+[ext_resource type="Texture2D" uid="uid://d4f3p5rnwboi2" path="res://images/imaginators/SENSEI_STARCAST_CLEAR.png" id="1_2ijfb"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_d26hg"]
+
+[resource]
+script = ExtResource("2_d26hg")
+character_name = "Clear Starcast"
+element = "Dark"
+image = ExtResource("1_2ijfb")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei"
+series = "Series 1"
+figure_is_collected = false
+min_value = 400.0
+max_value = 1200.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

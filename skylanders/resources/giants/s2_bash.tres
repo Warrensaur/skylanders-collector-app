@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://d1c81dhxd1f8m"]
+
+[ext_resource type="Texture2D" uid="uid://dr6lxjj2s6ry8" path="res://images/giants/S2_BASH.png" id="1_pnqe8"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_xooyv"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_xooyv")
+character_name = "Bash"
+element = "Earth"
+image = ExtResource("1_pnqe8")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 2.5
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

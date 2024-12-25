@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bltv83i2ry80j"]
+
+[ext_resource type="Texture2D" uid="uid://bo4cjgd1hb3i0" path="res://images/spyros_adventure/IGNITOR_S1_LOOSE.png" id="1_lyvwf"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_ohqly"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_ohqly")
+character_name = "Ignitor"
+element = "Fire"
+image = ExtResource("1_lyvwf")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 30.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

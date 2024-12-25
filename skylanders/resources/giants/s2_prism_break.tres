@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://2auwxkj6jif0"]
+
+[ext_resource type="Texture2D" uid="uid://e2hn5jluiaku" path="res://images/giants/S2_PRISM_BREAK.png" id="1_j8b2v"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_q6h6q"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_q6h6q")
+character_name = "Prism Break"
+element = "Earth"
+image = ExtResource("1_j8b2v")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 2.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://b52mq2vbuetdb"]
+
+[ext_resource type="Texture2D" uid="uid://mn2jk0lghmj" path="res://images/imaginators/SENSEI_CHOPSCOTCH.png" id="1_hlsrv"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_fgmbw"]
+
+[resource]
+script = ExtResource("2_fgmbw")
+character_name = "Chopscotch"
+element = "Undead"
+image = ExtResource("1_hlsrv")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

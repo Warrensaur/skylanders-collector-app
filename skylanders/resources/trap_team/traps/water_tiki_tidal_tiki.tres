@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://0lhis8vchuba"]
+
+[ext_resource type="Texture2D" uid="uid://qpy5p14vcqrv" path="res://images/trap_team/TRAP_WATER_TIKI.png" id="1_q548t"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_6b8x7"]
+
+[resource]
+script = ExtResource("2_6b8x7")
+character_name = "Water Tiki (Tidal Tiki)"
+element = "Water"
+image = ExtResource("1_q548t")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Trap"
+series = "Series 1"
+figure_is_collected = false
+min_value = 1.5
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

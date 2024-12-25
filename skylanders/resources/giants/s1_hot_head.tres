@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bqcfejajo3nov"]
+
+[ext_resource type="Texture2D" uid="uid://dsmg3q32y5g0t" path="res://images/giants/S1_HOT_HEAD.png" id="1_p2ktp"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_qqft4"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_qqft4")
+character_name = "Hot Head"
+element = "Fire"
+image = ExtResource("1_p2ktp")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Giant"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

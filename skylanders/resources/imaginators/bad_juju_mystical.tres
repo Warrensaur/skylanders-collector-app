@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://lpx8ylu6t8h6"]
+
+[ext_resource type="Texture2D" uid="uid://dmt5a1nb5yhfg" path="res://images/imaginators/SENSEI_VILLAIN_BAD_JUJU_MYSTICAL.png" id="1_q3bng"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_7hbsy"]
+
+[resource]
+script = ExtResource("2_7hbsy")
+character_name = "Mystical Bad Juju"
+element = "Air"
+image = ExtResource("1_q3bng")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei Villain"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

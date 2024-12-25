@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cg0u4hog1bo53"]
+
+[ext_resource type="Texture2D" uid="uid://t82cuvc2fd5" path="res://images/spyros_adventure/TRIGGER_HAPPY_S1_LEGENDARY_LOOSE.png" id="1_u1ea2"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_784ag"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_784ag")
+character_name = "Legendary Trigger Happy"
+element = "Tech"
+image = ExtResource("1_u1ea2")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 6.0
+max_value = 75.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bg1pypisn67bh"]
+
+[ext_resource type="Texture2D" uid="uid://cok78p3wf6sb2" path="res://images/spyros_adventure/SPARX_DRAGONFLY.png" id="1_5fdq4"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_1w4il"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_1w4il")
+character_name = "Sparx the Dragonfly"
+element = ""
+image = ExtResource("1_5fdq4")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 4.0
+max_value = 85.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

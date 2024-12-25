@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://c463bniecbgti"]
+
+[ext_resource type="Texture2D" uid="uid://d10fhchofu8pj" path="res://images/swap_force/S1_NIGHT_SHIFT.png" id="1_iwkm2"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_2ryib"]
+
+[resource]
+script = ExtResource("2_2ryib")
+character_name = "Night Shift"
+element = "Undead"
+image = ExtResource("1_iwkm2")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Swapper"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dtk4jsaq6rfx2"]
+
+[ext_resource type="Texture2D" uid="uid://d1ok7pq0ak5te" path="res://images/superchargers/S1_HIGH_VOLT_PATINA.png" id="1_sax58"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_j30bm"]
+
+[resource]
+script = ExtResource("2_j30bm")
+character_name = "Patina High Volt"
+element = "Tech"
+image = ExtResource("1_sax58")
+released_with_game = "SuperChargers"
+base_is = "Engine"
+figure_type = "SuperCharger"
+series = "Series 1"
+figure_is_collected = false
+min_value = 150.0
+max_value = 450.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

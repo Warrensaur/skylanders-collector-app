@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://c2hi0wqncwxq0"]
+
+[ext_resource type="Texture2D" uid="uid://bxh3rewjkq1nk" path="res://images/imaginators/CC_FIRE_ANGEL.jpg" id="1_5bvqx"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_ubgsn"]
+
+[resource]
+script = ExtResource("2_ubgsn")
+character_name = "Fire Angel"
+element = "Fire"
+image = ExtResource("1_5bvqx")
+released_with_game = "Imaginators"
+base_is = "Creation Crystal"
+figure_type = "Creation Crystal"
+series = "Series 1"
+figure_is_collected = false
+min_value = 0.0
+max_value = 0.0
+does_figure_work = false
+figure_condition = 0
+estimated_val = 0.0
+place_in_array_index = 0
+notes = "No value provided because this figure is unreleased. Prototypes exist but there are no legitimate ones in existence."

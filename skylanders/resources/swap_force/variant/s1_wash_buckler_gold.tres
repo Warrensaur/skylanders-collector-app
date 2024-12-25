@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://8x7rqtnsvo6m"]
+
+[ext_resource type="Texture2D" uid="uid://cvi6qc287d28r" path="res://images/swap_force/S1_WASH_BUCKLER_GOLD.png" id="1_5rcmn"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_5c0e3"]
+
+[resource]
+script = ExtResource("2_5c0e3")
+character_name = "Gold Wash Buckler"
+element = "Water"
+image = ExtResource("1_5rcmn")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Swapper"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 85.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://2irlo04ohn14"]
+
+[ext_resource type="Texture2D" uid="uid://cvtvpv3dtulsq" path="res://images/giants/S1_POP_FIZZ_PUNCH.png" id="1_uw3we"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_nd11c"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_nd11c")
+character_name = "Punch Pop Fizz"
+element = "Magic"
+image = ExtResource("1_uw3we")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

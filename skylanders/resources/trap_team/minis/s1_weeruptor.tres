@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cv60p8n5j5sco"]
+
+[ext_resource type="Texture2D" uid="uid://cda3c778q7afn" path="res://images/trap_team/S1_WEERUPTOR.png" id="1_gbj44"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_f88so"]
+
+[resource]
+script = ExtResource("2_f88so")
+character_name = "Weeruptor"
+element = "Fire"
+image = ExtResource("1_gbj44")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Mini"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

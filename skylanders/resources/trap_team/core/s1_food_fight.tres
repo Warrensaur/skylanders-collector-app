@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ct14mvq1eebj1"]
+
+[ext_resource type="Texture2D" uid="uid://yq8ht6wbltn2" path="res://images/trap_team/S1_FOOD_FIGHT.png" id="1_rxmln"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_7nwxl"]
+
+[resource]
+script = ExtResource("2_7nwxl")
+character_name = "Food Fight"
+element = "Life"
+image = ExtResource("1_rxmln")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 20.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

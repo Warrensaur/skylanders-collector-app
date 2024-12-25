@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cv77oa0llvh2o"]
+
+[ext_resource type="Texture2D" uid="uid://c5yvj8xapxq0r" path="res://images/spyros_adventure/ZAP_S1_LOOSE.png" id="1_2oduh"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_v6x24"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_v6x24")
+character_name = "Zap"
+element = "Water"
+image = ExtResource("1_2oduh")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.0
+max_value = 40.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

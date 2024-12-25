@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ci74t3f8gjdrd"]
+
+[ext_resource type="Texture2D" uid="uid://baxod8ia1okej" path="res://images/swap_force/S1_GRIM_CREEPER.png" id="1_ivmiy"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_0y53j"]
+
+[resource]
+script = ExtResource("2_0y53j")
+character_name = "Grim Creeper"
+element = "Undead"
+image = ExtResource("1_ivmiy")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 1.0
+max_value = 20.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

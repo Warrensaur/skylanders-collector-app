@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://boj8snt4hxp8e"]
+
+[ext_resource type="Texture2D" uid="uid://bh6amlxfa8pb7" path="res://images/imaginators/SENSEI_VILLAIN_PAIN_YATTA.png" id="1_2ra8j"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_6mvpb"]
+
+[resource]
+script = ExtResource("2_6mvpb")
+character_name = "Pain-Yatta"
+element = "Magic"
+image = ExtResource("1_2ra8j")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei Villain"
+series = "Series 1"
+figure_is_collected = false
+min_value = 10.0
+max_value = 50.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

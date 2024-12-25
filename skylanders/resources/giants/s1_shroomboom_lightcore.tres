@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ba2iwnbhpjisb"]
+
+[ext_resource type="Texture2D" uid="uid://up2r6m2ma4a5" path="res://images/giants/S1_SHROOMBOOM_LIGHTCORE.png" id="1_aqx6t"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_miacr"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_miacr")
+character_name = "Shroomboom"
+element = "Life"
+image = ExtResource("1_aqx6t")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "LightCore"
+series = "Series 1"
+figure_is_collected = false
+min_value = 4.0
+max_value = 40.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

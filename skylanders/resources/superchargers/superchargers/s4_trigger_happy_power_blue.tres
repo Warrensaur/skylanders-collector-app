@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://da0slt0yvlknd"]
+
+[ext_resource type="Texture2D" uid="uid://mhmt7hxhpg2s" path="res://images/superchargers/S4_TRIGGER_HAPPY_POWER_BLUE.png" id="1_u8q1s"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_v8hn7"]
+
+[resource]
+script = ExtResource("2_v8hn7")
+character_name = "Power Blue Double Dare Trigger Happy"
+element = "Tech"
+image = ExtResource("1_u8q1s")
+released_with_game = "SuperChargers"
+base_is = "Engine"
+figure_type = "SuperCharger"
+series = "Series 4"
+figure_is_collected = false
+min_value = 10.0
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ch3i8c0h8d0hb"]
+
+[ext_resource type="Texture2D" uid="uid://b0ybjo0xbunso" path="res://images/swap_force/S1_DUNE_BUG.png" id="1_vd8un"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_havdy"]
+
+[resource]
+script = ExtResource("2_havdy")
+character_name = "Dune Bug"
+element = "Magic"
+image = ExtResource("1_vd8un")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 1.0
+max_value = 20.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

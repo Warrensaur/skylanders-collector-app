@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://c3mllorw88g4p"]
+
+[ext_resource type="Texture2D" uid="uid://b8t18mo6q70jh" path="res://images/imaginators/CC_MAGIC_LANTERN_LEGENDARY.png" id="1_hjutn"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_ngdas"]
+
+[resource]
+script = ExtResource("2_ngdas")
+character_name = "Legendary Magic Lantern"
+element = "Magic"
+image = ExtResource("1_hjutn")
+released_with_game = "Imaginators"
+base_is = "Creation Crystal"
+figure_type = "Creation Crystal"
+series = "Series 1"
+figure_is_collected = false
+min_value = 15.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://yqppw12giuii"]
+
+[ext_resource type="Texture2D" uid="uid://ygy80wtnphvv" path="res://images/swap_force/UFO_HAT.png" id="1_hu74x"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_kgvq0"]
+
+[resource]
+script = ExtResource("2_kgvq0")
+character_name = "UFO Hat (Target Preorder Exclusive)"
+element = ""
+image = ExtResource("1_hu74x")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "In-Game Item"
+series = "Series 1"
+figure_is_collected = false
+min_value = 50.0
+max_value = 300.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

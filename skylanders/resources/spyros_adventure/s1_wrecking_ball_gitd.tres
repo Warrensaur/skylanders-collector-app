@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://c1dwpfcoty5q1"]
+
+[ext_resource type="Texture2D" uid="uid://st2llfchu233" path="res://images/spyros_adventure/WRECKING_BALL_S1_GITD.png" id="1_4wryi"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_fiivb"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_fiivb")
+character_name = "GITD Wrecking Ball"
+element = "Magic"
+image = ExtResource("1_4wryi")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 300.0
+max_value = 750.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

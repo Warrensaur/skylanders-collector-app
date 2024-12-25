@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dp5oo2eb8i6k3"]
+
+[ext_resource type="Texture2D" uid="uid://eyef1ojhrjim" path="res://images/trap_team/S1_KNIGHT_LIGHT.png" id="1_de4hv"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_6v8fi"]
+
+[resource]
+script = ExtResource("2_6v8fi")
+character_name = "Knight Light"
+element = "Light"
+image = ExtResource("1_de4hv")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Trap Master"
+series = "Series 1"
+figure_is_collected = false
+min_value = 25.0
+max_value = 125.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

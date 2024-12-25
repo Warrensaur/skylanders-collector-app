@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://b7lmg3iybr8la"]
+
+[ext_resource type="Texture2D" uid="uid://c7p3adjh0dslt" path="res://images/swap_force/S1_COUNTDOWN_LIGHTCORE.png" id="1_w00ah"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_g6b3m"]
+
+[resource]
+script = ExtResource("2_g6b3m")
+character_name = "Countdown"
+element = "Tech"
+image = ExtResource("1_w00ah")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "LightCore"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

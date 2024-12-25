@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://1chout5p2emo"]
+
+[ext_resource type="Texture2D" uid="uid://dkh37yn3b4twe" path="res://images/imaginators/CC_EARTH_RUNE.jpg" id="1_i42su"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_jrk8q"]
+
+[resource]
+script = ExtResource("2_jrk8q")
+character_name = "Earth Rune"
+element = "Earth"
+image = ExtResource("1_i42su")
+released_with_game = "Imaginators"
+base_is = "Creation Crystal"
+figure_type = "Creation Crystal"
+series = "Series 1"
+figure_is_collected = false
+min_value = 0.0
+max_value = 0.0
+does_figure_work = false
+figure_condition = 0
+estimated_val = 0.0
+place_in_array_index = 0
+notes = "No value provided because this figure is unreleased. Prototypes exist but there are no legitimate ones in existence."

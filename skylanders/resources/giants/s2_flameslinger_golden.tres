@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dwqyvxh5pbqyt"]
+
+[ext_resource type="Texture2D" uid="uid://shufabg3xraq" path="res://images/giants/S2_FLAMESLINGER_GOLDEN.png" id="1_jj8jk"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_fhpg4"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_fhpg4")
+character_name = "Golden Flameslinger"
+element = "Fire"
+image = ExtResource("1_jj8jk")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 5.0
+max_value = 40.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

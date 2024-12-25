@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://c2thtq8suqnfq"]
+
+[ext_resource type="Texture2D" uid="uid://cnciiq0ikb6d8" path="res://images/spyros_adventure/WINGED_BOOTS.png" id="1_d58rs"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_r0dq3"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_r0dq3")
+character_name = "Winged Boots"
+element = ""
+image = ExtResource("1_d58rs")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 85.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

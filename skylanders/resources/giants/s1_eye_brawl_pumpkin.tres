@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cs2jva8dfr5gq"]
+
+[ext_resource type="Texture2D" uid="uid://bv3mfv1iahuma" path="res://images/giants/S1_EYE_BRAWL_PUMPKIN.png" id="1_wap5c"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_8cip8"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_8cip8")
+character_name = "Pumpkin Eye-Brawl"
+element = "Undead"
+image = ExtResource("1_wap5c")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Giant"
+series = "Series 1"
+figure_is_collected = false
+min_value = 35.0
+max_value = 150.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

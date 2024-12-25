@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dnheaom1eudkw"]
+
+[ext_resource type="Texture2D" uid="uid://xna7gftiryft" path="res://images/trap_team/TRAP_TECH_HANDSTAND.png" id="1_x8m8q"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_jsned"]
+
+[resource]
+script = ExtResource("2_jsned")
+character_name = "Tech Handstand (Topsy Techy)"
+element = "Tech"
+image = ExtResource("1_x8m8q")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Trap"
+series = "Series 1"
+figure_is_collected = false
+min_value = 1.5
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

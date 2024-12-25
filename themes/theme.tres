@@ -1,0 +1,27 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://daiyiberu8wo6"]
+
+[ext_resource type="FontFile" uid="uid://cuwsiy42pvihi" path="res://fonts/pincoya-black/pincoyablack.otf" id="1_p7wd0"]
+
+[resource]
+Button/colors/font_color = Color(0.217285, 0.270798, 0.547345, 1)
+Button/colors/font_outline_color = Color(1, 1, 1, 1)
+Button/colors/font_pressed_color = Color(0.410704, 0.487314, 0.814855, 1)
+Button/colors/icon_hover_color = Color(0.347816, 0.420633, 0.755676, 1)
+Button/constants/outline_size = 4
+Button/font_sizes/font_size = 36
+Button/fonts/font = ExtResource("1_p7wd0")
+CheckButton/font_sizes/font_size = 36
+Label/colors/font_color = Color(0.217285, 0.270798, 0.547345, 1)
+Label/colors/font_outline_color = Color(1, 1, 1, 1)
+Label/colors/font_shadow_color = Color(0.52549, 0.52549, 0.882353, 0.552941)
+Label/constants/outline_size = 4
+Label/constants/shadow_offset_x = 16
+Label/constants/shadow_offset_y = 16
+Label/constants/shadow_outline_size = 4
+Label/font_sizes/font_size = 48
+Label/fonts/font = ExtResource("1_p7wd0")
+LineEdit/colors/font_color = Color(0.317304, 0.676222, 0.677606, 1)
+LineEdit/colors/font_outline_color = Color(1, 1, 1, 1)
+LineEdit/constants/outline_size = 3
+LineEdit/font_sizes/font_size = 36
+LineEdit/fonts/font = ExtResource("1_p7wd0")

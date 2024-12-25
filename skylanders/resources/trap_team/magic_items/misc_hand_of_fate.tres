@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cu84b5ewuvkj2"]
+
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="1_1igyc"]
+[ext_resource type="Texture2D" uid="uid://brnorqs4i5nau" path="res://images/trap_team/ADVENTURE_ITEM_HAND_OF_FATE.png" id="1_px8l0"]
+
+[resource]
+script = ExtResource("1_1igyc")
+character_name = "Hand of Fate"
+element = ""
+image = ExtResource("1_px8l0")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Magic Item"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 55.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

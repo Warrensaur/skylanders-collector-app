@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://c0da2lvlmlhwg"]
+
+[ext_resource type="Texture2D" uid="uid://c31lnt8r81fue" path="res://images/giants/S2_GILL_GRUNT_METALLIC_GREEN.png" id="1_kospk"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_5ud7k"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_5ud7k")
+character_name = "Metallic Green Gill Grunt"
+element = "Water"
+image = ExtResource("1_kospk")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 10.0
+max_value = 55.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

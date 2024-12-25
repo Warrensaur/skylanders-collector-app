@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bmqirldcwp2od"]
+
+[ext_resource type="Texture2D" uid="uid://b45xrhhrfnct8" path="res://images/giants/S2_WRECKING_BALL.png" id="1_c2mgg"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_f23ug"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_f23ug")
+character_name = "Wrecking Ball"
+element = "Magic"
+image = ExtResource("1_c2mgg")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 2.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

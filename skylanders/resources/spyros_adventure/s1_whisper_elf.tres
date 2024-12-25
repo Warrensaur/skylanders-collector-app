@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://einkw6fg6mso"]
+
+[ext_resource type="Texture2D" uid="uid://0w5nm3eli04o" path="res://images/spyros_adventure/WHISPER_ELF_S1_LOOSE.png" id="1_p6wiv"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_c3a0r"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_c3a0r")
+character_name = "Whisper Elf (Sidekick)"
+element = "Life"
+image = ExtResource("1_p6wiv")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 20.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

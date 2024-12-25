@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cqk3kq3b85oo0"]
+
+[ext_resource type="Texture2D" uid="uid://bvhxdo62i6htj" path="res://images/trap_team/ADVENTURE_ITEM_NIGHTMARE_EXPRESS.png" id="1_v70h5"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_08vbn"]
+
+[resource]
+script = ExtResource("2_08vbn")
+character_name = "Nightmare Express"
+element = ""
+image = ExtResource("1_v70h5")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Adventure Piece"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 55.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cs2r2hckoe5sy"]
+
+[ext_resource type="Texture2D" uid="uid://dgp46gs3fht7h" path="res://images/imaginators/SENSEI_BUCKSHOT_HEARTBREAKER.jpg" id="1_x6xtq"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_n6ha1"]
+
+[resource]
+script = ExtResource("2_n6ha1")
+character_name = "Heartbreaker Buckshot"
+element = "Magic"
+image = ExtResource("1_x6xtq")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = "This figure is completely unreleased. Potentially up to 12 exist, and only 1, maybe 2, function. NFC cards cannot be made due to security protocols in Imaginators. The game can be exploited to load him, but a working NFC cannot be made. Do not buy any NFCs claiming to be Heartbreaker Buckshot, they are a scam."

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cujiu7v0x3xka"]
+
+[ext_resource type="Texture2D" uid="uid://ixg6opkatt0a" path="res://images/imaginators/CC_LIFE_ACORN_LEGENDARY.png" id="1_0ukbg"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_vv0bh"]
+
+[resource]
+script = ExtResource("2_vv0bh")
+character_name = "Legendary Life Acorn"
+element = "Life"
+image = ExtResource("1_0ukbg")
+released_with_game = "Imaginators"
+base_is = "Creation Crystal"
+figure_type = "Creation Crystal"
+series = "Series 1"
+figure_is_collected = false
+min_value = 15.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

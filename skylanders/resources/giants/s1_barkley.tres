@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bjqrlpy6focwa"]
+
+[ext_resource type="Texture2D" uid="uid://dd5i2vrerq726" path="res://images/giants/S1_BARKLEY.png" id="1_8e2a6"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_txmrm"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_txmrm")
+character_name = "Barkley"
+element = "Life"
+image = ExtResource("1_8e2a6")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Sidekick"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

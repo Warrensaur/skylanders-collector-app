@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://1epgf0nyrrtc"]
+
+[ext_resource type="Texture2D" uid="uid://d4dc151k2rcsp" path="res://images/swap_force/S1_STINK_BOMB_SILVER_GOLD.png" id="1_ji700"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_hkytb"]
+
+[resource]
+script = ExtResource("2_hkytb")
+character_name = "Silver & Gold Stink Bomb"
+element = "Life"
+image = ExtResource("1_ji700")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Swapper"
+series = "Series 1"
+figure_is_collected = false
+min_value = 250.0
+max_value = 1000.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

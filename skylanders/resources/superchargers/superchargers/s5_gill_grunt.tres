@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://chk546ky1q0ce"]
+
+[ext_resource type="Texture2D" uid="uid://cn8146k12dp6u" path="res://images/superchargers/S5_GILL_GRUNT.png" id="1_bydsv"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_bd8xn"]
+
+[resource]
+script = ExtResource("2_bd8xn")
+character_name = "Deep Dive Gill Grunt"
+element = "Water"
+image = ExtResource("1_bydsv")
+released_with_game = "SuperChargers"
+base_is = "Engine"
+figure_type = "SuperCharger"
+series = "Series 5"
+figure_is_collected = false
+min_value = 5.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cbyku7ligvb3b"]
+
+[ext_resource type="Texture2D" uid="uid://ck1jgqf6kv5hr" path="res://images/imaginators/MISC_GOLD_MYSTERY_CHEST.png" id="1_ebem7"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_ud0lb"]
+
+[resource]
+script = ExtResource("2_ud0lb")
+character_name = "Gold Mystery Chest"
+element = ""
+image = ExtResource("1_ebem7")
+released_with_game = "Imaginators"
+base_is = "N/A"
+figure_type = "Magic Item"
+series = "Series 1"
+figure_is_collected = false
+min_value = 0.5
+max_value = 10.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

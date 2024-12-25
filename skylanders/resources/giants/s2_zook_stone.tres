@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cix3naubr6oix"]
+
+[ext_resource type="Texture2D" uid="uid://dbfaa5qmd5ch" path="res://images/giants/S2_ZOOK_STONE.png" id="1_k6f7q"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_rckwu"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_rckwu")
+character_name = "Stone Zook"
+element = "Life"
+image = ExtResource("1_k6f7q")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 250.0
+max_value = 600.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

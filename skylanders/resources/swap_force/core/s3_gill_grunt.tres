@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bx7c2omrkfwwg"]
+
+[ext_resource type="Texture2D" uid="uid://bm0vivy1243me" path="res://images/swap_force/S3_GILL_GRUNT.png" id="1_0b1c4"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_7ox1k"]
+
+[resource]
+script = ExtResource("2_7ox1k")
+character_name = "Anchors Away Gill Grunt"
+element = "Water"
+image = ExtResource("1_0b1c4")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Core"
+series = "Series 3"
+figure_is_collected = false
+min_value = 2.5
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

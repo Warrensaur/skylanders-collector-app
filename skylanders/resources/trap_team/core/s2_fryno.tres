@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dpw1trmjsk276"]
+
+[ext_resource type="Texture2D" uid="uid://b1bu4hpn28j7w" path="res://images/trap_team/S2_FRYNO.png" id="1_t1yex"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_8kjji"]
+
+[resource]
+script = ExtResource("2_8kjji")
+character_name = "Hog Wild Fryno"
+element = "Fire"
+image = ExtResource("1_t1yex")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 2.0
+max_value = 20.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

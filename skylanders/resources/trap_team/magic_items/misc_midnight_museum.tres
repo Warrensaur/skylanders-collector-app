@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ctvytnm53vh4n"]
+
+[ext_resource type="Texture2D" uid="uid://tjshost1ca2f" path="res://images/trap_team/ADVENTURE_ITEM_MIDNIGHT_MUSEUM.png" id="1_bnegp"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_6khi3"]
+
+[resource]
+script = ExtResource("2_6khi3")
+character_name = "Midnight Museum"
+element = ""
+image = ExtResource("1_bnegp")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Adventure Piece"
+series = "Series 1"
+figure_is_collected = false
+min_value = 25.0
+max_value = 125.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

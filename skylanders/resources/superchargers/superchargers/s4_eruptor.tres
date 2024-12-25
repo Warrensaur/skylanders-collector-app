@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dknjmwwyem8i5"]
+
+[ext_resource type="Texture2D" uid="uid://d3gnfmertmsi3" path="res://images/superchargers/S4_ERUPTOR.png" id="1_1bxxl"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_is3om"]
+
+[resource]
+script = ExtResource("2_is3om")
+character_name = "Lava Lance Eruptor"
+element = "Fire"
+image = ExtResource("1_1bxxl")
+released_with_game = "SuperChargers"
+base_is = "Engine"
+figure_type = "SuperCharger"
+series = "Series 4"
+figure_is_collected = false
+min_value = 5.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

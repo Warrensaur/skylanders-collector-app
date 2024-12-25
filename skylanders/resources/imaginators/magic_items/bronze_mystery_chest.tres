@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bsveisay100va"]
+
+[ext_resource type="Texture2D" uid="uid://orinrk50vwjy" path="res://images/imaginators/MISC_BRONZE_MYSTERY_CHEST.png" id="1_aur4w"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_sw2a5"]
+
+[resource]
+script = ExtResource("2_sw2a5")
+character_name = "Bronze Mystery Chest"
+element = ""
+image = ExtResource("1_aur4w")
+released_with_game = "Imaginators"
+base_is = "N/A"
+figure_type = "Magic Item"
+series = "Series 1"
+figure_is_collected = false
+min_value = 0.5
+max_value = 10.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

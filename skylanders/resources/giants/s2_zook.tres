@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bh0fom6smqdd1"]
+
+[ext_resource type="Texture2D" uid="uid://13xhhppbg5ym" path="res://images/giants/S2_ZOOK.png" id="1_vyuy2"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_i62fp"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_i62fp")
+character_name = "Zook"
+element = "Life"
+image = ExtResource("1_vyuy2")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 2.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

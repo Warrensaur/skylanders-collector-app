@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dw6o6undi8t1s"]
+
+[ext_resource type="Texture2D" uid="uid://cjs5ysm3op8um" path="res://images/trap_team/S1_SMALL_FRY.png" id="1_xwdtd"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_ibilx"]
+
+[resource]
+script = ExtResource("2_ibilx")
+character_name = "Small Fry"
+element = "Fire"
+image = ExtResource("1_xwdtd")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Mini"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

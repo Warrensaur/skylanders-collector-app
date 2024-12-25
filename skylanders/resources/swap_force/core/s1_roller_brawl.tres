@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://clseo37dhst8h"]
+
+[ext_resource type="Texture2D" uid="uid://2xcu4fd131es" path="res://images/swap_force/S1_ROLLER_BRAWL.png" id="1_djcaa"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_vihc4"]
+
+[resource]
+script = ExtResource("2_vihc4")
+character_name = "Roller Brawl"
+element = "Undead"
+image = ExtResource("1_djcaa")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

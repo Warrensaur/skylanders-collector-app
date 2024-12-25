@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ci10pth86tup8"]
+
+[ext_resource type="Texture2D" uid="uid://cqw8hxmb5bu5s" path="res://images/giants/S2_SLAM_BAM_LEGENDARY.png" id="1_by7bh"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_0hh71"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_0hh71")
+character_name = "Legendary Slam Bam"
+element = "Water"
+image = ExtResource("1_by7bh")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 5.0
+max_value = 75.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

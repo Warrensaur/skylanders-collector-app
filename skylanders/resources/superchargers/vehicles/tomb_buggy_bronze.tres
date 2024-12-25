@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bk3le6dn8fb3p"]
+
+[ext_resource type="Texture2D" uid="uid://b6cud2e776ovf" path="res://images/superchargers/VEHICLE_TOMB_BUGGY_BRONZE.png" id="1_82j0c"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_wk67l"]
+
+[resource]
+script = ExtResource("2_wk67l")
+character_name = "Bronze Tomb Buggy"
+element = "Undead"
+image = ExtResource("1_82j0c")
+released_with_game = "SuperChargers"
+base_is = "Engine"
+figure_type = "Vehicle"
+series = "Series 1"
+figure_is_collected = false
+min_value = 350.0
+max_value = 1000.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cf8okthkyfpl6"]
+
+[ext_resource type="Texture2D" uid="uid://ckihqqcmfhfff" path="res://images/spyros_adventure/WHIRLWIND_S1_CRYSTAL_CLEAR.png" id="1_yf27e"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_66xs0"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_66xs0")
+character_name = "Crystal Clear Whirlwind"
+element = "Air"
+image = ExtResource("1_yf27e")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 500.0
+max_value = 1100.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://b5egyvkepuswq"]
+
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="1_o62ry"]
+[ext_resource type="Texture2D" uid="uid://csuuj5mhytl32" path="res://images/trap_team/S1_BAT_SPIN.png" id="1_vyk60"]
+
+[resource]
+script = ExtResource("1_o62ry")
+character_name = "Bat Spin"
+element = "Undead"
+image = ExtResource("1_vyk60")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 20.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

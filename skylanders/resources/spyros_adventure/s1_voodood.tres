@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bhb3w7grcop23"]
+
+[ext_resource type="Texture2D" uid="uid://crkfcpg4wvrqg" path="res://images/spyros_adventure/VOODOOD_S1_LOOSE.png" id="1_fvfn8"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_3v4je"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_3v4je")
+character_name = "Voodood"
+element = "Magic"
+image = ExtResource("1_fvfn8")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 40.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

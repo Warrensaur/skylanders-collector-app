@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dsw5l7mknfhpa"]
+
+[ext_resource type="Texture2D" uid="uid://cj24i6pkkroe4" path="res://images/imaginators/SENSEI_PIT_BOSS_LEGENDARY.png" id="1_3gckc"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_86cwk"]
+
+[resource]
+script = ExtResource("2_86cwk")
+character_name = "Legendary Pit Boss"
+element = "Undead"
+image = ExtResource("1_3gckc")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei"
+series = "Series 1"
+figure_is_collected = false
+min_value = 15.0
+max_value = 55.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

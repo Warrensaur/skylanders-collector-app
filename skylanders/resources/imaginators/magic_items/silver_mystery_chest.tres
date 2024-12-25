@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ddq74bedmga5f"]
+
+[ext_resource type="Texture2D" uid="uid://dywnxvs4p38tr" path="res://images/imaginators/MISC_SILVER_MYSTERY_CHEST.png" id="1_8m1h5"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="1_ubcsb"]
+
+[resource]
+script = ExtResource("1_ubcsb")
+character_name = "Silver Mystery Chest"
+element = ""
+image = ExtResource("1_8m1h5")
+released_with_game = "Imaginators"
+base_is = "N/A"
+figure_type = "Magic Item"
+series = "Series 1"
+figure_is_collected = false
+min_value = 0.5
+max_value = 10.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

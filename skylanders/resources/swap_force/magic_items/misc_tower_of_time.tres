@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://1ajfp3165c1c"]
+
+[ext_resource type="Texture2D" uid="uid://dmqknynsyulcp" path="res://images/swap_force/ADVENTURE_ITEM_TOWER_OF_TIME.png" id="1_8ym8t"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_i8q1f"]
+
+[resource]
+script = ExtResource("2_i8q1f")
+character_name = "Tower of Time"
+element = ""
+image = ExtResource("1_8ym8t")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Adventure Piece"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 55.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

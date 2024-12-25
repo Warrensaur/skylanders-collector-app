@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://b8wgnfcgbu4l3"]
+
+[ext_resource type="Texture2D" uid="uid://cydnk8prdxvd4" path="res://images/giants/S1_FRIGHT_RIDER_HALLOWEEN.png" id="1_83yj1"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_ig4bx"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_ig4bx")
+character_name = "Halloween Fright Rider"
+element = "Undead"
+image = ExtResource("1_83yj1")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 35.0
+max_value = 150.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

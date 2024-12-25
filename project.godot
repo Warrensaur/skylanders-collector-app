@@ -1,0 +1,42 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Skylanders Collector App"
+config/description="Save your Skylanders collection!"
+config/version="1.95"
+run/main_scene="res://scenes/main_scene.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="SkylandersCollectorApp"
+config/features=PackedStringArray("4.3", "Mobile")
+config/icon="res://images/LifeSymbolSkylanders.svg"
+
+[display]
+
+window/size/viewport_width=1080
+window/size/viewport_height=2340
+window/handheld/orientation=1
+
+[input]
+
+click={
+"deadzone": 0.5,
+"events": []
+}
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true

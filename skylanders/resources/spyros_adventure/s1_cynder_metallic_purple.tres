@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://db2wh43j7sl84"]
+
+[ext_resource type="Texture2D" uid="uid://doinu8lf7y0de" path="res://images/spyros_adventure/CYNDER_S1_METALLIC_PURPLE.png" id="1_hhw7f"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_42scb"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_42scb")
+character_name = "Metallic Purple Cynder"
+element = "Undead"
+image = ExtResource("1_hhw7f")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 50.0
+max_value = 250.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

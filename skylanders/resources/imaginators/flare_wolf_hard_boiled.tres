@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://gagx2wglpd2t"]
+
+[ext_resource type="Texture2D" uid="uid://batnho7nhtut4" path="res://images/imaginators/SENSEI_FLARE_WOLF_HARD_BOILED.png" id="1_sy620"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_u7brw"]
+
+[resource]
+script = ExtResource("2_u7brw")
+character_name = "Hard-Boiled Flare Wolf"
+element = "Fire"
+image = ExtResource("1_sy620")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

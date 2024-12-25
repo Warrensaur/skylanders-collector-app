@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://tlxr60skvhpx"]
+
+[ext_resource type="Texture2D" uid="uid://dwv4no26m5owl" path="res://images/spyros_adventure/VOLCANIC_VAULT.png" id="1_w50ln"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_yvjvs"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_yvjvs")
+character_name = "Volcanic Vault"
+element = ""
+image = ExtResource("1_w50ln")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 40.0
+max_value = 100.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

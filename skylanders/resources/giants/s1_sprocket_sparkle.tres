@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://c84ta21oddm71"]
+
+[ext_resource type="Texture2D" uid="uid://37hx7t6s0jdr" path="res://images/giants/S1_SPROCKET_SPARKLE.png" id="1_xi61q"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_xj4de"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_xj4de")
+character_name = "Sparkle Sprocket"
+element = "Tech"
+image = ExtResource("1_xi61q")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 150.0
+max_value = 400.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

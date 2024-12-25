@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://b3whtx04yoa7l"]
+
+[ext_resource type="Texture2D" uid="uid://dp3lsj1fd1n5w" path="res://images/trap_team/TRAP_LIGHT_OWL.png" id="1_msl0w"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_1a882"]
+
+[resource]
+script = ExtResource("2_1a882")
+character_name = "Light Owl (Heavenly Hawk)"
+element = "Light"
+image = ExtResource("1_msl0w")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Trap"
+series = "Series 1"
+figure_is_collected = false
+min_value = 1.5
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

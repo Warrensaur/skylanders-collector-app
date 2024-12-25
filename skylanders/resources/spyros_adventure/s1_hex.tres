@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://daafkxrb7xdnd"]
+
+[ext_resource type="Texture2D" uid="uid://8ocmhlstjrc0" path="res://images/spyros_adventure/HEX_S1_LOOSE.png" id="1_46wtr"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_ksomh"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_ksomh")
+character_name = "Hex"
+element = "Undead"
+image = ExtResource("1_46wtr")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 0.5
+max_value = 50.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

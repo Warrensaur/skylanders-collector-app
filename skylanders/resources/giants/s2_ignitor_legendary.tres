@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cgtgmyph1lfmc"]
+
+[ext_resource type="Texture2D" uid="uid://chtwdo6k8w3u5" path="res://images/giants/S2_IGNITOR_LEGENDARY.png" id="1_3nugp"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_h6jps"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_h6jps")
+character_name = "Legendary Ignitor"
+element = "Fire"
+image = ExtResource("1_3nugp")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 5.0
+max_value = 75.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

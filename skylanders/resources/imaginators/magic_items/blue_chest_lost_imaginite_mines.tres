@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dhlr8gf46bxno"]
+
+[ext_resource type="Texture2D" uid="uid://byijg1bdpk64t" path="res://images/imaginators/MISC_BLUE_CHEST_CURSED_TIKI_TEMPLE.png" id="1_ovt50"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_bb274"]
+
+[resource]
+script = ExtResource("2_bb274")
+character_name = "Blue Chest (Lost Imaginite Mines)"
+element = ""
+image = ExtResource("1_ovt50")
+released_with_game = "Imaginators"
+base_is = "N/A"
+figure_type = "Magic Item"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 750.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

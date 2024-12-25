@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://b88esuvl7n8uq"]
+
+[ext_resource type="Texture2D" uid="uid://5ygyrrj6m8k6" path="res://images/trap_team/TRAP_FIRE_TORCH.png" id="1_b3woa"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_idcuj"]
+
+[resource]
+script = ExtResource("2_idcuj")
+character_name = "Fire Torch (Eternal Flame)"
+element = "Fire"
+image = ExtResource("1_b3woa")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Trap"
+series = "Series 1"
+figure_is_collected = false
+min_value = 1.5
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

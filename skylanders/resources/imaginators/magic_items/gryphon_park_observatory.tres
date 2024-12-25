@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://b08ruft7hiq2p"]
+
+[ext_resource type="Texture2D" uid="uid://cp1lq2e3h688r" path="res://images/imaginators/MISC_GRYPHON_PARK_OBSERVATORY.png" id="1_7m60q"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_2slqb"]
+
+[resource]
+script = ExtResource("2_2slqb")
+character_name = "Gryphon Park Observatory"
+element = ""
+image = ExtResource("1_7m60q")
+released_with_game = "Imaginators"
+base_is = "N/A"
+figure_type = "Adventure Piece"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 55.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

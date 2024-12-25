@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://da48ooloo3f6v"]
+
+[ext_resource type="Texture2D" uid="uid://76f12gelfgce" path="res://images/trap_team/S1_HIJINX.png" id="1_638gj"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_od1gb"]
+
+[resource]
+script = ExtResource("2_od1gb")
+character_name = "Hijinx"
+element = "Undead"
+image = ExtResource("1_638gj")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Mini"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

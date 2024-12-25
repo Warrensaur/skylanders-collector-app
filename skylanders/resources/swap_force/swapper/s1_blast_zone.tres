@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://i5hee372q2yk"]
+
+[ext_resource type="Texture2D" uid="uid://b8i08q8ps7sr1" path="res://images/swap_force/S1_BLAST_ZONE.png" id="1_80p5p"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="1_raqn5"]
+
+[resource]
+script = ExtResource("1_raqn5")
+character_name = "Blast Zone"
+element = "Fire"
+image = ExtResource("1_80p5p")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Swapper"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

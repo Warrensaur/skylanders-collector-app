@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cmgq3imgp3i18"]
+
+[ext_resource type="Texture2D" uid="uid://ctlik6pli15px" path="res://images/spyros_adventure/BASH_S1_BLUE_LOOSE.png" id="1_coy80"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_nuc1c"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_nuc1c")
+character_name = "Blue Bash"
+element = "Earth"
+image = ExtResource("1_coy80")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 15.0
+max_value = 75.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://daf0tc5s4yf7g"]
+
+[ext_resource type="Texture2D" uid="uid://b5jm5gklscl4" path="res://images/imaginators/SENSEI_STARCAST_HAPPY_BIRTHDAY_BEN.jpg" id="1_83dwa"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_s57bi"]
+
+[resource]
+script = ExtResource("2_s57bi")
+character_name = "Happy Birthday, Ben! Starcast"
+element = "Dark"
+image = ExtResource("1_83dwa")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei"
+series = "Series 1"
+figure_is_collected = false
+min_value = 6000.0
+max_value = 50000.0
+does_figure_work = true
+figure_condition = 0
+estimated_val = 0.0
+place_in_array_index = 0
+notes = "Given exclusively to attendants of Tom Brady's son's birthday party, this figure is extremely rare. One has sold for reportedly $6k before and one is presently listed for close to $50k on eBay. It does NOT look any different in-game, only reads as \"Special.\""

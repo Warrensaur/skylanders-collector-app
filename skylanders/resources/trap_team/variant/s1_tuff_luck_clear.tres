@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://iapb8g8p3pfk"]
+
+[ext_resource type="Texture2D" uid="uid://dct53wd546olj" path="res://images/trap_team/S1_TUFF_LUCK_CLEAR.png" id="1_dnrak"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_sudta"]
+
+[resource]
+script = ExtResource("2_sudta")
+character_name = "Clear Tuff Luck"
+element = "Life"
+image = ExtResource("1_dnrak")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Trap Master"
+series = "Series 1"
+figure_is_collected = false
+min_value = 500.0
+max_value = 1250.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

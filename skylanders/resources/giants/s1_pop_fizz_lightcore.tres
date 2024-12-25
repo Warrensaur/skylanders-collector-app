@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://c5x2owp2j7qi2"]
+
+[ext_resource type="Texture2D" uid="uid://c3p5dwdkx44pi" path="res://images/giants/S1_POP_FIZZ_LIGHTCORE.png" id="1_m6shd"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_2pt7h"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_2pt7h")
+character_name = "Pop Fizz"
+element = "Magic"
+image = ExtResource("1_m6shd")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "LightCore"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 30.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

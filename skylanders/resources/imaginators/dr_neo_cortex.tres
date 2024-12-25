@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://0nx8edlgg50e"]
+
+[ext_resource type="Texture2D" uid="uid://c24eeuoeo3vb2" path="res://images/imaginators/SENSEI_DR_NEO_CORTEX.png" id="1_bjfjo"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_e4twk"]
+
+[resource]
+script = ExtResource("2_e4twk")
+character_name = "Dr. Neo Cortex"
+element = "Tech"
+image = ExtResource("1_bjfjo")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

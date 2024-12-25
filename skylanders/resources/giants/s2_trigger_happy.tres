@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dinoc1fna8fks"]
+
+[ext_resource type="Texture2D" uid="uid://cslnlkw43l1c4" path="res://images/giants/S2_TRIGGER_HAPPY.png" id="1_3i6tr"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_olvou"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_olvou")
+character_name = "Trigger Happy"
+element = "Tech"
+image = ExtResource("1_3i6tr")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 2.0
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

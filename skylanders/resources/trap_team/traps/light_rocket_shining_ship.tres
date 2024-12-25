@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ddolf0boe33bd"]
+
+[ext_resource type="Texture2D" uid="uid://b4yq2ltmxy5ux" path="res://images/trap_team/TRAP_LIGHT_ROCKET.png" id="1_v2bxj"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_um707"]
+
+[resource]
+script = ExtResource("2_um707")
+character_name = "Light Rocket (Shining Ship)"
+element = "Light"
+image = ExtResource("1_v2bxj")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Trap"
+series = "Series 1"
+figure_is_collected = false
+min_value = 1.5
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

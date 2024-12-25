@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://c2l6nb2s00ixd"]
+
+[ext_resource type="Texture2D" uid="uid://eko5k888fwrj" path="res://images/trap_team/TRAP_LIGHT_YAWN.png" id="1_0ef5e"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_p7jae"]
+
+[resource]
+script = ExtResource("2_p7jae")
+character_name = "Light Yawn (Beam Scream)"
+element = "Light"
+image = ExtResource("1_0ef5e")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Trap"
+series = "Series 1"
+figure_is_collected = false
+min_value = 1.5
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

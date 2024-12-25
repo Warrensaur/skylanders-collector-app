@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dl1d01bof4igb"]
+
+[ext_resource type="Texture2D" uid="uid://f3l8303yp6j6" path="res://images/imaginators/CC_WATER_ARMOR.png" id="1_hprpc"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_iddb8"]
+
+[resource]
+script = ExtResource("2_iddb8")
+character_name = "Water Armor"
+element = "Water"
+image = ExtResource("1_hprpc")
+released_with_game = "Imaginators"
+base_is = "Creation Crystal"
+figure_type = "Creation Crystal"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 15.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

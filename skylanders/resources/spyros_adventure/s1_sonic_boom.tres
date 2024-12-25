@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cv2iojk55jv52"]
+
+[ext_resource type="Texture2D" uid="uid://542dgp0c70lp" path="res://images/spyros_adventure/SONIC_BOOM_S1_LOOSE.png" id="1_1wxxe"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_splja"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_splja")
+character_name = "Sonic Boom"
+element = "Air"
+image = ExtResource("1_1wxxe")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.0
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

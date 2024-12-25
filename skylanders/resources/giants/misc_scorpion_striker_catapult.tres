@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://d3pdt2shp32yx"]
+
+[ext_resource type="Texture2D" uid="uid://cj02w78nfrxms" path="res://images/giants/ADVENTURE_ITEM_SCORPION_STRIKER_CATAPULT.png" id="1_b2m0s"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_86xqg"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_86xqg")
+character_name = "Scorpion Striker Catapult"
+element = ""
+image = ExtResource("1_b2m0s")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Magic Item"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ci723462ybaew"]
+
+[ext_resource type="Texture2D" uid="uid://dplc5qne4wpom" path="res://images/superchargers/TROPHY_WOLFGANG.png" id="1_t07em"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_1nq4m"]
+
+[resource]
+script = ExtResource("2_1nq4m")
+character_name = "Sky Trophy"
+element = ""
+image = ExtResource("1_t07em")
+released_with_game = "SuperChargers"
+base_is = "Engine"
+figure_type = "Magic Item"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

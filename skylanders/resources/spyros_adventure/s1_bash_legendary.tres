@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://k577jq0t0xns"]
+
+[ext_resource type="Texture2D" uid="uid://cmouyhtwbdoae" path="res://images/spyros_adventure/BASH_S1_LEGENDARY_LOOSE.png" id="1_p5bh1"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_dn24y"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_dn24y")
+character_name = "Legendary Bash"
+element = "Earth"
+image = ExtResource("1_p5bh1")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 6.0
+max_value = 100.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

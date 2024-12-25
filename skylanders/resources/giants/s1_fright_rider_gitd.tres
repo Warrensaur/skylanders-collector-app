@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://6rm2yyayf7gu"]
+
+[ext_resource type="Texture2D" uid="uid://bs5mb67k08wmj" path="res://images/giants/S1_FRIGHT_RIDER_GITD.png" id="1_7ju17"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_pjvmj"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_pjvmj")
+character_name = "GITD Fright Rider"
+element = "Undead"
+image = ExtResource("1_7ju17")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 50.0
+max_value = 250.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

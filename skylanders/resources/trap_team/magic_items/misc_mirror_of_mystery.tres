@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://c0atu4iumlkmt"]
+
+[ext_resource type="Texture2D" uid="uid://0d0qqxrgn63s" path="res://images/trap_team/ADVENTURE_ITEM_MIRROR_OF_MYSTERIES.png" id="1_x3nmd"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_kvkws"]
+
+[resource]
+script = ExtResource("2_kvkws")
+character_name = "Mirror of Mystery"
+element = ""
+image = ExtResource("1_x3nmd")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Adventure Piece"
+series = "Series 1"
+figure_is_collected = false
+min_value = 25.0
+max_value = 125.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

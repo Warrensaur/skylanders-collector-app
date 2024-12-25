@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bhiyu6ap4k2m3"]
+
+[ext_resource type="Texture2D" uid="uid://dndopf3bnfyyh" path="res://images/trap_team/S1_ECHO.png" id="1_eqde6"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_yet31"]
+
+[resource]
+script = ExtResource("2_yet31")
+character_name = "Echo"
+element = "Water"
+image = ExtResource("1_eqde6")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

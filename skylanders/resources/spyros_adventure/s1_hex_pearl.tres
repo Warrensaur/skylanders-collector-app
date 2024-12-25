@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dflr5oknxyyr4"]
+
+[ext_resource type="Texture2D" uid="uid://dpibojarr3w7x" path="res://images/spyros_adventure/HEX_S1_PEARL.png" id="1_llfm0"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_qrhgk"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_qrhgk")
+character_name = "Pearl Hex"
+element = "Undead"
+image = ExtResource("1_llfm0")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 500.0
+max_value = 1300.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

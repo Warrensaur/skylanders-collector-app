@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://chweilf10i1aj"]
+
+[ext_resource type="Texture2D" uid="uid://c33bt1y5lrjou" path="res://images/swap_force/S2_HOT_DOG_FRITO_LAY_PURPLE.png" id="1_hiu83"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_hbvpd"]
+
+[resource]
+script = ExtResource("2_hbvpd")
+character_name = "Frito-Lay Hot Dog (Purple)"
+element = "Fire"
+image = ExtResource("1_hiu83")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 250.0
+max_value = 1000.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bac35ws1umptm"]
+
+[ext_resource type="Texture2D" uid="uid://cauur1vfx2vfs" path="res://images/spyros_adventure/CAMO_SERIES_1_LOOSE.jpg" id="1_p3mu3"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_tmpym"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_tmpym")
+character_name = "Camo"
+element = "Life"
+image = ExtResource("1_p3mu3")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

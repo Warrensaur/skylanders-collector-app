@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://byr5tsgo6l01n"]
+
+[ext_resource type="Texture2D" uid="uid://cbjlc75fdc8m0" path="res://images/trap_team/TRAP_EARTH_HAMMER.png" id="1_cg3oe"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_hu20b"]
+
+[resource]
+script = ExtResource("2_hu20b")
+character_name = "Earth Hammer (Slag Hammer)"
+element = "Earth"
+image = ExtResource("1_cg3oe")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Trap"
+series = "Series 1"
+figure_is_collected = false
+min_value = 1.5
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

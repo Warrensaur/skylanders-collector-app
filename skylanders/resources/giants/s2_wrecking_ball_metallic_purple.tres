@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bpgjqdapbmygk"]
+
+[ext_resource type="Texture2D" uid="uid://dkebyqxv0utvr" path="res://images/giants/S2_WRECKING_BALL_METALLIC_PURPLE.png" id="1_i17nh"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_cm2p5"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_cm2p5")
+character_name = "Metallic Purple Wrecking Ball"
+element = "Magic"
+image = ExtResource("1_i17nh")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 250.0
+max_value = 750.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

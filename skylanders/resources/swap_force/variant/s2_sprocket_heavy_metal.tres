@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://btm1cwwanh13b"]
+
+[ext_resource type="Texture2D" uid="uid://uofmmy5jl5xe" path="res://images/swap_force/S2_SPROCKET_HEAVY_METAL.png" id="1_6r4xg"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_jlld1"]
+
+[resource]
+script = ExtResource("2_jlld1")
+character_name = "Heavy Metal Sprocket"
+element = "Tech"
+image = ExtResource("1_6r4xg")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 25.0
+max_value = 75.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://6smuef11nxy"]
+
+[ext_resource type="Texture2D" uid="uid://clyd618x02o7n" path="res://images/superchargers/S1_DONKEY_KONG_DARK.png" id="1_83ybo"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_edhxo"]
+
+[resource]
+script = ExtResource("2_edhxo")
+character_name = "Dark Turbo Charge Donkey Kong"
+element = "Life"
+image = ExtResource("1_83ybo")
+released_with_game = "SuperChargers"
+base_is = "Engine"
+figure_type = "SuperCharger"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 15.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

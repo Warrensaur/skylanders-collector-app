@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bjcaur4djynp"]
+
+[ext_resource type="Texture2D" uid="uid://cngef6i5qshfs" path="res://images/swap_force/S2_POP_FIZZ.png" id="1_4bgrv"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_va7ty"]
+
+[resource]
+script = ExtResource("2_va7ty")
+character_name = "Super Gulp Pop Fizz"
+element = "Magic"
+image = ExtResource("1_4bgrv")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 2.5
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

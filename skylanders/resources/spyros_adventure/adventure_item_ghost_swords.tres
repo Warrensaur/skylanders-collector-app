@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://d0fhgs30tjmoc"]
+
+[ext_resource type="Texture2D" uid="uid://ccfsg14mosuxv" path="res://images/spyros_adventure/PIRATE_GHOST_SWORDS.png" id="1_1d0bd"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_4w5kv"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_4w5kv")
+character_name = "Pirate Ghost Swords"
+element = ""
+image = ExtResource("1_1d0bd")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.0
+max_value = 60.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

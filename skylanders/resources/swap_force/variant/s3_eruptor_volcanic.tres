@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ddfi5rsgerq4j"]
+
+[ext_resource type="Texture2D" uid="uid://cxdklinodn7sj" path="res://images/swap_force/S3_ERUPTOR_VOLCANIC.png" id="1_nhhlk"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_m6uud"]
+
+[resource]
+script = ExtResource("2_m6uud")
+character_name = "Volcanic Eruptor"
+element = "Fire"
+image = ExtResource("1_nhhlk")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Core"
+series = "Series 3"
+figure_is_collected = false
+min_value = 2.5
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

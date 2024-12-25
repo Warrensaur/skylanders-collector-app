@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://b02xbhapdygj7"]
+
+[ext_resource type="Texture2D" uid="uid://bqwix4htrmomw" path="res://images/superchargers/S4_STEALTH_ELF.png" id="1_gcmbt"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_86wot"]
+
+[resource]
+script = ExtResource("2_86wot")
+character_name = "Super Shot Stealth Elf"
+element = "Life"
+image = ExtResource("1_gcmbt")
+released_with_game = "SuperChargers"
+base_is = "Engine"
+figure_type = "SuperCharger"
+series = "Series 4"
+figure_is_collected = false
+min_value = 0.5
+max_value = 15.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

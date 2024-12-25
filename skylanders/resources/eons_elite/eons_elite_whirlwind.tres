@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://db8xl76ybjt6a"]
+
+[ext_resource type="Texture2D" uid="uid://dj3mrd7mgr8y8" path="res://images/eons_elite/EONS_ELITE_WHIRLWIND.png" id="1_6pjb8"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_m3jnr"]
+
+[resource]
+script = ExtResource("2_m3jnr")
+character_name = "Whirlwind"
+element = "Air"
+image = ExtResource("1_6pjb8")
+released_with_game = "Trap Team"
+base_is = "White"
+figure_type = "Eon's Elite"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 75.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = "Acts as a series 1 Legendary figure."

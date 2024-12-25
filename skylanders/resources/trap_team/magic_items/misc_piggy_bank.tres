@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://oe2k1nw1eh1f"]
+
+[ext_resource type="Texture2D" uid="uid://4xu3gf622rbf" path="res://images/trap_team/ADVENTURE_ITEM_PIGGY_BANK.png" id="1_ecint"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_gkxpx"]
+
+[resource]
+script = ExtResource("2_gkxpx")
+character_name = "Piggy Bank"
+element = ""
+image = ExtResource("1_ecint")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Magic Item"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 55.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

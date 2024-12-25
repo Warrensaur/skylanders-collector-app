@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://33x4dnbbrtjb"]
+
+[ext_resource type="Texture2D" uid="uid://denslxwlk6fn8" path="res://images/giants/S1_HOT_DOG_MOLTEN.png" id="1_hfn3m"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_s52ke"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_s52ke")
+character_name = "Molten Hot Dog"
+element = "Fire"
+image = ExtResource("1_hfn3m")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

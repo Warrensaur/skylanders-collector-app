@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cfqj0b2c1hjid"]
+
+[ext_resource type="Texture2D" uid="uid://63namsr7i15b" path="res://images/spyros_adventure/FLAMESLINGER_S1_GOLD.png" id="1_e4aby"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_gqxms"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_gqxms")
+character_name = "Gold Flameslinger"
+element = "Fire"
+image = ExtResource("1_e4aby")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 350.0
+max_value = 800.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

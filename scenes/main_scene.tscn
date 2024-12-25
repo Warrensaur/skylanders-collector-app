@@ -1,0 +1,1385 @@
+[gd_scene load_steps=614 format=3 uid="uid://br145xmqu7ocj"]
+
+[ext_resource type="Texture2D" uid="uid://beotonmkemf0p" path="res://images/backgrounds/BACKGROUND_A.png" id="1_f7kmu"]
+[ext_resource type="Script" path="res://scenes/main_scene.gd" id="1_vkhvy"]
+[ext_resource type="PackedScene" uid="uid://cptfukpq1ijas" path="res://scenes/skylander_displayer.tscn" id="2_14nrg"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="3_xkx7j"]
+[ext_resource type="Resource" uid="uid://c1mbamgu06cay" path="res://skylanders/resources/spyros_adventure/adventure_item_anvil_rain.tres" id="4_fqr51"]
+[ext_resource type="Resource" uid="uid://c7exqoa340x38" path="res://skylanders/resources/spyros_adventure/s1_bash.tres" id="4_wmofh"]
+[ext_resource type="Resource" uid="uid://bw0is0lm6ekic" path="res://skylanders/resources/spyros_adventure/s1_boomer.tres" id="5_4d5vs"]
+[ext_resource type="Texture2D" uid="uid://crvbg6dmacq54" path="res://images/backgrounds/BACKGROUND_F.jpg" id="5_4xe5p"]
+[ext_resource type="Resource" uid="uid://cvmtxvp06iu7r" path="res://skylanders/resources/spyros_adventure/adventure_item_darklight_crypt.tres" id="5_23lt2"]
+[ext_resource type="Resource" uid="uid://bac35ws1umptm" path="res://skylanders/resources/spyros_adventure/s1_camo.tres" id="6_02h3p"]
+[ext_resource type="Resource" uid="uid://lhnv0sxfrg2t" path="res://skylanders/resources/spyros_adventure/adventure_item_dragons_peak.tres" id="6_dl35c"]
+[ext_resource type="Resource" uid="uid://bb4qa47dx65mr" path="res://skylanders/resources/spyros_adventure/adventure_item_empire_of_ice.tres" id="7_2chud"]
+[ext_resource type="Resource" uid="uid://e8ppi0l2xpom" path="res://skylanders/resources/spyros_adventure/s1_chop_chop.tres" id="7_dk8g0"]
+[ext_resource type="Resource" uid="uid://dqr23y607xyj5" path="res://skylanders/resources/skylander_collection_default.tres" id="7_gdu77"]
+[ext_resource type="Resource" uid="uid://dx30bcnumenv7" path="res://skylanders/resources/spyros_adventure/s1_cynder.tres" id="8_50kod"]
+[ext_resource type="Resource" uid="uid://d0fhgs30tjmoc" path="res://skylanders/resources/spyros_adventure/adventure_item_ghost_swords.tres" id="8_wvlq7"]
+[ext_resource type="Resource" uid="uid://c2pjj5iayro3t" path="res://skylanders/resources/spyros_adventure/s1_dino_rang.tres" id="9_8nq4g"]
+[ext_resource type="Resource" uid="uid://yxg37xcvg7hy" path="res://skylanders/resources/spyros_adventure/adventure_item_healing_elixir.tres" id="9_827cq"]
+[ext_resource type="Resource" uid="uid://bh3aufr1iqoil" path="res://skylanders/resources/spyros_adventure/s1_double_trouble.tres" id="10_26llq"]
+[ext_resource type="Resource" uid="uid://dib2bon2h0nur" path="res://skylanders/resources/spyros_adventure/adventure_item_hidden_treasure.tres" id="10_vptxl"]
+[ext_resource type="Resource" uid="uid://b24h0u5hjreq" path="res://skylanders/resources/spyros_adventure/adventure_item_pirate_seas.tres" id="11_4klo4"]
+[ext_resource type="Resource" uid="uid://e3m30vbr1v3y" path="res://skylanders/resources/spyros_adventure/s1_drill_sergeant.tres" id="11_5m4rv"]
+[ext_resource type="Resource" uid="uid://wv45y0worrqi" path="res://skylanders/resources/spyros_adventure/s1_drobot.tres" id="12_g5kee"]
+[ext_resource type="Resource" uid="uid://nwyf3kmcxc3o" path="res://skylanders/resources/spyros_adventure/adventure_item_sky_iron_shield.tres" id="12_w2sby"]
+[ext_resource type="Resource" uid="uid://di2cpul2vtywc" path="res://skylanders/resources/spyros_adventure/s1_eruptor.tres" id="13_1pro0"]
+[ext_resource type="Resource" uid="uid://bg1pypisn67bh" path="res://skylanders/resources/spyros_adventure/adventure_item_sky_sparx_dragonfly.tres" id="13_ajkup"]
+[ext_resource type="Resource" uid="uid://cq62lf1bu8gmv" path="res://skylanders/resources/spyros_adventure/s1_flameslinger.tres" id="14_ts6p7"]
+[ext_resource type="Resource" uid="uid://cxobkujt1s855" path="res://skylanders/resources/spyros_adventure/adventure_item_time_twister.tres" id="14_u62i2"]
+[ext_resource type="Resource" uid="uid://tlxr60skvhpx" path="res://skylanders/resources/spyros_adventure/adventure_item_volcanic_vault.tres" id="15_obops"]
+[ext_resource type="Resource" uid="uid://c7ynmkvdyogeu" path="res://skylanders/resources/spyros_adventure/s1_ghost_roaster.tres" id="15_ox7ey"]
+[ext_resource type="Resource" uid="uid://b34w8eb51mics" path="res://skylanders/resources/spyros_adventure/s1_gill_grunt.tres" id="16_04t4w"]
+[ext_resource type="Resource" uid="uid://c2thtq8suqnfq" path="res://skylanders/resources/spyros_adventure/adventure_item_winged_boots.tres" id="16_yc17m"]
+[ext_resource type="Resource" uid="uid://daafkxrb7xdnd" path="res://skylanders/resources/spyros_adventure/s1_hex.tres" id="17_f27up"]
+[ext_resource type="Resource" uid="uid://cmgq3imgp3i18" path="res://skylanders/resources/spyros_adventure/s1_bash_blue.tres" id="18_fv3cv"]
+[ext_resource type="Resource" uid="uid://bltv83i2ry80j" path="res://skylanders/resources/spyros_adventure/s1_ignitor.tres" id="18_k008v"]
+[ext_resource type="Resource" uid="uid://k577jq0t0xns" path="res://skylanders/resources/spyros_adventure/s1_bash_legendary.tres" id="19_6g23p"]
+[ext_resource type="Resource" uid="uid://cbg4hrgk7apjj" path="res://skylanders/resources/spyros_adventure/s1_lightning_rod.tres" id="19_idnop"]
+[ext_resource type="Resource" uid="uid://46rmri723xmx" path="res://skylanders/resources/spyros_adventure/s1_prism_break.tres" id="20_v03a5"]
+[ext_resource type="Resource" uid="uid://56wdxjrkka4c" path="res://skylanders/resources/spyros_adventure/s1_slam_bam.tres" id="21_dndkt"]
+[ext_resource type="Resource" uid="uid://b34mru5r2a873" path="res://skylanders/resources/spyros_adventure/s1_boomer_silver.tres" id="21_pkd5s"]
+[ext_resource type="Resource" uid="uid://cv2iojk55jv52" path="res://skylanders/resources/spyros_adventure/s1_sonic_boom.tres" id="22_msede"]
+[ext_resource type="Resource" uid="uid://dht1uk06hrjfp" path="res://skylanders/resources/spyros_adventure/s1_camo_red.tres" id="23_8aour"]
+[ext_resource type="Resource" uid="uid://ud67ko7rqvya" path="res://skylanders/resources/spyros_adventure/s1_spyro.tres" id="23_20m3l"]
+[ext_resource type="Resource" uid="uid://l6forlhcuu3x" path="res://skylanders/resources/spyros_adventure/s1_stealth_elf.tres" id="24_jefyx"]
+[ext_resource type="Resource" uid="uid://000or3woabj6" path="res://skylanders/resources/spyros_adventure/s1_chop_chop_gold.tres" id="25_ruyb0"]
+[ext_resource type="Resource" uid="uid://uj6ytwvhl4to" path="res://skylanders/resources/spyros_adventure/s1_chop_chop_legendary.tres" id="26_8rkak"]
+[ext_resource type="Resource" uid="uid://b5aq55pabwet8" path="res://skylanders/resources/spyros_adventure/s1_cynder_crystal_clear.tres" id="28_eql6l"]
+[ext_resource type="Resource" uid="uid://db2wh43j7sl84" path="res://skylanders/resources/spyros_adventure/s1_cynder_metallic_purple.tres" id="29_x23lv"]
+[ext_resource type="Resource" uid="uid://bym6k3abq8fvw" path="res://skylanders/resources/spyros_adventure/s1_dino_rang_silver.tres" id="31_7gi4i"]
+[ext_resource type="Resource" uid="uid://baxy7ruyq5mi6" path="res://skylanders/resources/spyros_adventure/s1_drill_sergeant_gold.tres" id="34_jv5a8"]
+[ext_resource type="Resource" uid="uid://cnt4posyy6g0t" path="res://skylanders/resources/spyros_adventure/s1_drill_sergeant_red.tres" id="35_c0i43"]
+[ext_resource type="Resource" uid="uid://ltw5g13ndvn5" path="res://skylanders/resources/spyros_adventure/s1_eruptor_silver.tres" id="38_tp4m8"]
+[ext_resource type="Resource" uid="uid://cfqj0b2c1hjid" path="res://skylanders/resources/spyros_adventure/s1_flameslinger_gold.tres" id="40_jtect"]
+[ext_resource type="Resource" uid="uid://civjv5ldw7dty" path="res://skylanders/resources/spyros_adventure/s1_gill_grunt_translucent_green.tres" id="43_jsq0y"]
+[ext_resource type="Resource" uid="uid://ctvq010wkgg6q" path="res://skylanders/resources/spyros_adventure/s1_gill_runt.tres" id="44_lcn57"]
+[ext_resource type="Resource" uid="uid://dflr5oknxyyr4" path="res://skylanders/resources/spyros_adventure/s1_hex_pearl.tres" id="46_630pt"]
+[ext_resource type="Resource" uid="uid://bxapa2aq1tlbm" path="res://skylanders/resources/spyros_adventure/s1_spyro_chrome.tres" id="53_308ep"]
+[ext_resource type="Resource" uid="uid://p6l4np15jm4h" path="res://skylanders/resources/spyros_adventure/s1_spyro_dark.tres" id="54_k1m1t"]
+[ext_resource type="Resource" uid="uid://df7kdwwh3yklq" path="res://skylanders/resources/spyros_adventure/s1_spyro_legendary.tres" id="55_2o0wg"]
+[ext_resource type="Resource" uid="uid://doc5esx8ykwqs" path="res://skylanders/resources/spyros_adventure/s1_stealth_elf_crystal_clear.tres" id="57_lqqpf"]
+[ext_resource type="Resource" uid="uid://bodtqa6n6be6j" path="res://skylanders/resources/spyros_adventure/s1_stump_smash.tres" id="58_ia8sa"]
+[ext_resource type="Resource" uid="uid://cvycaskl5un48" path="res://skylanders/resources/spyros_adventure/s1_stump_smash_flocked.tres" id="59_gquoh"]
+[ext_resource type="Resource" uid="uid://cji2c64s8sd3t" path="res://skylanders/resources/spyros_adventure/s1_sunburn.tres" id="60_v3pul"]
+[ext_resource type="Resource" uid="uid://ckdtx4ntvm23a" path="res://skylanders/resources/spyros_adventure/s1_terrabite.tres" id="61_euref"]
+[ext_resource type="Resource" uid="uid://k1xa80optb1d" path="res://skylanders/resources/spyros_adventure/s1_terrafin.tres" id="62_vr2ix"]
+[ext_resource type="Resource" uid="uid://b3rvqaptjk7fc" path="res://skylanders/resources/spyros_adventure/s1_trigger_happy.tres" id="63_to26s"]
+[ext_resource type="Resource" uid="uid://cg0u4hog1bo53" path="res://skylanders/resources/spyros_adventure/s1_trigger_happy_legendary.tres" id="64_8wad6"]
+[ext_resource type="Resource" uid="uid://c5eohv1yee11f" path="res://skylanders/resources/spyros_adventure/s1_trigger_snappy.tres" id="65_eudtn"]
+[ext_resource type="Resource" uid="uid://bhb3w7grcop23" path="res://skylanders/resources/spyros_adventure/s1_voodood.tres" id="66_kfb37"]
+[ext_resource type="Resource" uid="uid://erpbx8vty7tj" path="res://skylanders/resources/spyros_adventure/s1_warnado.tres" id="67_0lup5"]
+[ext_resource type="Resource" uid="uid://bhjd2uf11k1g3" path="res://skylanders/resources/spyros_adventure/s1_warnado_gitd.tres" id="68_8yjda"]
+[ext_resource type="Resource" uid="uid://c3tkvpgcxcl5n" path="res://skylanders/resources/spyros_adventure/s1_wham_shell.tres" id="69_dnvqo"]
+[ext_resource type="Resource" uid="uid://c0nrlt6igh6w1" path="res://skylanders/resources/spyros_adventure/s1_wham_shell_crystal_clear.tres" id="70_ppk18"]
+[ext_resource type="Resource" uid="uid://b736bqjasnijx" path="res://skylanders/resources/spyros_adventure/s1_whirlwind.tres" id="71_2wrku"]
+[ext_resource type="Resource" uid="uid://cf8okthkyfpl6" path="res://skylanders/resources/spyros_adventure/s1_whirlwind_crystal_clear.tres" id="72_swdow"]
+[ext_resource type="Resource" uid="uid://einkw6fg6mso" path="res://skylanders/resources/spyros_adventure/s1_whisper_elf.tres" id="73_u0pp7"]
+[ext_resource type="Resource" uid="uid://iac80pty1umy" path="res://skylanders/resources/spyros_adventure/s1_wrecking_ball.tres" id="74_hw2tn"]
+[ext_resource type="Resource" uid="uid://c1dwpfcoty5q1" path="res://skylanders/resources/spyros_adventure/s1_wrecking_ball_gitd.tres" id="75_b00vl"]
+[ext_resource type="Resource" uid="uid://cv77oa0llvh2o" path="res://skylanders/resources/spyros_adventure/s1_zap.tres" id="76_bx8vt"]
+[ext_resource type="Resource" uid="uid://drn2qwwef7kiw" path="res://skylanders/resources/spyros_adventure/s1_zap_gitd.tres" id="77_73flf"]
+[ext_resource type="Resource" uid="uid://dukm0gu2ktyox" path="res://skylanders/resources/spyros_adventure/s1_zook.tres" id="78_xi4sn"]
+[ext_resource type="Resource" uid="uid://b24m1yro4qtcp" path="res://skylanders/resources/giants/misc_dragonfire_cannon.tres" id="79_pam8s"]
+[ext_resource type="Resource" uid="uid://cjtcxb3klfe8q" path="res://skylanders/resources/giants/misc_dragonfire_cannon_gold.tres" id="80_npqd3"]
+[ext_resource type="Resource" uid="uid://udw206vyi765" path="res://skylanders/resources/giants/misc_platinum_treasure_chest.tres" id="81_ldojf"]
+[ext_resource type="Resource" uid="uid://d3pdt2shp32yx" path="res://skylanders/resources/giants/misc_scorpion_striker_catapult.tres" id="82_hvupt"]
+[ext_resource type="Resource" uid="uid://bjqrlpy6focwa" path="res://skylanders/resources/giants/s1_barkley.tres" id="83_on7j3"]
+[ext_resource type="Resource" uid="uid://bfflungqaavln" path="res://skylanders/resources/giants/s1_bouncer.tres" id="84_ye134"]
+[ext_resource type="Resource" uid="uid://byb8k6h2fybib" path="res://skylanders/resources/giants/s1_bouncer_legendary.tres" id="85_ei7i6"]
+[ext_resource type="Resource" uid="uid://cckxhvciiq435" path="res://skylanders/resources/giants/s1_chill.tres" id="86_wg3ne"]
+[ext_resource type="Resource" uid="uid://6kou486h72it" path="res://skylanders/resources/giants/s1_chill_lightcore.tres" id="87_m0e13"]
+[ext_resource type="Resource" uid="uid://nwr5i0nqpk3p" path="res://skylanders/resources/giants/s1_chill_lightcore_legendary.tres" id="88_6piwa"]
+[ext_resource type="Resource" uid="uid://dep5048hqamj5" path="res://skylanders/resources/giants/s1_crusher.tres" id="89_lpxmg"]
+[ext_resource type="Resource" uid="uid://bsg7ii1ywvuq3" path="res://skylanders/resources/giants/s1_crusher_granite.tres" id="90_442ok"]
+[ext_resource type="Resource" uid="uid://dhcesdkfk0s1u" path="res://skylanders/resources/giants/s1_eye_brawl.tres" id="91_f56m8"]
+[ext_resource type="Resource" uid="uid://cs2jva8dfr5gq" path="res://skylanders/resources/giants/s1_eye_brawl_pumpkin.tres" id="92_hclux"]
+[ext_resource type="Resource" uid="uid://bm2xvsws8g2v0" path="res://skylanders/resources/giants/s1_eye_brawl_purple.tres" id="93_k7eih"]
+[ext_resource type="Resource" uid="uid://g36fykrousfr" path="res://skylanders/resources/giants/s1_eye_small.tres" id="94_c17uj"]
+[ext_resource type="Resource" uid="uid://ci8sjbe5lcy84" path="res://skylanders/resources/giants/s1_flashwing.tres" id="95_5rlnf"]
+[ext_resource type="Resource" uid="uid://dshspo1kutcrn" path="res://skylanders/resources/giants/s1_flashwing_jade.tres" id="96_6qgj2"]
+[ext_resource type="Resource" uid="uid://cpqpk1csi6fsh" path="res://skylanders/resources/giants/s1_fright_rider.tres" id="97_eu7qp"]
+[ext_resource type="Resource" uid="uid://6rm2yyayf7gu" path="res://skylanders/resources/giants/s1_fright_rider_gitd.tres" id="98_o6mp5"]
+[ext_resource type="Resource" uid="uid://b8wgnfcgbu4l3" path="res://skylanders/resources/giants/s1_fright_rider_halloween.tres" id="99_x101w"]
+[ext_resource type="Resource" uid="uid://b4t7o2eldt6v2" path="res://skylanders/resources/giants/s1_hot_dog.tres" id="100_2o4up"]
+[ext_resource type="Resource" uid="uid://bie4hca53ee54" path="res://skylanders/resources/giants/s1_hot_dog_bronze.tres" id="101_iw7fn"]
+[ext_resource type="Resource" uid="uid://33x4dnbbrtjb" path="res://skylanders/resources/giants/s1_hot_dog_molten.tres" id="102_mb5qk"]
+[ext_resource type="Resource" uid="uid://bqcfejajo3nov" path="res://skylanders/resources/giants/s1_hot_head.tres" id="103_gv3th"]
+[ext_resource type="Resource" uid="uid://brp588s2gbmcy" path="res://skylanders/resources/giants/s1_hot_head_sparkle.tres" id="104_onuuk"]
+[ext_resource type="Resource" uid="uid://5e1lesu12th3" path="res://skylanders/resources/giants/s1_jet_vac.tres" id="105_qlmll"]
+[ext_resource type="Resource" uid="uid://dcupotxripesi" path="res://skylanders/resources/giants/s1_jet_vac_legendary.tres" id="106_uwfjv"]
+[ext_resource type="Resource" uid="uid://qjdm2c45ac01" path="res://skylanders/resources/giants/s1_jet_vac_lightcore.tres" id="107_ghuse"]
+[ext_resource type="Resource" uid="uid://b7k81ebivayn3" path="res://skylanders/resources/giants/s1_mini_jini.tres" id="108_7b37w"]
+[ext_resource type="Resource" uid="uid://btjsj3tsfqtkv" path="res://skylanders/resources/giants/s1_ninjini.tres" id="109_0bepm"]
+[ext_resource type="Resource" uid="uid://hlnjj17bqxyg" path="res://skylanders/resources/giants/s1_ninjini_scarlet.tres" id="110_1h6ao"]
+[ext_resource type="Resource" uid="uid://bi0n056tlisqy" path="res://skylanders/resources/giants/s1_pop_fizz.tres" id="111_r1lfn"]
+[ext_resource type="Resource" uid="uid://2irlo04ohn14" path="res://skylanders/resources/giants/s1_pop_fizz_punch.tres" id="112_104l4"]
+[ext_resource type="Resource" uid="uid://bd61nwfu0ggel" path="res://skylanders/resources/giants/s1_shroomboom.tres" id="113_x4288"]
+[ext_resource type="Resource" uid="uid://no73ey6581lw" path="res://skylanders/resources/giants/s1_shroomboom_green.tres" id="114_10kti"]
+[ext_resource type="Resource" uid="uid://ba2iwnbhpjisb" path="res://skylanders/resources/giants/s1_shroomboom_lightcore.tres" id="115_xqf0m"]
+[ext_resource type="Resource" uid="uid://bqlylcypikvce" path="res://skylanders/resources/giants/s1_sprocket.tres" id="116_3xu5f"]
+[ext_resource type="Resource" uid="uid://c84ta21oddm71" path="res://skylanders/resources/giants/s1_sprocket_sparkle.tres" id="117_m4wmx"]
+[ext_resource type="Resource" uid="uid://cpk7offkeh0a1" path="res://skylanders/resources/giants/s1_swarm.tres" id="118_oe8vd"]
+[ext_resource type="Resource" uid="uid://domeontrmspeq" path="res://skylanders/resources/giants/s1_thumpback.tres" id="119_ftl3v"]
+[ext_resource type="Resource" uid="uid://yqtxcnb01rc" path="res://skylanders/resources/giants/s1_thumpling.tres" id="120_muj85"]
+[ext_resource type="Resource" uid="uid://dw8synrl8or3y" path="res://skylanders/resources/giants/s1_tree_rex.tres" id="121_sgqb0"]
+[ext_resource type="Resource" uid="uid://drvn0pajc8reg" path="res://skylanders/resources/giants/s1_tree_rex_gnarly.tres" id="122_h2a2j"]
+[ext_resource type="Resource" uid="uid://d1c81dhxd1f8m" path="res://skylanders/resources/giants/s2_bash.tres" id="123_wtbh2"]
+[ext_resource type="Resource" uid="uid://dtogmpr8otw01" path="res://skylanders/resources/giants/s2_chop_chop.tres" id="124_s5vi0"]
+[ext_resource type="Resource" uid="uid://dxoh8e2sjbd70" path="res://skylanders/resources/giants/s2_chop_chop_blue.tres" id="125_axss1"]
+[ext_resource type="Resource" uid="uid://bls2r44nqbjfd" path="res://skylanders/resources/giants/s2_cynder.tres" id="126_eb6ft"]
+[ext_resource type="Resource" uid="uid://sos28a6mklc6" path="res://skylanders/resources/giants/s2_cynder_gitd.tres" id="127_umrhs"]
+[ext_resource type="Resource" uid="uid://7ps1poqpggc" path="res://skylanders/resources/giants/s2_double_trouble.tres" id="128_s5b45"]
+[ext_resource type="Resource" uid="uid://cdladgnxuei05" path="res://skylanders/resources/giants/s2_double_trouble_1.5.tres" id="129_0udej"]
+[ext_resource type="Resource" uid="uid://uhgsniql20c1" path="res://skylanders/resources/giants/s2_double_trouble_royal.tres" id="130_43y4l"]
+[ext_resource type="Resource" uid="uid://birnrs8s7pj66" path="res://skylanders/resources/giants/s2_drill_sergeant.tres" id="131_n4m2g"]
+[ext_resource type="Resource" uid="uid://cjh0y7dvj0cwg" path="res://skylanders/resources/giants/s2_drobot.tres" id="132_mlpq1"]
+[ext_resource type="Resource" uid="uid://drf1pq0v5ncdr" path="res://skylanders/resources/giants/s2_drobot_lightcore.tres" id="133_5tde5"]
+[ext_resource type="Resource" uid="uid://dxqh0fi7siaco" path="res://skylanders/resources/giants/s2_eruptor.tres" id="134_ltx3k"]
+[ext_resource type="Resource" uid="uid://do645eyx2w8hm" path="res://skylanders/resources/giants/s2_eruptor_flocked.tres" id="135_e5ufm"]
+[ext_resource type="Resource" uid="uid://dkgin2c2ainjj" path="res://skylanders/resources/giants/s2_eruptor_lightcore.tres" id="136_57ybv"]
+[ext_resource type="Resource" uid="uid://c8trqqlvcebv6" path="res://skylanders/resources/giants/s2_flameslinger.tres" id="137_787d8"]
+[ext_resource type="Resource" uid="uid://dwqyvxh5pbqyt" path="res://skylanders/resources/giants/s2_flameslinger_golden.tres" id="138_b2kc4"]
+[ext_resource type="Resource" uid="uid://bomkr3i8etcch" path="res://skylanders/resources/giants/s2_gill_grunt.tres" id="139_lcknq"]
+[ext_resource type="Resource" uid="uid://c0da2lvlmlhwg" path="res://skylanders/resources/giants/s2_gill_grunt_green.tres" id="140_61gf3"]
+[ext_resource type="Resource" uid="uid://b3w1xberrcsgo" path="res://skylanders/resources/giants/s2_hex.tres" id="141_wi4sp"]
+[ext_resource type="Resource" uid="uid://uahy5id3q0bt" path="res://skylanders/resources/giants/s2_hex_lightcore.tres" id="142_2x3ke"]
+[ext_resource type="Resource" uid="uid://dixq2pohtpeq7" path="res://skylanders/resources/giants/s2_ignitor.tres" id="143_lei0d"]
+[ext_resource type="Resource" uid="uid://cgtgmyph1lfmc" path="res://skylanders/resources/giants/s2_ignitor_legendary.tres" id="144_6kheg"]
+[ext_resource type="Resource" uid="uid://bdbi5oq37eadl" path="res://skylanders/resources/giants/s2_lightning_rod.tres" id="145_t1udr"]
+[ext_resource type="Resource" uid="uid://7ill60iwp4ng" path="res://skylanders/resources/giants/s2_lightning_rod_purple.tres" id="146_x6vo8"]
+[ext_resource type="Resource" uid="uid://2auwxkj6jif0" path="res://skylanders/resources/giants/s2_prism_break.tres" id="147_1io7o"]
+[ext_resource type="Resource" uid="uid://bfiomehnwxd5l" path="res://skylanders/resources/giants/s2_prism_break_lightcore.tres" id="148_jwyij"]
+[ext_resource type="Resource" uid="uid://cdkh4oss5dw4p" path="res://skylanders/resources/giants/s2_prism_break_lightcore_employee_edition.tres" id="149_432ly"]
+[ext_resource type="Resource" uid="uid://bv1x2xwukclri" path="res://skylanders/resources/giants/s2_prism_break_lightcore_flocked.tres" id="150_pp8np"]
+[ext_resource type="Resource" uid="uid://b72vsqytbbfgb" path="res://skylanders/resources/giants/s2_slam_bam.tres" id="151_sghav"]
+[ext_resource type="Resource" uid="uid://ci10pth86tup8" path="res://skylanders/resources/giants/s2_slam_bam_legendary.tres" id="152_8ncdx"]
+[ext_resource type="Resource" uid="uid://e22ah1mmrjn8" path="res://skylanders/resources/giants/s2_sonic_boom.tres" id="153_b258m"]
+[ext_resource type="Resource" uid="uid://pmaw8x8xnxnb" path="res://skylanders/resources/giants/s2_sonic_boom_gitd.tres" id="154_7eytx"]
+[ext_resource type="Resource" uid="uid://dugrpjcmv031h" path="res://skylanders/resources/giants/s2_sonic_boom_sparkle.tres" id="155_42i65"]
+[ext_resource type="Resource" uid="uid://dpxqsco37ra37" path="res://skylanders/resources/giants/s2_spyro.tres" id="156_yhelh"]
+[ext_resource type="Resource" uid="uid://bw3phrwbol5pa" path="res://skylanders/resources/giants/s2_stealth_elf.tres" id="157_cnhfj"]
+[ext_resource type="Resource" uid="uid://derny2vj8fx0p" path="res://skylanders/resources/giants/s2_stealth_elf_legendary.tres" id="158_i1esn"]
+[ext_resource type="Resource" uid="uid://b7sm8wqesne60" path="res://skylanders/resources/giants/s2_stump_smash.tres" id="159_avv2y"]
+[ext_resource type="Resource" uid="uid://cl5okcdnvg8i8" path="res://skylanders/resources/giants/s2_stump_smash_flocked.tres" id="160_2q37s"]
+[ext_resource type="Resource" uid="uid://b0duphc1ohp6p" path="res://skylanders/resources/giants/s2_terrafin.tres" id="161_88ja2"]
+[ext_resource type="Resource" uid="uid://dinoc1fna8fks" path="res://skylanders/resources/giants/s2_trigger_happy.tres" id="162_rg3yf"]
+[ext_resource type="Resource" uid="uid://bspx83ncxj168" path="res://skylanders/resources/giants/s2_whirlwind.tres" id="163_s3j7t"]
+[ext_resource type="Resource" uid="uid://5jlxxkgjrfnu" path="res://skylanders/resources/giants/s2_whirlwind_polar.tres" id="164_w6kne"]
+[ext_resource type="Resource" uid="uid://dgqfnp144cfq3" path="res://skylanders/resources/giants/s2_whirlwind_stone.tres" id="165_y22wf"]
+[ext_resource type="Resource" uid="uid://bmqirldcwp2od" path="res://skylanders/resources/giants/s2_wrecking_ball.tres" id="166_dcic0"]
+[ext_resource type="Resource" uid="uid://c1m8uxx86dq16" path="res://skylanders/resources/giants/s2_ZAP.tres" id="167_p5not"]
+[ext_resource type="Resource" uid="uid://bh0fom6smqdd1" path="res://skylanders/resources/giants/s2_zook.tres" id="168_1kiui"]
+[ext_resource type="Resource" uid="uid://cix3naubr6oix" path="res://skylanders/resources/giants/s2_zook_stone.tres" id="169_0y14k"]
+[ext_resource type="Resource" uid="uid://b6frm73ipkf7t" path="res://skylanders/resources/swap_force/core/s1_bumble_blast.tres" id="170_27djj"]
+[ext_resource type="Resource" uid="uid://cg2okqo30qobv" path="res://skylanders/resources/swap_force/core/s1_countdown.tres" id="171_04b1i"]
+[ext_resource type="Theme" uid="uid://cjah6fwnx7ihn" path="res://themes/light_theme.tres" id="172_njq2s"]
+[ext_resource type="Resource" uid="uid://ch3i8c0h8d0hb" path="res://skylanders/resources/swap_force/core/s1_dune_bug.tres" id="172_rviq7"]
+[ext_resource type="Resource" uid="uid://crjavlg7pf2ce" path="res://skylanders/resources/swap_force/core/s1_fryno.tres" id="173_kuh4p"]
+[ext_resource type="Theme" uid="uid://caswdyxj8xnl1" path="res://themes/light_theme_titles.tres" id="174_vw7g7"]
+[ext_resource type="Resource" uid="uid://ci74t3f8gjdrd" path="res://skylanders/resources/swap_force/core/s1_grim_creeper.tres" id="174_wba14"]
+[ext_resource type="Resource" uid="uid://c43q3khburgg5" path="res://skylanders/resources/swap_force/core/s1_pop_thorn.tres" id="175_32bx3"]
+[ext_resource type="Resource" uid="uid://chrxa8d5jrcbu" path="res://skylanders/resources/swap_force/core/s1_punk_shock.tres" id="176_2nqka"]
+[ext_resource type="Resource" uid="uid://kly424wn4cks" path="res://skylanders/resources/swap_force/core/s1_rip_tide.tres" id="177_bss4l"]
+[ext_resource type="Resource" uid="uid://clseo37dhst8h" path="res://skylanders/resources/swap_force/core/s1_roller_brawl.tres" id="178_shhc3"]
+[ext_resource type="Resource" uid="uid://c0nb3eduks245" path="res://skylanders/resources/swap_force/core/s1_scorp.tres" id="179_pisya"]
+[ext_resource type="Resource" uid="uid://dr2yumlb715e2" path="res://skylanders/resources/swap_force/core/s1_scratch.tres" id="180_14g1l"]
+[ext_resource type="Resource" uid="uid://f1cex6vnlxh6" path="res://skylanders/resources/swap_force/core/s1_slobber_tooth.tres" id="181_xqdcj"]
+[ext_resource type="Resource" uid="uid://bxigfm6ltx6qu" path="res://skylanders/resources/swap_force/core/s1_smolderdash.tres" id="182_n0lel"]
+[ext_resource type="Resource" uid="uid://dmd3vs4odnjaq" path="res://skylanders/resources/swap_force/core/s1_star_strike.tres" id="183_0n5l3"]
+[ext_resource type="Resource" uid="uid://cors5d4343ptt" path="res://skylanders/resources/swap_force/core/s1_wind_up.tres" id="184_kn428"]
+[ext_resource type="Resource" uid="uid://c1rsjem6pmgtn" path="res://skylanders/resources/swap_force/core/s1_zoo_lou.tres" id="185_2mrix"]
+[ext_resource type="Resource" uid="uid://hq2ibsjjtaj2" path="res://skylanders/resources/swap_force/core/s2_camo.tres" id="186_kceyh"]
+[ext_resource type="Resource" uid="uid://c2qgno7joxu25" path="res://skylanders/resources/swap_force/core/s2_chill.tres" id="187_6v0w8"]
+[ext_resource type="Resource" uid="uid://dw5n5pekp68lj" path="res://skylanders/resources/swap_force/core/s2_hot_dog.tres" id="188_vxuaq"]
+[ext_resource type="Resource" uid="uid://bjcaur4djynp" path="res://skylanders/resources/swap_force/core/s2_pop_fizz.tres" id="189_orsy3"]
+[ext_resource type="Resource" uid="uid://b8sbecbd2ea57" path="res://skylanders/resources/swap_force/core/s2_sprocket.tres" id="190_2jtao"]
+[ext_resource type="Resource" uid="uid://cf8kudhbcx656" path="res://skylanders/resources/swap_force/core/s3_chop_chop.tres" id="191_ku1ok"]
+[ext_resource type="Resource" uid="uid://b3hn6qcpnwox" path="res://skylanders/resources/swap_force/core/s3_cynder.tres" id="192_ov7id"]
+[ext_resource type="Resource" uid="uid://b77l1gs3m0yly" path="res://skylanders/resources/swap_force/core/s3_eruptor.tres" id="193_sxj1l"]
+[ext_resource type="Resource" uid="uid://bx7c2omrkfwwg" path="res://skylanders/resources/swap_force/core/s3_gill_grunt.tres" id="194_r83xw"]
+[ext_resource type="Resource" uid="uid://onba1bs2to73" path="res://skylanders/resources/swap_force/core/s3_prism_break.tres" id="195_7oqq0"]
+[ext_resource type="Resource" uid="uid://cqg1ol2twihos" path="res://skylanders/resources/swap_force/core/s3_spyro.tres" id="196_poqkw"]
+[ext_resource type="Resource" uid="uid://df6wlh3sm7qh" path="res://skylanders/resources/swap_force/core/s3_stealth_elf.tres" id="197_u3na5"]
+[ext_resource type="Resource" uid="uid://c0bx0nen1y2gl" path="res://skylanders/resources/swap_force/core/s3_terrafin.tres" id="198_k03fb"]
+[ext_resource type="Resource" uid="uid://dj20qj6cajo5e" path="res://skylanders/resources/swap_force/core/s3_trigger_happy.tres" id="199_tr30d"]
+[ext_resource type="Resource" uid="uid://dixq5k12ef4kj" path="res://skylanders/resources/swap_force/core/s3_whirlwind.tres" id="200_jdhot"]
+[ext_resource type="Resource" uid="uid://i5hee372q2yk" path="res://skylanders/resources/swap_force/swapper/s1_blast_zone.tres" id="201_po6lc"]
+[ext_resource type="Resource" uid="uid://bn1afxbilf7qn" path="res://skylanders/resources/swap_force/swapper/s1_boom_jet.tres" id="202_qmn62"]
+[ext_resource type="Resource" uid="uid://bi74jeut02sqm" path="res://skylanders/resources/swap_force/swapper/s1_doom_stone.tres" id="203_bdb6n"]
+[ext_resource type="Resource" uid="uid://bkfeqjspsp0mc" path="res://skylanders/resources/swap_force/swapper/s1_fire_kraken.tres" id="204_caoiu"]
+[ext_resource type="Resource" uid="uid://w1jr1bwbw76t" path="res://skylanders/resources/swap_force/swapper/s1_freeze_blade.tres" id="205_kt0ft"]
+[ext_resource type="Resource" uid="uid://kamho82qmocv" path="res://skylanders/resources/swap_force/swapper/s1_free_ranger.tres" id="206_vdsnx"]
+[ext_resource type="Resource" uid="uid://bnrgdfu7581qo" path="res://skylanders/resources/swap_force/swapper/s1_grilla_drilla.tres" id="207_iqiw5"]
+[ext_resource type="Resource" uid="uid://f21e20ck4kdq" path="res://skylanders/resources/swap_force/swapper/s1_hoot_loop.tres" id="208_fjs2r"]
+[ext_resource type="Resource" uid="uid://db8jvs1e7oqnv" path="res://skylanders/resources/swap_force/swapper/s1_magna_charge.tres" id="209_skx7r"]
+[ext_resource type="Resource" uid="uid://c463bniecbgti" path="res://skylanders/resources/swap_force/swapper/s1_night_shift.tres" id="210_gid3g"]
+[ext_resource type="Resource" uid="uid://ctepf8rleychb" path="res://skylanders/resources/swap_force/swapper/s1_rattle_shake.tres" id="211_lv71d"]
+[ext_resource type="Resource" uid="uid://8d1yku75g8wu" path="res://skylanders/resources/swap_force/swapper/s1_rubble_rouser.tres" id="212_rvm2g"]
+[ext_resource type="Resource" uid="uid://chki6rnyy8iu7" path="res://skylanders/resources/swap_force/swapper/s1_spy_rise.tres" id="213_xjp14"]
+[ext_resource type="Resource" uid="uid://bimavk5lws7wl" path="res://skylanders/resources/swap_force/swapper/s1_stink_bomb.tres" id="214_5ocgs"]
+[ext_resource type="Resource" uid="uid://b4wg08vhssdnx" path="res://skylanders/resources/swap_force/swapper/s1_trap_shadow.tres" id="215_rbomi"]
+[ext_resource type="Resource" uid="uid://bdev34a4ghmhy" path="res://skylanders/resources/swap_force/swapper/s1_wash_buckler.tres" id="216_mu7yr"]
+[ext_resource type="Resource" uid="uid://d7yo6p5qx5t0" path="res://skylanders/resources/swap_force/variant/s1_blast_zone_dark.tres" id="217_xuj48"]
+[ext_resource type="Resource" uid="uid://brrhf0lfb768q" path="res://skylanders/resources/swap_force/variant/s1_bumble_blast_jolly.tres" id="218_4gsrd"]
+[ext_resource type="Resource" uid="uid://bvppsse3tjb1a" path="res://skylanders/resources/swap_force/variant/s1_bumble_blast_lightcore.tres" id="219_d4idx"]
+[ext_resource type="Resource" uid="uid://bl2q2q40p1ypv" path="res://skylanders/resources/swap_force/variant/s1_countdown_kickoff.tres" id="220_3d473"]
+[ext_resource type="Resource" uid="uid://b7lmg3iybr8la" path="res://skylanders/resources/swap_force/variant/s1_countdown_lightcore.tres" id="221_8xlg5"]
+[ext_resource type="Resource" uid="uid://dyjnyn8myle78" path="res://skylanders/resources/swap_force/variant/s1_doom_stone_gold_bronze.tres" id="222_m7byl"]
+[ext_resource type="Resource" uid="uid://dl5akiidbfkp3" path="res://skylanders/resources/swap_force/variant/s1_dune_bug_metallic_red.tres" id="223_k2a1v"]
+[ext_resource type="Resource" uid="uid://bam531gg1fxr5" path="res://skylanders/resources/swap_force/variant/s1_fire_kraken_gold.tres" id="224_amc2w"]
+[ext_resource type="Resource" uid="uid://criqf2ayv1kyn" path="res://skylanders/resources/swap_force/variant/s1_fire_kraken_jade.tres" id="225_jv6gc"]
+[ext_resource type="Resource" uid="uid://bijcus2vv06jt" path="res://skylanders/resources/swap_force/variant/s1_freeze_blade_nitro.tres" id="226_f77jg"]
+[ext_resource type="Resource" uid="uid://5odkaj2nkvl4" path="res://skylanders/resources/swap_force/variant/s1_free_ranger_legendary.tres" id="227_55ahy"]
+[ext_resource type="Resource" uid="uid://csxwji8elendv" path="res://skylanders/resources/swap_force/variant/s1_grim_creeper_lightcore.tres" id="228_te2ah"]
+[ext_resource type="Resource" uid="uid://4yfd6ojmm2p3" path="res://skylanders/resources/swap_force/variant/s1_grim_creeper_lightcore_legendary.tres" id="229_gp6kl"]
+[ext_resource type="Resource" uid="uid://bel4x0rudm6el" path="res://skylanders/resources/swap_force/variant/s1_hoot_loop_enchanted.tres" id="230_xcow1"]
+[ext_resource type="Resource" uid="uid://ddcwrqy2pmb7s" path="res://skylanders/resources/swap_force/variant/s1_magna_charge_nitro.tres" id="231_v6psh"]
+[ext_resource type="Resource" uid="uid://di1a5ha8tr2e8" path="res://skylanders/resources/swap_force/variant/s1_night_shift_legendary.tres" id="232_2qd44"]
+[ext_resource type="Resource" uid="uid://delium31b2aoh" path="res://skylanders/resources/swap_force/variant/s1_quick_draw_rattle_shake.tres" id="233_p5ckg"]
+[ext_resource type="Resource" uid="uid://b3pqx43ld8en2" path="res://skylanders/resources/swap_force/variant/s1_rip_tide_green.tres" id="234_o74od"]
+[ext_resource type="Resource" uid="uid://ba4qxyj1dxjud" path="res://skylanders/resources/swap_force/variant/s1_scorp_green.tres" id="235_prb1q"]
+[ext_resource type="Resource" uid="uid://pgex4ivyj2ag" path="res://skylanders/resources/swap_force/variant/s1_slobber_tooth_dark.tres" id="236_qu1bq"]
+[ext_resource type="Resource" uid="uid://dl4kpkflaesnf" path="res://skylanders/resources/swap_force/variant/s1_smolderdash.tres" id="237_1aok8"]
+[ext_resource type="Resource" uid="uid://drtcevgikcyun" path="res://skylanders/resources/swap_force/variant/s1_smolderdash_lightcore_snowderdash.tres" id="238_tve1d"]
+[ext_resource type="Resource" uid="uid://cn5h1hhho7bkh" path="res://skylanders/resources/swap_force/variant/s1_star_strike_lightcore.tres" id="239_ul3ol"]
+[ext_resource type="Resource" uid="uid://efd05ncqxhiv" path="res://skylanders/resources/swap_force/variant/s1_star_strike_lightcore_enchanted.tres" id="240_u2hku"]
+[ext_resource type="Resource" uid="uid://1epgf0nyrrtc" path="res://skylanders/resources/swap_force/variant/s1_stink_bomb_silver_gold.tres" id="241_hu8wi"]
+[ext_resource type="Resource" uid="uid://dgpf3kg47rcw8" path="res://skylanders/resources/swap_force/variant/s1_trap_shadow_bronze_silver.tres" id="242_2k37e"]
+[ext_resource type="Resource" uid="uid://ctaly1hi5kcc5" path="res://skylanders/resources/swap_force/variant/s1_wash_buckler_dark.tres" id="243_r1vuf"]
+[ext_resource type="Resource" uid="uid://8x7rqtnsvo6m" path="res://skylanders/resources/swap_force/variant/s1_wash_buckler_gold.tres" id="244_4txqb"]
+[ext_resource type="Resource" uid="uid://xwd77105vn8q" path="res://skylanders/resources/swap_force/variant/s1_zoo_lou_legendary.tres" id="245_mo123"]
+[ext_resource type="Resource" uid="uid://bfqmorbdfkeqf" path="res://skylanders/resources/swap_force/variant/s2_flashwing_lightcore.tres" id="246_tvhbm"]
+[ext_resource type="Resource" uid="uid://beb55muerm1ce" path="res://skylanders/resources/swap_force/variant/s2_hot_dog_frito_lay_green.tres" id="247_52ft5"]
+[ext_resource type="Resource" uid="uid://chweilf10i1aj" path="res://skylanders/resources/swap_force/variant/s2_hot_dog_frito_lay_purple.tres" id="248_0pvd7"]
+[ext_resource type="Resource" uid="uid://chfvdk7435kdo" path="res://skylanders/resources/swap_force/variant/s2_hot_dog_frito_lay_red.tres" id="249_eimrh"]
+[ext_resource type="Resource" uid="uid://btm1cwwanh13b" path="res://skylanders/resources/swap_force/variant/s2_sprocket_heavy_metal.tres" id="250_pjgdt"]
+[ext_resource type="Resource" uid="uid://cfkkxnrhtq42s" path="res://skylanders/resources/swap_force/variant/s2_warnado_lightcore.tres" id="251_xknqp"]
+[ext_resource type="Resource" uid="uid://5s8s2xntkvqp" path="res://skylanders/resources/swap_force/variant/s2_wham_shell_lightcore.tres" id="252_3jywi"]
+[ext_resource type="Resource" uid="uid://uebnfpf4m8gr" path="res://skylanders/resources/swap_force/variant/s3_chop_chop_green.tres" id="253_n3v40"]
+[ext_resource type="Resource" uid="uid://ddfi5rsgerq4j" path="res://skylanders/resources/swap_force/variant/s3_eruptor_volcanic.tres" id="254_t04ww"]
+[ext_resource type="Resource" uid="uid://b63us3wnpgxgm" path="res://skylanders/resources/swap_force/variant/s3_spyro_dark.tres" id="255_deeyh"]
+[ext_resource type="Resource" uid="uid://ciaphovplsqix" path="res://skylanders/resources/swap_force/variant/s3_stealth_elf_dark.tres" id="256_rq5lg"]
+[ext_resource type="Resource" uid="uid://kk1pc5ttstu4" path="res://skylanders/resources/swap_force/variant/s3_trigger_happy_springtime.tres" id="257_tfohu"]
+[ext_resource type="Resource" uid="uid://leaf021cvw46" path="res://skylanders/resources/swap_force/variant/s3_trigger_happy_springtime_flocked.tres" id="258_q12yw"]
+[ext_resource type="Resource" uid="uid://1l66x7vkq5rv" path="res://skylanders/resources/swap_force/magic_items/misc_arkeyan_crossbow.tres" id="259_oei3s"]
+[ext_resource type="Resource" uid="uid://odhgxjldggkj" path="res://skylanders/resources/swap_force/magic_items/misc_battle_hammer.tres" id="260_u3ion"]
+[ext_resource type="Resource" uid="uid://dar83e31g3i25" path="res://skylanders/resources/swap_force/magic_items/misc_fiery_forge.tres" id="261_5y653"]
+[ext_resource type="Resource" uid="uid://tnxethqcdswx" path="res://skylanders/resources/swap_force/magic_items/misc_groove_machine.tres" id="262_c8ovv"]
+[ext_resource type="Resource" uid="uid://ba8fw2gak7qws" path="res://skylanders/resources/swap_force/magic_items/misc_platinum_sheep.tres" id="263_as2uo"]
+[ext_resource type="Resource" uid="uid://b7ksdkavc3p8h" path="res://skylanders/resources/swap_force/magic_items/misc_sheep_wreck_island.tres" id="264_ukj83"]
+[ext_resource type="Resource" uid="uid://cdhu07kyrlr2g" path="res://skylanders/resources/swap_force/magic_items/misc_sky_diamond.tres" id="265_3cfyc"]
+[ext_resource type="Resource" uid="uid://yqppw12giuii" path="res://skylanders/resources/swap_force/magic_items/misc_target_preorder_ufo_hat.tres" id="266_fikp4"]
+[ext_resource type="Resource" uid="uid://1ajfp3165c1c" path="res://skylanders/resources/swap_force/magic_items/misc_tower_of_time.tres" id="267_nohy7"]
+[ext_resource type="Resource" uid="uid://b5egyvkepuswq" path="res://skylanders/resources/trap_team/core/s1_bat_spin.tres" id="268_k51dm"]
+[ext_resource type="Resource" uid="uid://c8qfg2d3ahlkk" path="res://skylanders/resources/trap_team/core/s1_blackout.tres" id="269_40s24"]
+[ext_resource type="Resource" uid="uid://dlkjif44x8h4s" path="res://skylanders/resources/trap_team/core/s1_blades.tres" id="270_d7qjc"]
+[ext_resource type="Resource" uid="uid://bf75rjmxbieum" path="res://skylanders/resources/trap_team/core/s1_chopper.tres" id="271_bsuhw"]
+[ext_resource type="Resource" uid="uid://b4kurbf0k1y7v" path="res://skylanders/resources/trap_team/core/s1_cobra_cadabra.tres" id="272_vbx05"]
+[ext_resource type="Resource" uid="uid://d3jx47jeh73oj" path="res://skylanders/resources/trap_team/core/s1_deja_vu.tres" id="273_i7o7k"]
+[ext_resource type="Resource" uid="uid://bhiyu6ap4k2m3" path="res://skylanders/resources/trap_team/core/s1_echo.tres" id="274_5v33d"]
+[ext_resource type="Resource" uid="uid://dg0r3xr4yy7ps" path="res://skylanders/resources/trap_team/core/s1_fist_bump.tres" id="275_y1uam"]
+[ext_resource type="Resource" uid="uid://ctwc2cl7v3lyh" path="res://skylanders/resources/trap_team/core/s1_fling_kong.tres" id="276_bnwnd"]
+[ext_resource type="Resource" uid="uid://co2ntppg4utvy" path="res://skylanders/resources/trap_team/core/s1_rocky_roll.tres" id="277_h4hqv"]
+[ext_resource type="Resource" uid="uid://djgq25n8tv2dt" path="res://skylanders/resources/trap_team/core/s1_spotlight.tres" id="278_undo7"]
+[ext_resource type="Resource" uid="uid://bo33tnymgl588" path="res://skylanders/resources/trap_team/core/s1_torch.tres" id="279_ig6i4"]
+[ext_resource type="Resource" uid="uid://dklrawrx8xm2g" path="res://skylanders/resources/trap_team/core/s1_trail_blazer.tres" id="280_vmlf3"]
+[ext_resource type="Resource" uid="uid://crc8e13e8mp6" path="res://skylanders/resources/trap_team/core/s1_tread_head.tres" id="281_51qs1"]
+[ext_resource type="Resource" uid="uid://dpw1trmjsk276" path="res://skylanders/resources/trap_team/core/s2_fryno.tres" id="282_o1r4v"]
+[ext_resource type="Resource" uid="uid://cx7ek6hcaa22q" path="res://skylanders/resources/trap_team/core/s2_shroomboom.tres" id="283_khixo"]
+[ext_resource type="Resource" uid="uid://c1nnmkpe6mi8d" path="res://skylanders/resources/trap_team/core/s3_jet_vac.tres" id="284_llpqv"]
+[ext_resource type="Resource" uid="uid://dgvapvj4tjhh5" path="res://skylanders/resources/trap_team/core/s3_pop_fizz.tres" id="285_1y8qp"]
+[ext_resource type="Resource" uid="uid://2eyckp5j5seo" path="res://skylanders/resources/trap_team/core/s4_gill_grunt.tres" id="286_h7oy4"]
+[ext_resource type="Resource" uid="uid://cu84b5ewuvkj2" path="res://skylanders/resources/trap_team/magic_items/misc_hand_of_fate.tres" id="287_aqgiu"]
+[ext_resource type="Resource" uid="uid://c172mxgkly8kx" path="res://skylanders/resources/trap_team/magic_items/misc_hand_of_fate_legendary.tres" id="288_evksy"]
+[ext_resource type="Resource" uid="uid://ctvytnm53vh4n" path="res://skylanders/resources/trap_team/magic_items/misc_midnight_museum.tres" id="289_epq5q"]
+[ext_resource type="Resource" uid="uid://c0atu4iumlkmt" path="res://skylanders/resources/trap_team/magic_items/misc_mirror_of_mystery.tres" id="290_bpc6q"]
+[ext_resource type="Resource" uid="uid://cqk3kq3b85oo0" path="res://skylanders/resources/trap_team/magic_items/misc_nightmare_express.tres" id="291_5pih3"]
+[ext_resource type="Resource" uid="uid://oe2k1nw1eh1f" path="res://skylanders/resources/trap_team/magic_items/misc_piggy_bank.tres" id="292_j0ww1"]
+[ext_resource type="Resource" uid="uid://bu8clmi0bcy1y" path="res://skylanders/resources/trap_team/magic_items/misc_rocket_ram.tres" id="293_c2y7c"]
+[ext_resource type="Resource" uid="uid://ce8fy81g600ko" path="res://skylanders/resources/trap_team/magic_items/misc_sunscraper_spire.tres" id="294_q1n6a"]
+[ext_resource type="Resource" uid="uid://6mqubokndp2l" path="res://skylanders/resources/trap_team/magic_items/misc_tiki_speaky.tres" id="295_1x0o0"]
+[ext_resource type="Resource" uid="uid://cmyionvdc7hsx" path="res://skylanders/resources/trap_team/minis/s1_bop.tres" id="296_2qjaw"]
+[ext_resource type="Resource" uid="uid://nvgwym6y4yhj" path="res://skylanders/resources/trap_team/minis/s1_breeze.tres" id="297_e6u2h"]
+[ext_resource type="Resource" uid="uid://cpmbs83ldmluk" path="res://skylanders/resources/trap_team/minis/s1_drobit.tres" id="298_kn7qd"]
+[ext_resource type="Resource" uid="uid://da48ooloo3f6v" path="res://skylanders/resources/trap_team/minis/s1_hijinx.tres" id="299_hxrqg"]
+[ext_resource type="Resource" uid="uid://no4l3ybrm84h" path="res://skylanders/resources/trap_team/minis/s1_pet_vac.tres" id="300_r1a5x"]
+[ext_resource type="Resource" uid="uid://dkxf4756n6a5l" path="res://skylanders/resources/trap_team/minis/s1_spry.tres" id="301_yxeab"]
+[ext_resource type="Resource" uid="uid://cv60p8n5j5sco" path="res://skylanders/resources/trap_team/minis/s1_weeruptor.tres" id="302_ejbmt"]
+[ext_resource type="Resource" uid="uid://bip206ahuu4fn" path="res://skylanders/resources/trap_team/minis/s2_barkley.tres" id="303_bp8d3"]
+[ext_resource type="Resource" uid="uid://codxdrwt2wuph" path="res://skylanders/resources/trap_team/minis/s2_eye_small.tres" id="304_0lspr"]
+[ext_resource type="Resource" uid="uid://bibytom4hh2r4" path="res://skylanders/resources/trap_team/minis/s2_gill_runt.tres" id="305_hfa6u"]
+[ext_resource type="Resource" uid="uid://cppayfw4b4kii" path="res://skylanders/resources/trap_team/minis/s2_mini_jini.tres" id="306_4a33g"]
+[ext_resource type="Resource" uid="uid://dufqub3lwvipq" path="res://skylanders/resources/trap_team/minis/s2_terrabite.tres" id="307_kjalh"]
+[ext_resource type="Resource" uid="uid://b2nfgoy266inp" path="res://skylanders/resources/trap_team/minis/s2_thumpling.tres" id="308_8x7iq"]
+[ext_resource type="Resource" uid="uid://b45a8yrwe6k6i" path="res://skylanders/resources/trap_team/minis/s2_trigger_snappy.tres" id="309_yxcg7"]
+[ext_resource type="Resource" uid="uid://bxl14kypvwnw1" path="res://skylanders/resources/trap_team/minis/s2_whisper_elf.tres" id="310_0d5c8"]
+[ext_resource type="Resource" uid="uid://c0klserl0jxpa" path="res://skylanders/resources/trap_team/traps/air_hourglass_tempest_timer.tres" id="311_ssw52"]
+[ext_resource type="Resource" uid="uid://d0r6upn86jlev" path="res://skylanders/resources/trap_team/traps/air_jughead_drafty_decanter.tres" id="312_o2olr"]
+[ext_resource type="Resource" uid="uid://n3pue8x1gyn7" path="res://skylanders/resources/trap_team/traps/air_screamer_storm_warning.tres" id="313_ec118"]
+[ext_resource type="Resource" uid="uid://oli6osy6r7m7" path="res://skylanders/resources/trap_team/traps/air_snake_cloudy_cobra.tres" id="314_jggwj"]
+[ext_resource type="Resource" uid="uid://yj72po1q06au" path="res://skylanders/resources/trap_team/traps/air_sword_cyclone_sabre.tres" id="315_uu5qu"]
+[ext_resource type="Resource" uid="uid://b0ymltxpas0s8" path="res://skylanders/resources/trap_team/traps/air_toucan_breezy_bird.tres" id="316_7f4mf"]
+[ext_resource type="Resource" uid="uid://ctpcx373qv478" path="res://skylanders/resources/trap_team/traps/dark_handstand_ghastly_grimace.tres" id="317_d6udf"]
+[ext_resource type="Resource" uid="uid://cn4mxdp2ryqbu" path="res://skylanders/resources/trap_team/traps/dark_spider_shadow_spider.tres" id="318_q4hmb"]
+[ext_resource type="Resource" uid="uid://bagtfnl5b07g7" path="res://skylanders/resources/trap_team/traps/dark_sword_dark_dagger.tres" id="319_h7dgg"]
+[ext_resource type="Resource" uid="uid://byr5tsgo6l01n" path="res://skylanders/resources/trap_team/traps/earth_hammer_slag_hammer.tres" id="320_4yduv"]
+[ext_resource type="Resource" uid="uid://dg1erj4i5pxa6" path="res://skylanders/resources/trap_team/traps/earth_handstand_rubble_trouble.tres" id="321_5wtmd"]
+[ext_resource type="Resource" uid="uid://dh5qctkod01ye" path="res://skylanders/resources/trap_team/traps/earth_handstand_rubble_trouble_easter_bunny.tres" id="322_ln303"]
+[ext_resource type="Resource" uid="uid://blwxubt1ydwne" path="res://skylanders/resources/trap_team/traps/earth_hourglass_dust_of_time.tres" id="323_qhtiu"]
+[ext_resource type="Resource" uid="uid://dekem7u6iemha" path="res://skylanders/resources/trap_team/traps/earth_orb_banded_boulder.tres" id="324_ru2tv"]
+[ext_resource type="Resource" uid="uid://dn1dw0pm7wobx" path="res://skylanders/resources/trap_team/traps/earth_totem_spinning_sandstorm.tres" id="325_kldoh"]
+[ext_resource type="Resource" uid="uid://vp456qxbloud" path="res://skylanders/resources/trap_team/traps/earth_toucan_rock_hawk.tres" id="326_7fd03"]
+[ext_resource type="Resource" uid="uid://bgqcojtj455pd" path="res://skylanders/resources/trap_team/traps/fire_captains_hat_spark_spear.tres" id="327_duwpl"]
+[ext_resource type="Resource" uid="uid://k17pgm3ywfex" path="res://skylanders/resources/trap_team/traps/fire_scepter_fire_flower.tres" id="328_fa7a3"]
+[ext_resource type="Resource" uid="uid://ctelh7iyteo8i" path="res://skylanders/resources/trap_team/traps/fire_screamer_scorching_stopper.tres" id="329_a6wms"]
+[ext_resource type="Resource" uid="uid://b88esuvl7n8uq" path="res://skylanders/resources/trap_team/traps/fire_torch_eternal_flame.tres" id="330_cmypw"]
+[ext_resource type="Resource" uid="uid://c2whoguahbwuk" path="res://skylanders/resources/trap_team/traps/fire_totem_searing_spinner.tres" id="331_hr8t5"]
+[ext_resource type="Resource" uid="uid://drac0uc8o3f" path="res://skylanders/resources/trap_team/traps/fire_yawn_blazing_belch.tres" id="332_datqx"]
+[ext_resource type="Resource" uid="uid://bjjnd883s77g8" path="res://skylanders/resources/trap_team/traps/kaos_trap.tres" id="333_r8j6m"]
+[ext_resource type="Resource" uid="uid://dps36w2qiw4qd" path="res://skylanders/resources/trap_team/traps/kaos_trap_ultimate.tres" id="334_r8304"]
+[ext_resource type="Resource" uid="uid://cgadmoa4q76ja" path="res://skylanders/resources/trap_team/traps/life_hammer_weed_whacker.tres" id="335_cma4c"]
+[ext_resource type="Resource" uid="uid://dsnrccwdb5mne" path="res://skylanders/resources/trap_team/traps/life_snake_seed_serpent.tres" id="336_p014l"]
+[ext_resource type="Resource" uid="uid://dp1n6gqdp3bq" path="res://skylanders/resources/trap_team/traps/life_sword_jade_blade.tres" id="337_jwoaa"]
+[ext_resource type="Resource" uid="uid://d0nhhjt6e7acc" path="res://skylanders/resources/trap_team/traps/life_torch_emerald_energy.tres" id="338_8yw1i"]
+[ext_resource type="Resource" uid="uid://b4xl5ixkwt5lw" path="res://skylanders/resources/trap_team/traps/life_toucan_oak_eagle.tres" id="339_mfcna"]
+[ext_resource type="Resource" uid="uid://snrsb2dplfn0" path="res://skylanders/resources/trap_team/traps/life_yawn_shrub_shrieker.tres" id="340_b2vxs"]
+[ext_resource type="Resource" uid="uid://b3whtx04yoa7l" path="res://skylanders/resources/trap_team/traps/light_owl_heavenly_hawk.tres" id="341_olcqr"]
+[ext_resource type="Resource" uid="uid://ddolf0boe33bd" path="res://skylanders/resources/trap_team/traps/light_rocket_shining_ship.tres" id="342_quc2l"]
+[ext_resource type="Resource" uid="uid://c2l6nb2s00ixd" path="res://skylanders/resources/trap_team/traps/light_yawn_beam_scream.tres" id="343_f8g28"]
+[ext_resource type="Resource" uid="uid://q8guug3puxbl" path="res://skylanders/resources/trap_team/traps/magic_axe_axe_of_illusion.tres" id="344_ke34p"]
+[ext_resource type="Resource" uid="uid://bapnpu1gwvuj5" path="res://skylanders/resources/trap_team/traps/magic_hourglass_arcane_hourglass.tres" id="345_qkmnk"]
+[ext_resource type="Resource" uid="uid://cihgik6md1mws" path="res://skylanders/resources/trap_team/traps/magic_log_holder_biters_bane.tres" id="346_2ulu8"]
+[ext_resource type="Resource" uid="uid://dc3anloq2t48d" path="res://skylanders/resources/trap_team/traps/magic_rocket_rune_rocket.tres" id="347_e05kn"]
+[ext_resource type="Resource" uid="uid://c4ral08w1snqp" path="res://skylanders/resources/trap_team/traps/magic_skull_sorcerous_skull.tres" id="348_sx5tr"]
+[ext_resource type="Resource" uid="uid://c3j7op28b6mfc" path="res://skylanders/resources/trap_team/traps/magic_totem_spell_slapper.tres" id="349_o4j1c"]
+[ext_resource type="Resource" uid="uid://dudksw8hhm2fv" path="res://skylanders/resources/trap_team/traps/tech_angel_automatic_angel.tres" id="350_fj3o0"]
+[ext_resource type="Resource" uid="uid://c53y6ox4ii6re" path="res://skylanders/resources/trap_team/traps/tech_flying_helmet_makers_mana.tres" id="351_bu8hh"]
+[ext_resource type="Resource" uid="uid://dnheaom1eudkw" path="res://skylanders/resources/trap_team/traps/tech_handstand_topsy_techy.tres" id="352_v5d6i"]
+[ext_resource type="Resource" uid="uid://cr1ttcnsaiimk" path="res://skylanders/resources/trap_team/traps/tech_hand_grabbing_gadget.tres" id="353_firhu"]
+[ext_resource type="Resource" uid="uid://8roueqj1asms" path="res://skylanders/resources/trap_team/traps/tech_scepter_factory_flower.tres" id="354_bmi8v"]
+[ext_resource type="Resource" uid="uid://bssy2eebmqatn" path="res://skylanders/resources/trap_team/traps/tech_tiki_tech_totem.tres" id="355_r0iob"]
+[ext_resource type="Resource" uid="uid://boc0iq2mgemh0" path="res://skylanders/resources/trap_team/traps/undead_axe_haunted_hatchet.tres" id="356_s2bcg"]
+[ext_resource type="Resource" uid="uid://cevjhj0xs87cs" path="res://skylanders/resources/trap_team/traps/undead_captains_hat_dream_piercer.tres" id="357_jtxes"]
+[ext_resource type="Resource" uid="uid://blilleyilp7x7" path="res://skylanders/resources/trap_team/traps/undead_hand_grim_gripper.tres" id="358_ujn5i"]
+[ext_resource type="Resource" uid="uid://ckjnh2iec588x" path="res://skylanders/resources/trap_team/traps/undead_orb_legendary.tres" id="359_b57nu"]
+[ext_resource type="Resource" uid="uid://uxd6fyglcx1r" path="res://skylanders/resources/trap_team/traps/undead_orb_spirit_sphere.tres" id="360_2gfk1"]
+[ext_resource type="Resource" uid="uid://dq51uwnkduy8k" path="res://skylanders/resources/trap_team/traps/undead_skull_legendary.tres" id="361_16h0b"]
+[ext_resource type="Resource" uid="uid://ce2ha587iob1a" path="res://skylanders/resources/trap_team/traps/undead_skull_spectral_skull.tres" id="362_cjwpo"]
+[ext_resource type="Resource" uid="uid://dqdk11o4f7ny" path="res://skylanders/resources/trap_team/traps/undead_snake.tres" id="363_udh3j"]
+[ext_resource type="Resource" uid="uid://cr3jfn1hwoabc" path="res://skylanders/resources/trap_team/traps/water_angel_soaking_staff.tres" id="364_oy8pd"]
+[ext_resource type="Resource" uid="uid://cg0o1j53bu8jr" path="res://skylanders/resources/trap_team/traps/water_axe_aqua_axe.tres" id="365_kvt4a"]
+[ext_resource type="Resource" uid="uid://df5xgou5ujqxe" path="res://skylanders/resources/trap_team/traps/water_flying_helmet_frost_helm.tres" id="366_emovu"]
+[ext_resource type="Resource" uid="uid://bwiq8agb7xaq6" path="res://skylanders/resources/trap_team/traps/water_jughead_flood_flask.tres" id="367_sbgvk"]
+[ext_resource type="Resource" uid="uid://lic4uprwilkh" path="res://skylanders/resources/trap_team/traps/water_jughead_legendary.tres" id="368_n87xq"]
+[ext_resource type="Resource" uid="uid://cr64tm0djtej1" path="res://skylanders/resources/trap_team/traps/water_log_holder_wet_walter.tres" id="369_2a50b"]
+[ext_resource type="Resource" uid="uid://0lhis8vchuba" path="res://skylanders/resources/trap_team/traps/water_tiki_tidal_tiki.tres" id="370_onbwl"]
+[ext_resource type="Resource" uid="uid://dqx8c0gsvey4i" path="res://skylanders/resources/trap_team/trap_masters/s1_blastermind.tres" id="371_35fqp"]
+[ext_resource type="Resource" uid="uid://030ibcw4j775" path="res://skylanders/resources/trap_team/trap_masters/s1_bushwhack.tres" id="372_fkn1m"]
+[ext_resource type="Resource" uid="uid://coh68u73ffmb1" path="res://skylanders/resources/trap_team/trap_masters/s1_enigma.tres" id="373_tcvir"]
+[ext_resource type="Resource" uid="uid://dvn4m4ea7sgs8" path="res://skylanders/resources/trap_team/trap_masters/s1_gearshift.tres" id="374_jk1lw"]
+[ext_resource type="Resource" uid="uid://d0chpor7br4xc" path="res://skylanders/resources/trap_team/trap_masters/s1_gusto.tres" id="375_jkepr"]
+[ext_resource type="Resource" uid="uid://5kmc57yb3dr3" path="res://skylanders/resources/trap_team/trap_masters/s1_head_rush.tres" id="376_f0dri"]
+[ext_resource type="Resource" uid="uid://8b4l212q3if0" path="res://skylanders/resources/trap_team/trap_masters/s1_jawbreaker.tres" id="377_j5anx"]
+[ext_resource type="Resource" uid="uid://dgilowclaul0d" path="res://skylanders/resources/trap_team/trap_masters/s1_ka_boom.tres" id="378_conha"]
+[ext_resource type="Resource" uid="uid://dp5oo2eb8i6k3" path="res://skylanders/resources/trap_team/trap_masters/s1_knight_light.tres" id="379_jc1ng"]
+[ext_resource type="Resource" uid="uid://wbw55vwiuyq0" path="res://skylanders/resources/trap_team/trap_masters/s1_knight_mare.tres" id="380_s6loa"]
+[ext_resource type="Resource" uid="uid://igvgqn27b6pi" path="res://skylanders/resources/trap_team/trap_masters/s1_krypt_king.tres" id="381_svy6m"]
+[ext_resource type="Resource" uid="uid://diufblodsw3wd" path="res://skylanders/resources/trap_team/trap_masters/s1_lob_star.tres" id="382_xw443"]
+[ext_resource type="Resource" uid="uid://htr5yd6iyimd" path="res://skylanders/resources/trap_team/trap_masters/s1_short_cut.tres" id="383_fmx1o"]
+[ext_resource type="Resource" uid="uid://b5j2uopoxtrqg" path="res://skylanders/resources/trap_team/trap_masters/s1_snap_shot.tres" id="384_6r01r"]
+[ext_resource type="Resource" uid="uid://c4gvel70p7g2r" path="res://skylanders/resources/trap_team/trap_masters/s1_thunderbolt.tres" id="385_1lxw1"]
+[ext_resource type="Resource" uid="uid://dc15ju0b5w8qk" path="res://skylanders/resources/trap_team/trap_masters/s1_tuff_luck.tres" id="386_lxubi"]
+[ext_resource type="Resource" uid="uid://3npfswt4p2wb" path="res://skylanders/resources/trap_team/trap_masters/s1_wallop.tres" id="387_4kot0"]
+[ext_resource type="Resource" uid="uid://c3p37dff3fq50" path="res://skylanders/resources/trap_team/trap_masters/s1_wild_fire.tres" id="388_bjrfx"]
+[ext_resource type="Resource" uid="uid://byvcg27uyykr7" path="res://skylanders/resources/trap_team/variant/s1_blades_legendary.tres" id="389_7ims4"]
+[ext_resource type="Resource" uid="uid://xsvvfi2qjj28" path="res://skylanders/resources/trap_team/variant/s1_bushwhack_legendary.tres" id="390_rpgus"]
+[ext_resource type="Resource" uid="uid://cmv25ny38tn8c" path="res://skylanders/resources/trap_team/variant/s1_cobra_cadabra_king.tres" id="391_qeb2j"]
+[ext_resource type="Resource" uid="uid://chabk60umnogx" path="res://skylanders/resources/trap_team/variant/s1_deja_vu_legendary.tres" id="392_agco1"]
+[ext_resource type="Resource" uid="uid://iittkqe0r77l" path="res://skylanders/resources/trap_team/variant/s1_food_fight_dark.tres" id="393_qj0o1"]
+[ext_resource type="Resource" uid="uid://lbfikoc2ppd7" path="res://skylanders/resources/trap_team/variant/s1_head_rush_nitro.tres" id="394_c4glb"]
+[ext_resource type="Resource" uid="uid://cvficemovm85h" path="res://skylanders/resources/trap_team/variant/s1_jawbreaker_legendary.tres" id="395_7o06q"]
+[ext_resource type="Resource" uid="uid://c146g7f3fqmnh" path="res://skylanders/resources/trap_team/variant/s1_krypt_king_nitro.tres" id="396_caei8"]
+[ext_resource type="Resource" uid="uid://cki0b0hlkog4l" path="res://skylanders/resources/trap_team/variant/s1_lob_star_winterfest.tres" id="397_gcolg"]
+[ext_resource type="Resource" uid="uid://bi2jdmfpx0lc1" path="res://skylanders/resources/trap_team/variant/s1_pet_vac_power_punch.tres" id="398_dbrn2"]
+[ext_resource type="Resource" uid="uid://baudkhbpd4352" path="res://skylanders/resources/trap_team/variant/s1_short_cut_clear.tres" id="399_jdngp"]
+[ext_resource type="Resource" uid="uid://cd8fvy8y026ec" path="res://skylanders/resources/trap_team/variant/s1_snap_shot_dark.tres" id="400_vtgg3"]
+[ext_resource type="Resource" uid="uid://cw5v40uhu3555" path="res://skylanders/resources/trap_team/variant/s1_thunderbolt_clear.tres" id="401_av5la"]
+[ext_resource type="Resource" uid="uid://iapb8g8p3pfk" path="res://skylanders/resources/trap_team/variant/s1_tuff_luck_clear.tres" id="402_mtgky"]
+[ext_resource type="Resource" uid="uid://myd7tb75uxpa" path="res://skylanders/resources/trap_team/variant/s1_weeruptor_eggsellent.tres" id="403_v45qk"]
+[ext_resource type="Resource" uid="uid://ckpb4su1gqgdb" path="res://skylanders/resources/trap_team/variant/s1_wildfire_dark.tres" id="404_1fl6w"]
+[ext_resource type="Resource" uid="uid://d1tojbtdgsbgi" path="res://skylanders/resources/trap_team/variant/s2_barkley_gnarly.tres" id="405_sfubp"]
+[ext_resource type="Resource" uid="uid://h07o8u5ej1vi" path="res://skylanders/resources/trap_team/variant/s3_pop_fizz_love_potion.tres" id="406_xgwu1"]
+[ext_resource type="Resource" uid="uid://nsyv7st4qsp2" path="res://skylanders/resources/trap_team/variant/villain_outlaw_brawl_chain.tres" id="407_shmpy"]
+[ext_resource type="Resource" uid="uid://cyvc4yshgehve" path="res://skylanders/resources/trap_team/variant/villain_rebel_lob_goblin.tres" id="408_gixls"]
+[ext_resource type="Resource" uid="uid://45gpkvqkem18" path="res://skylanders/resources/trap_team/variant/villain_red_hot_tussle_sprout.tres" id="409_gnulv"]
+[ext_resource type="Resource" uid="uid://dr8vhvnpsllnv" path="res://skylanders/resources/trap_team/variant/villain_riot_shield_shredder.tres" id="410_w5gi5"]
+[ext_resource type="Resource" uid="uid://bb3uxwdgjx404" path="res://skylanders/resources/trap_team/variant/villain_steamed_broccoli_guy.tres" id="411_ookbv"]
+[ext_resource type="Resource" uid="uid://cc7bb3pgyl0n" path="res://skylanders/resources/trap_team/variant/villain_steampunk_shrednaught.tres" id="412_bcj4m"]
+[ext_resource type="Resource" uid="uid://bryg2q12jukie" path="res://skylanders/resources/superchargers/magic_items/kaos_trophy.tres" id="413_try3m"]
+[ext_resource type="Resource" uid="uid://c1ws5wu2m5eei" path="res://skylanders/resources/superchargers/magic_items/land_trophy.tres" id="414_62i83"]
+[ext_resource type="Resource" uid="uid://dt0pyo40giwl6" path="res://skylanders/resources/superchargers/magic_items/sea_trophy.tres" id="415_otg4u"]
+[ext_resource type="Resource" uid="uid://ci723462ybaew" path="res://skylanders/resources/superchargers/magic_items/sky_trophy.tres" id="416_mke7k"]
+[ext_resource type="Resource" uid="uid://bs521yhrkj03r" path="res://skylanders/resources/superchargers/superchargers/s1_astroblast.tres" id="417_kcxh5"]
+[ext_resource type="Resource" uid="uid://d2hjp75oj702o" path="res://skylanders/resources/superchargers/superchargers/s1_astroblast_legendary.tres" id="418_8o01w"]
+[ext_resource type="Resource" uid="uid://bohhoa8q4cey8" path="res://skylanders/resources/superchargers/superchargers/s1_bowser.tres" id="419_x3vq7"]
+[ext_resource type="Resource" uid="uid://dco7126xa3apf" path="res://skylanders/resources/superchargers/superchargers/s1_bowser_dark.tres" id="420_db8ct"]
+[ext_resource type="Resource" uid="uid://cxren4vns2kvy" path="res://skylanders/resources/superchargers/superchargers/s1_dive_clops.tres" id="421_8iq1c"]
+[ext_resource type="Resource" uid="uid://do8hspg7bq28i" path="res://skylanders/resources/superchargers/superchargers/s1_dive_clops_missile_tow.tres" id="422_mpll3"]
+[ext_resource type="Resource" uid="uid://db143t6ehjo7k" path="res://skylanders/resources/superchargers/superchargers/s1_donkey_kong.tres" id="423_rsjtr"]
+[ext_resource type="Resource" uid="uid://6smuef11nxy" path="res://skylanders/resources/superchargers/superchargers/s1_donkey_kong_darkj.tres" id="424_um7gq"]
+[ext_resource type="Resource" uid="uid://hu6atb82s3kl" path="res://skylanders/resources/superchargers/superchargers/s1_fiesta.tres" id="425_i3f7w"]
+[ext_resource type="Resource" uid="uid://dn3ibimi8mw2g" path="res://skylanders/resources/superchargers/superchargers/s1_fiesta_frightful.tres" id="426_rbgfx"]
+[ext_resource type="Resource" uid="uid://dx11pngg5hv2s" path="res://skylanders/resources/superchargers/superchargers/s1_high_volt.tres" id="427_k10pf"]
+[ext_resource type="Resource" uid="uid://dtk4jsaq6rfx2" path="res://skylanders/resources/superchargers/superchargers/s1_high_volt_patina.tres" id="428_jvfhc"]
+[ext_resource type="Resource" uid="uid://cbv5ry7eob1p5" path="res://skylanders/resources/superchargers/superchargers/s1_nightfall.tres" id="429_2d3i5"]
+[ext_resource type="Resource" uid="uid://c8xqch811mfi7" path="res://skylanders/resources/superchargers/superchargers/s1_smash_hit.tres" id="430_053hn"]
+[ext_resource type="Resource" uid="uid://bou5qkmd2mlog" path="res://skylanders/resources/superchargers/superchargers/s1_smash_hit_steel_plated.tres" id="431_avnkb"]
+[ext_resource type="Resource" uid="uid://cyjfmmha2ke34" path="res://skylanders/resources/superchargers/superchargers/s1_spitfire.tres" id="432_b4yf4"]
+[ext_resource type="Resource" uid="uid://bj8bfousury2" path="res://skylanders/resources/superchargers/superchargers/s1_spitfire_dark.tres" id="433_g8fv0"]
+[ext_resource type="Resource" uid="uid://dkpy3xdhckotd" path="res://skylanders/resources/superchargers/superchargers/s1_splat.tres" id="434_sjw61"]
+[ext_resource type="Resource" uid="uid://j4nepcb2s072" path="res://skylanders/resources/superchargers/superchargers/s1_splat_power_blue.tres" id="435_hcfrf"]
+[ext_resource type="Resource" uid="uid://br73qsc76bvyk" path="res://skylanders/resources/superchargers/superchargers/s1_stormblade.tres" id="436_17bwb"]
+[ext_resource type="Resource" uid="uid://dkwi2qlbl678v" path="res://skylanders/resources/superchargers/superchargers/s1_stormblade_snow_brite.tres" id="437_bjlpd"]
+[ext_resource type="Resource" uid="uid://csf5cp6cugscj" path="res://skylanders/resources/superchargers/superchargers/s1_thrillipede.tres" id="438_vxu2h"]
+[ext_resource type="Resource" uid="uid://cgnoy5phibi8k" path="res://skylanders/resources/superchargers/superchargers/s1_thrillipede_eggcited.tres" id="439_skj0t"]
+[ext_resource type="Resource" uid="uid://c2yxrdnkydkeh" path="res://skylanders/resources/superchargers/superchargers/s2_roller_brawl.tres" id="440_thhr8"]
+[ext_resource type="Resource" uid="uid://qxub3mcmprj6" path="res://skylanders/resources/superchargers/superchargers/s2_roller_brawl_bronze.tres" id="441_jolyc"]
+[ext_resource type="Resource" uid="uid://da60hc2o1a3wu" path="res://skylanders/resources/superchargers/superchargers/s2_roller_brawl_legendary.tres" id="442_6wvob"]
+[ext_resource type="Resource" uid="uid://dknjmwwyem8i5" path="res://skylanders/resources/superchargers/superchargers/s4_eruptor.tres" id="443_3ewab"]
+[ext_resource type="Resource" uid="uid://ltmcru1mxb0x" path="res://skylanders/resources/superchargers/superchargers/s4_eruptor_patina.tres" id="444_3ciaf"]
+[ext_resource type="Resource" uid="uid://bpqh4xk3fa88t" path="res://skylanders/resources/superchargers/superchargers/s4_jet_vac.tres" id="445_8ptsm"]
+[ext_resource type="Resource" uid="uid://043hhrbkrcs8" path="res://skylanders/resources/superchargers/superchargers/s4_jet_vac_legendary.tres" id="446_8hq16"]
+[ext_resource type="Resource" uid="uid://ca818p6kmgkuf" path="res://skylanders/resources/superchargers/superchargers/s4_pop_fizz.tres" id="447_tf56m"]
+[ext_resource type="Resource" uid="uid://bgxa6y4hqj1jc" path="res://skylanders/resources/superchargers/superchargers/s4_pop_fizz_birthday_bash.tres" id="448_k1dpx"]
+[ext_resource type="Resource" uid="uid://b02xbhapdygj7" path="res://skylanders/resources/superchargers/superchargers/s4_stealth_elf.tres" id="449_1feek"]
+[ext_resource type="Resource" uid="uid://dwinxbiiml66e" path="res://skylanders/resources/superchargers/superchargers/s4_stealth_elf_dark.tres" id="450_yys7u"]
+[ext_resource type="Resource" uid="uid://rmicn26sbofr" path="res://skylanders/resources/superchargers/superchargers/s4_terrafin.tres" id="451_gypy1"]
+[ext_resource type="Resource" uid="uid://bdk7o6lr5pa2x" path="res://skylanders/resources/superchargers/superchargers/s4_trigger_happy.tres" id="452_v5ayf"]
+[ext_resource type="Resource" uid="uid://da0slt0yvlknd" path="res://skylanders/resources/superchargers/superchargers/s4_trigger_happy_power_blue.tres" id="453_3u8g4"]
+[ext_resource type="Resource" uid="uid://chk546ky1q0ce" path="res://skylanders/resources/superchargers/superchargers/s5_gill_grunt.tres" id="454_a4hlc"]
+[ext_resource type="Resource" uid="uid://blyfjgl83pnbr" path="res://skylanders/resources/superchargers/vehicles/barrel_blaster.tres" id="455_pqtbg"]
+[ext_resource type="Resource" uid="uid://cspnr4af4k001" path="res://skylanders/resources/superchargers/vehicles/barrel_blaster_dark.tres" id="456_veimx"]
+[ext_resource type="Resource" uid="uid://bmrlbcc2gnr22" path="res://skylanders/resources/superchargers/vehicles/burn_cycle.tres" id="457_p3onu"]
+[ext_resource type="Resource" uid="uid://ccm36iivj74be" path="res://skylanders/resources/superchargers/vehicles/burn_cycle_patina.tres" id="458_04eqe"]
+[ext_resource type="Resource" uid="uid://gq17gnrei0ey" path="res://skylanders/resources/superchargers/vehicles/buzz_wing.tres" id="459_m1s4w"]
+[ext_resource type="Resource" uid="uid://dpuiou786idk5" path="res://skylanders/resources/superchargers/vehicles/clown_cruiser.tres" id="460_pfo3m"]
+[ext_resource type="Resource" uid="uid://8n30vsywb6q7" path="res://skylanders/resources/superchargers/vehicles/clown_cruiser_dark.tres" id="461_6ak7y"]
+[ext_resource type="Resource" uid="uid://bdt7rtq4grkyi" path="res://skylanders/resources/superchargers/vehicles/crypt_crusher.tres" id="462_08ghv"]
+[ext_resource type="Resource" uid="uid://xh8oxfublm0w" path="res://skylanders/resources/superchargers/vehicles/dive_bomber.tres" id="463_v4fvo"]
+[ext_resource type="Resource" uid="uid://b8mdj3gk5jix8" path="res://skylanders/resources/superchargers/vehicles/dive_bomber_spring_ahead.tres" id="464_so41o"]
+[ext_resource type="Resource" uid="uid://coubwjhgnr0rc" path="res://skylanders/resources/superchargers/vehicles/gold_rusher.tres" id="465_jd5fq"]
+[ext_resource type="Resource" uid="uid://bffoyki1bd0i2" path="res://skylanders/resources/superchargers/vehicles/gold_rusher_power_blue.tres" id="466_dbqxb"]
+[ext_resource type="Resource" uid="uid://byuckheu5kggm" path="res://skylanders/resources/superchargers/vehicles/hot_streak.tres" id="467_qvqen"]
+[ext_resource type="Resource" uid="uid://cdyurpvee0wqi" path="res://skylanders/resources/superchargers/vehicles/hot_streak_dark.tres" id="468_gvsgs"]
+[ext_resource type="Resource" uid="uid://cv1fvqth36wof" path="res://skylanders/resources/superchargers/vehicles/hot_streak_event_exclusive.tres" id="469_o8wbk"]
+[ext_resource type="Resource" uid="uid://b6j30r03a232x" path="res://skylanders/resources/superchargers/vehicles/hot_streak_gold.tres" id="470_qq1fs"]
+[ext_resource type="Resource" uid="uid://dtahqxo1qgst1" path="res://skylanders/resources/superchargers/vehicles/hot_streak_mobile.tres" id="471_vqorv"]
+[ext_resource type="Resource" uid="uid://dvj1b3sp2h6ms" path="res://skylanders/resources/superchargers/vehicles/jet_stream.tres" id="472_8710o"]
+[ext_resource type="Resource" uid="uid://dtw1d8otalb4e" path="res://skylanders/resources/superchargers/vehicles/reef_ripper.tres" id="473_je8xc"]
+[ext_resource type="Resource" uid="uid://bsk8ir2es0jcj" path="res://skylanders/resources/superchargers/vehicles/sea_shadow.tres" id="474_4ctid"]
+[ext_resource type="Resource" uid="uid://d1usyygf5xtvj" path="res://skylanders/resources/superchargers/vehicles/sea_shadow_dark.tres" id="475_gh123"]
+[ext_resource type="Resource" uid="uid://bok0vyng8hkg4" path="res://skylanders/resources/superchargers/vehicles/shark_tank.tres" id="476_nngqu"]
+[ext_resource type="Resource" uid="uid://c5106k2kb5l5f" path="res://skylanders/resources/superchargers/vehicles/shield_striker.tres" id="477_e7b83"]
+[ext_resource type="Resource" uid="uid://by2kt8j7rs0ld" path="res://skylanders/resources/superchargers/vehicles/shield_striker_patina.tres" id="478_qvisn"]
+[ext_resource type="Resource" uid="uid://b6rodh268qkss" path="res://skylanders/resources/superchargers/vehicles/sky_slicer.tres" id="479_m2mas"]
+[ext_resource type="Resource" uid="uid://ckfpc14ee8cmb" path="res://skylanders/resources/superchargers/vehicles/soda_skimmer.tres" id="480_soa2n"]
+[ext_resource type="Resource" uid="uid://bv4mlo02b06t4" path="res://skylanders/resources/superchargers/vehicles/soda_skimmer_nitro.tres" id="481_qwn0q"]
+[ext_resource type="Resource" uid="uid://crqj6kphyjdvn" path="res://skylanders/resources/superchargers/vehicles/splatter_splasher.tres" id="482_exyg8"]
+[ext_resource type="Resource" uid="uid://v7xuj7oryxdp" path="res://skylanders/resources/superchargers/vehicles/splatter_splasher_power_blue.tres" id="483_6icp4"]
+[ext_resource type="Resource" uid="uid://cvbq5kpgscbd" path="res://skylanders/resources/superchargers/vehicles/stealth_stinger.tres" id="484_d0q74"]
+[ext_resource type="Resource" uid="uid://db5kgtjiyo8y0" path="res://skylanders/resources/superchargers/vehicles/stealth_stinger_nitro.tres" id="485_yo62g"]
+[ext_resource type="Resource" uid="uid://cx06a4ano3o4k" path="res://skylanders/resources/superchargers/vehicles/sun_runner.tres" id="486_lhivb"]
+[ext_resource type="Resource" uid="uid://dnwjtowg4p6l5" path="res://skylanders/resources/superchargers/vehicles/sun_runner_legendary.tres" id="487_txcxp"]
+[ext_resource type="Resource" uid="uid://c4uhpmqep6xe1" path="res://skylanders/resources/superchargers/vehicles/thump_truck.tres" id="488_t17iu"]
+[ext_resource type="Resource" uid="uid://cryvtwfeeit6m" path="res://skylanders/resources/superchargers/vehicles/tomb_buggy.tres" id="489_eo0ud"]
+[ext_resource type="Resource" uid="uid://bk3le6dn8fb3p" path="res://skylanders/resources/superchargers/vehicles/tomb_buggy_bronze.tres" id="490_o0jru"]
+[ext_resource type="Resource" uid="uid://bkh0wb7e4t478" path="res://skylanders/resources/imaginators/air_strike.tres" id="491_mthb6"]
+[ext_resource type="Resource" uid="uid://mpg3hbpkfrkc" path="res://skylanders/resources/imaginators/air_strike_egg_bomber.tres" id="492_1qd83"]
+[ext_resource type="Resource" uid="uid://bdh4ya4ptv5dx" path="res://skylanders/resources/imaginators/ambush.tres" id="493_y15ku"]
+[ext_resource type="Resource" uid="uid://7bpb7feu66ka" path="res://skylanders/resources/imaginators/aurora.tres" id="494_8mcwb"]
+[ext_resource type="Resource" uid="uid://c3c0qfovq3kyo" path="res://skylanders/resources/imaginators/aurora_solar_flare.tres" id="495_j50y3"]
+[ext_resource type="Resource" uid="uid://cgs8a41x1tnbx" path="res://skylanders/resources/imaginators/bad_juju.tres" id="496_8ty8s"]
+[ext_resource type="Resource" uid="uid://lpx8ylu6t8h6" path="res://skylanders/resources/imaginators/bad_juju_mystical.tres" id="497_30hk4"]
+[ext_resource type="Resource" uid="uid://coa4u4erxk7f1" path="res://skylanders/resources/imaginators/barbella.tres" id="498_nug4w"]
+[ext_resource type="Resource" uid="uid://cfm47pkukcegi" path="res://skylanders/resources/imaginators/barbella_pink.tres" id="499_m50jv"]
+[ext_resource type="Resource" uid="uid://te5xtkg0iy1k" path="res://skylanders/resources/imaginators/blaster_tron.tres" id="500_0hin5"]
+[ext_resource type="Resource" uid="uid://dtlqns7mhewwj" path="res://skylanders/resources/imaginators/boom_bloom.tres" id="501_wb7vu"]
+[ext_resource type="Resource" uid="uid://duy513ss3tfio" path="res://skylanders/resources/imaginators/buckshot.tres" id="502_on5kj"]
+[ext_resource type="Resource" uid="uid://cs2r2hckoe5sy" path="res://skylanders/resources/imaginators/buckshot_heartbreaker.tres" id="503_tetb2"]
+[ext_resource type="Resource" uid="uid://cno2iwx4aqkp8" path="res://skylanders/resources/imaginators/chain_reaction.tres" id="504_08o4u"]
+[ext_resource type="Resource" uid="uid://c6vrivc6makva" path="res://skylanders/resources/imaginators/chain_reaction_orange.tres" id="505_k13wk"]
+[ext_resource type="Resource" uid="uid://ckbxhnx0mp30c" path="res://skylanders/resources/imaginators/chompy_mage.tres" id="506_koyfu"]
+[ext_resource type="Resource" uid="uid://100wnd15b5cs" path="res://skylanders/resources/imaginators/chompy_mage_jingle_bell.tres" id="507_7d5ju"]
+[ext_resource type="Resource" uid="uid://b52mq2vbuetdb" path="res://skylanders/resources/imaginators/chopscotch.tres" id="508_1jf0d"]
+[ext_resource type="Resource" uid="uid://bf5xiedecgvb7" path="res://skylanders/resources/imaginators/chopscotch_candy_coated.tres" id="509_lpjf2"]
+[ext_resource type="Resource" uid="uid://cuesgyvtivdgc" path="res://skylanders/resources/imaginators/crash_bandicoot.tres" id="510_gt611"]
+[ext_resource type="Resource" uid="uid://iwpclwlaseq1" path="res://skylanders/resources/imaginators/dr_krankcase.tres" id="511_1xljf"]
+[ext_resource type="Resource" uid="uid://0nx8edlgg50e" path="res://skylanders/resources/imaginators/dr_neo_cortex.tres" id="512_8sdsq"]
+[ext_resource type="Resource" uid="uid://buy3xylotwnx5" path="res://skylanders/resources/imaginators/ember.tres" id="513_inxcr"]
+[ext_resource type="Resource" uid="uid://jw08vrjjv4jr" path="res://skylanders/resources/imaginators/ember_dec_ember.tres" id="514_os4q2"]
+[ext_resource type="Resource" uid="uid://jhccbnwqkum1" path="res://skylanders/resources/imaginators/flare_wolf.tres" id="515_kc2tg"]
+[ext_resource type="Resource" uid="uid://gagx2wglpd2t" path="res://skylanders/resources/imaginators/flare_wolf_hard_boiled.tres" id="516_y3nc7"]
+[ext_resource type="Resource" uid="uid://db63pyedmjkvk" path="res://skylanders/resources/imaginators/golden_queen.tres" id="517_g3uqd"]
+[ext_resource type="Resource" uid="uid://bt1k8cssr4ros" path="res://skylanders/resources/imaginators/golden_queen_dark.tres" id="518_g7bmo"]
+[ext_resource type="Resource" uid="uid://ddv62gl4teapd" path="res://skylanders/resources/imaginators/grave_clobber.tres" id="519_eplan"]
+[ext_resource type="Resource" uid="uid://ddlp0xapkr4o4" path="res://skylanders/resources/imaginators/hood_sickle.tres" id="520_3ban7"]
+[ext_resource type="Resource" uid="uid://swww708evkn1" path="res://skylanders/resources/imaginators/hood_sickle_steel_plated.tres" id="521_6yr73"]
+[ext_resource type="Resource" uid="uid://2cv8b7w2xbv" path="res://skylanders/resources/imaginators/kaos.tres" id="522_qcxm3"]
+[ext_resource type="Resource" uid="uid://blmongtoriu4j" path="res://skylanders/resources/imaginators/king_pen.tres" id="523_6sqb3"]
+[ext_resource type="Resource" uid="uid://cypsmjha0kt25" path="res://skylanders/resources/imaginators/king_pen_dark.tres" id="524_it2xq"]
+[ext_resource type="Resource" uid="uid://boj8snt4hxp8e" path="res://skylanders/resources/imaginators/pain_yatta.tres" id="525_r48su"]
+[ext_resource type="Resource" uid="uid://d45y7x4qsqbm" path="res://skylanders/resources/imaginators/pain_yatta_rock_candy.tres" id="526_06r2k"]
+[ext_resource type="Resource" uid="uid://b06snun5blshf" path="res://skylanders/resources/imaginators/pit_boss.tres" id="527_8rm0c"]
+[ext_resource type="Resource" uid="uid://dsw5l7mknfhpa" path="res://skylanders/resources/imaginators/pit_boss_legendary.tres" id="528_d7tj6"]
+[ext_resource type="Resource" uid="uid://chf5q7w7h8vpa" path="res://skylanders/resources/imaginators/ro_bow.tres" id="529_x80r1"]
+[ext_resource type="Resource" uid="uid://b21ytau2pgsue" path="res://skylanders/resources/imaginators/starcast.tres" id="530_vndwe"]
+[ext_resource type="Resource" uid="uid://bb5cfeul05suf" path="res://skylanders/resources/imaginators/starcast_clear.tres" id="531_k4mbm"]
+[ext_resource type="Resource" uid="uid://daf0tc5s4yf7g" path="res://skylanders/resources/imaginators/starcast_happy_birthday_ben.tres" id="532_y7225"]
+[ext_resource type="Resource" uid="uid://c3l7mfc716iy2" path="res://skylanders/resources/imaginators/tae_kwon_crow.tres" id="533_atqqq"]
+[ext_resource type="Resource" uid="uid://culvs5c5ufxcw" path="res://skylanders/resources/imaginators/tae_kwon_crow_mystical.tres" id="534_6n06b"]
+[ext_resource type="Resource" uid="uid://bpxpb8436yvjf" path="res://skylanders/resources/imaginators/tidepool.tres" id="535_abu3s"]
+[ext_resource type="Resource" uid="uid://c6vi151ilspcl" path="res://skylanders/resources/imaginators/tri_tip.tres" id="536_wjdvq"]
+[ext_resource type="Resource" uid="uid://chibu5aifynoy" path="res://skylanders/resources/imaginators/tri_tip_legendary.tres" id="537_v1act"]
+[ext_resource type="Resource" uid="uid://cex6gmldeb537" path="res://skylanders/resources/imaginators/wild_storm.tres" id="538_25uw3"]
+[ext_resource type="Resource" uid="uid://b4s04jmnxfjcl" path="res://skylanders/resources/imaginators/wolfgang.tres" id="539_uj630"]
+[ext_resource type="Resource" uid="uid://lx7lf87c0i0p" path="res://skylanders/resources/imaginators/wolfgang_dark.tres" id="540_0aihi"]
+[ext_resource type="Resource" uid="uid://3x7y1o15hgii" path="res://skylanders/resources/imaginators/mysticat.tres" id="541_i32i1"]
+[ext_resource type="Resource" uid="uid://dhlr8gf46bxno" path="res://skylanders/resources/imaginators/magic_items/blue_chest_lost_imaginite_mines.tres" id="542_vbn00"]
+[ext_resource type="Resource" uid="uid://djvauq38ik1gm" path="res://skylanders/resources/imaginators/magic_items/blue_chest_tiki_temple.tres" id="543_06mtm"]
+[ext_resource type="Resource" uid="uid://bsveisay100va" path="res://skylanders/resources/imaginators/magic_items/bronze_mystery_chest.tres" id="544_5xe4q"]
+[ext_resource type="Resource" uid="uid://cbyku7ligvb3b" path="res://skylanders/resources/imaginators/magic_items/gold_mystery_chest.tres" id="545_sc7ok"]
+[ext_resource type="Resource" uid="uid://ddq74bedmga5f" path="res://skylanders/resources/imaginators/magic_items/silver_mystery_chest.tres" id="546_a2feu"]
+[ext_resource type="Resource" uid="uid://vkdgsnj4igp0" path="res://skylanders/resources/imaginators/magic_items/enchanted_elven_forest.tres" id="547_x5ea8"]
+[ext_resource type="Resource" uid="uid://b08ruft7hiq2p" path="res://skylanders/resources/imaginators/magic_items/gryphon_park_observatory.tres" id="548_4vrh4"]
+[ext_resource type="Resource" uid="uid://umlxnpealxbx" path="res://skylanders/resources/imaginators/creation_crystals/air_acorn.tres" id="549_kguc8"]
+[ext_resource type="Resource" uid="uid://dn3g3kta2ee8f" path="res://skylanders/resources/imaginators/creation_crystals/air_angel.tres" id="550_nss0l"]
+[ext_resource type="Resource" uid="uid://ckqfe175p76as" path="res://skylanders/resources/imaginators/creation_crystals/air_lantern.tres" id="551_86u81"]
+[ext_resource type="Resource" uid="uid://li3xdqm680r2" path="res://skylanders/resources/imaginators/creation_crystals/dark_pyramid.tres" id="552_p28bt"]
+[ext_resource type="Resource" uid="uid://b7po4v27saqvx" path="res://skylanders/resources/imaginators/creation_crystals/dark_reactor.tres" id="553_ekbig"]
+[ext_resource type="Resource" uid="uid://c2ynrn0a8fo5i" path="res://skylanders/resources/imaginators/creation_crystals/dark_rune.tres" id="554_esle0"]
+[ext_resource type="Resource" uid="uid://i6k66xnqbq01" path="res://skylanders/resources/imaginators/creation_crystals/earth_armor.tres" id="555_3f62p"]
+[ext_resource type="Resource" uid="uid://b72iftosd3k50" path="res://skylanders/resources/imaginators/creation_crystals/earth_rocket.tres" id="556_55d8d"]
+[ext_resource type="Resource" uid="uid://1chout5p2emo" path="res://skylanders/resources/imaginators/creation_crystals/earth_rune.tres" id="557_r26ko"]
+[ext_resource type="Resource" uid="uid://foo655oaash" path="res://skylanders/resources/imaginators/creation_crystals/fire_acorn.tres" id="558_gxa1a"]
+[ext_resource type="Resource" uid="uid://c2hi0wqncwxq0" path="res://skylanders/resources/imaginators/creation_crystals/fire_angel.tres" id="559_38w3r"]
+[ext_resource type="Resource" uid="uid://kgwo436mksp4" path="res://skylanders/resources/imaginators/creation_crystals/fire_reactor.tres" id="560_xrhg7"]
+[ext_resource type="Resource" uid="uid://mtn5ins31m3v" path="res://skylanders/resources/imaginators/creation_crystals/life_acorn.tres" id="561_yfkr5"]
+[ext_resource type="Resource" uid="uid://cujiu7v0x3xka" path="res://skylanders/resources/imaginators/creation_crystals/life_acorn_legendary.tres" id="562_rogno"]
+[ext_resource type="Resource" uid="uid://bmg5isxw7icjd" path="res://skylanders/resources/imaginators/creation_crystals/life_claw.tres" id="563_60r2l"]
+[ext_resource type="Resource" uid="uid://cduxgmepf0xoq" path="res://skylanders/resources/imaginators/creation_crystals/life_rocket.tres" id="564_j052t"]
+[ext_resource type="Resource" uid="uid://ddl4dv2yspfcq" path="res://skylanders/resources/imaginators/creation_crystals/life_rune.tres" id="565_pgh8t"]
+[ext_resource type="Resource" uid="uid://0c2cy7045dcp" path="res://skylanders/resources/imaginators/creation_crystals/light_angel.tres" id="566_b3tjb"]
+[ext_resource type="Resource" uid="uid://dmchg0gohwxx8" path="res://skylanders/resources/imaginators/creation_crystals/light_fanged.tres" id="567_gmd4f"]
+[ext_resource type="Resource" uid="uid://dk3nd1u51bfbr" path="res://skylanders/resources/imaginators/creation_crystals/light_fanged_legendary.tres" id="568_515ne"]
+[ext_resource type="Resource" uid="uid://uy222163r7yp" path="res://skylanders/resources/imaginators/creation_crystals/light_rune.tres" id="569_dmf8p"]
+[ext_resource type="Resource" uid="uid://cfbte0h0fx1h1" path="res://skylanders/resources/imaginators/creation_crystals/magic_claw.tres" id="570_qxfsd"]
+[ext_resource type="Resource" uid="uid://7ajtlowt3idt" path="res://skylanders/resources/imaginators/creation_crystals/magic_lantern.tres" id="571_k1ai3"]
+[ext_resource type="Resource" uid="uid://c3mllorw88g4p" path="res://skylanders/resources/imaginators/creation_crystals/magic_lantern_legendary.tres" id="572_pwwbr"]
+[ext_resource type="Resource" uid="uid://c7cgjhtfkdxk" path="res://skylanders/resources/imaginators/creation_crystals/magic_pyramid.tres" id="573_5jhhl"]
+[ext_resource type="Resource" uid="uid://cac6ol7s6bca3" path="res://skylanders/resources/imaginators/creation_crystals/tech_armor.tres" id="574_yp5l6"]
+[ext_resource type="Resource" uid="uid://c111nhteno0n5" path="res://skylanders/resources/imaginators/creation_crystals/tech_pyramid.tres" id="575_v5x0m"]
+[ext_resource type="Resource" uid="uid://dwijy6gocuhu2" path="res://skylanders/resources/imaginators/creation_crystals/tech_reactor.tres" id="576_kc6m5"]
+[ext_resource type="Resource" uid="uid://fij6mwmtdwi4" path="res://skylanders/resources/imaginators/creation_crystals/undead_claw.tres" id="577_7r7jj"]
+[ext_resource type="Resource" uid="uid://jmonqurtjwpa" path="res://skylanders/resources/imaginators/creation_crystals/undead_fanged.tres" id="578_krkkh"]
+[ext_resource type="Resource" uid="uid://cyl6hy7fvxt2w" path="res://skylanders/resources/imaginators/creation_crystals/undead_lantern.tres" id="579_e1m8v"]
+[ext_resource type="Resource" uid="uid://dl1d01bof4igb" path="res://skylanders/resources/imaginators/creation_crystals/water_armor.tres" id="580_aomjm"]
+[ext_resource type="Resource" uid="uid://bxcmx3usefdqm" path="res://skylanders/resources/imaginators/creation_crystals/water_fanged.tres" id="581_1w2ka"]
+[ext_resource type="Resource" uid="uid://c6kj2ha0ktii2" path="res://skylanders/resources/imaginators/creation_crystals/water_rocket.tres" id="582_krfg6"]
+[ext_resource type="Resource" uid="uid://b4kulgurgpho4" path="res://skylanders/resources/eons_elite/eons_elite_boomer.tres" id="583_4y74n"]
+[ext_resource type="Resource" uid="uid://1n0j7m5h5bbo" path="res://skylanders/resources/eons_elite/eons_elite_chop_chop.tres" id="584_wpjje"]
+[ext_resource type="Resource" uid="uid://bfgvgeysgy2on" path="res://skylanders/resources/eons_elite/eons_elite_dino_rang.tres" id="585_j2grh"]
+[ext_resource type="Resource" uid="uid://ckwp40rgv5htr" path="res://skylanders/resources/eons_elite/eons_elite_eruptor.tres" id="586_n36tl"]
+[ext_resource type="Resource" uid="uid://5qgi47oximln" path="res://skylanders/resources/eons_elite/eons_elite_ghost_roaster.tres" id="587_h1lnv"]
+[ext_resource type="Resource" uid="uid://1o63ffistewk" path="res://skylanders/resources/eons_elite/eons_elite_gill_grunt.tres" id="588_f7asd"]
+[ext_resource type="Resource" uid="uid://cemyp23cc8oht" path="res://skylanders/resources/eons_elite/eons_elite_slam_bam.tres" id="589_x3o16"]
+[ext_resource type="Resource" uid="uid://b6dsnxel4x1jp" path="res://skylanders/resources/eons_elite/eons_elite_spyro.tres" id="590_5j40v"]
+[ext_resource type="Resource" uid="uid://bmelcvpea45c8" path="res://skylanders/resources/eons_elite/eons_elite_stealth_elf.tres" id="591_wobu0"]
+[ext_resource type="Resource" uid="uid://dpcpq81osyvpp" path="res://skylanders/resources/eons_elite/eons_elite_terrafin.tres" id="592_1t5jh"]
+[ext_resource type="Resource" uid="uid://d1ow4ly8wrmcg" path="res://skylanders/resources/eons_elite/eons_elite_trigger_happy.tres" id="593_b6cfx"]
+[ext_resource type="Resource" uid="uid://duyhx3r4gpvpu" path="res://skylanders/resources/eons_elite/eons_elite_voodood.tres" id="594_usbpu"]
+[ext_resource type="Resource" uid="uid://db8xl76ybjt6a" path="res://skylanders/resources/eons_elite/eons_elite_whirlwind.tres" id="595_qnk85"]
+[ext_resource type="Resource" uid="uid://dg3red6wj0gxw" path="res://skylanders/resources/eons_elite/eons_elite_zook.tres" id="596_sx7ox"]
+[ext_resource type="Resource" uid="uid://c5x2owp2j7qi2" path="res://skylanders/resources/giants/s1_pop_fizz_lightcore.tres" id="597_wgmta"]
+[ext_resource type="Resource" uid="uid://bpgjqdapbmygk" path="res://skylanders/resources/giants/s2_wrecking_ball_metallic_purple.tres" id="598_gq84p"]
+[ext_resource type="Resource" uid="uid://dukr8ytvxlufk" path="res://skylanders/resources/swap_force/core/s2_jet_vac.tres" id="599_3f6r5"]
+[ext_resource type="Resource" uid="uid://lxxps2saytte" path="res://skylanders/resources/trap_team/core/s1_flip_wreck.tres" id="600_dyrer"]
+[ext_resource type="Resource" uid="uid://ct14mvq1eebj1" path="res://skylanders/resources/trap_team/core/s1_food_fight.tres" id="601_uymmx"]
+[ext_resource type="Resource" uid="uid://54wcniibmxga" path="res://skylanders/resources/trap_team/core/s1_funny_bone.tres" id="602_cqc2w"]
+[ext_resource type="Script" path="res://scenes/scroll_container_script.gd" id="602_h3u1a"]
+[ext_resource type="Resource" uid="uid://bauq0h6bkfpmq" path="res://skylanders/resources/trap_team/core/s1_high_five.tres" id="603_33si8"]
+[ext_resource type="Script" path="res://permission_requester.gd" id="603_jmql8"]
+[ext_resource type="Resource" uid="uid://dw6o6undi8t1s" path="res://skylanders/resources/trap_team/minis/s1_small_fry.tres" id="604_2jl3n"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d3b6n"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+anti_aliasing_size = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w04m4"]
+bg_color = Color(1, 1, 1, 0.901961)
+border_blend = true
+corner_radius_top_left = 24
+corner_radius_top_right = 24
+corner_radius_bottom_right = 24
+corner_radius_bottom_left = 24
+anti_aliasing_size = 10.0
+
+[node name="MainScene" type="Node2D" node_paths=PackedStringArray("new_collection_button", "load_collection_button", "view_collections_screen", "collection_view", "scroll_container", "name_collection_dialog", "done_naming_button", "collection_name_editor", "amount_collected_label", "load_collection_dialog", "collection_name_label", "delete_collections_dialog", "settings_screen", "vert_scroller", "exit_program_button", "back_to_menu_button", "vers_label")]
+script = ExtResource("1_vkhvy")
+new_collection_button = NodePath("CanvasLayer/MainControl/StartNewCollection")
+load_collection_button = NodePath("CanvasLayer/MainControl/LoadCollection")
+view_collections_screen = NodePath("CanvasLayer/MainControl/ViewCollections")
+collection_view = NodePath("CanvasLayer/MainControl/CollectionScreen")
+skylander_display = ExtResource("2_14nrg")
+default_co1lection = Array[ExtResource("3_xkx7j")]([ExtResource("4_fqr51"), ExtResource("5_23lt2"), ExtResource("6_dl35c"), ExtResource("7_2chud"), ExtResource("8_wvlq7"), ExtResource("9_827cq"), ExtResource("10_vptxl"), ExtResource("11_4klo4"), ExtResource("12_w2sby"), ExtResource("13_ajkup"), ExtResource("14_u62i2"), ExtResource("15_obops"), ExtResource("16_yc17m"), ExtResource("4_wmofh"), ExtResource("18_fv3cv"), ExtResource("19_6g23p"), ExtResource("5_4d5vs"), ExtResource("21_pkd5s"), ExtResource("6_02h3p"), ExtResource("23_8aour"), ExtResource("7_dk8g0"), ExtResource("25_ruyb0"), ExtResource("26_8rkak"), ExtResource("8_50kod"), ExtResource("28_eql6l"), ExtResource("29_x23lv"), ExtResource("9_8nq4g"), ExtResource("31_7gi4i"), ExtResource("10_26llq"), ExtResource("11_5m4rv"), ExtResource("34_jv5a8"), ExtResource("35_c0i43"), ExtResource("12_g5kee"), ExtResource("13_1pro0"), ExtResource("38_tp4m8"), ExtResource("14_ts6p7"), ExtResource("40_jtect"), ExtResource("15_ox7ey"), ExtResource("16_04t4w"), ExtResource("43_jsq0y"), ExtResource("44_lcn57"), ExtResource("17_f27up"), ExtResource("46_630pt"), ExtResource("18_k008v"), ExtResource("19_idnop"), ExtResource("20_v03a5"), ExtResource("21_dndkt"), ExtResource("22_msede"), ExtResource("23_20m3l"), ExtResource("53_308ep"), ExtResource("54_k1m1t"), ExtResource("55_2o0wg"), ExtResource("24_jefyx"), ExtResource("57_lqqpf"), ExtResource("58_ia8sa"), ExtResource("59_gquoh"), ExtResource("60_v3pul"), ExtResource("61_euref"), ExtResource("62_vr2ix"), ExtResource("63_to26s"), ExtResource("64_8wad6"), ExtResource("65_eudtn"), ExtResource("66_kfb37"), ExtResource("67_0lup5"), ExtResource("68_8yjda"), ExtResource("69_dnvqo"), ExtResource("70_ppk18"), ExtResource("71_2wrku"), ExtResource("72_swdow"), ExtResource("73_u0pp7"), ExtResource("74_hw2tn"), ExtResource("75_b00vl"), ExtResource("76_bx8vt"), ExtResource("77_73flf"), ExtResource("78_xi4sn"), ExtResource("79_pam8s"), ExtResource("80_npqd3"), ExtResource("81_ldojf"), ExtResource("82_hvupt"), ExtResource("83_on7j3"), ExtResource("84_ye134"), ExtResource("85_ei7i6"), ExtResource("86_wg3ne"), ExtResource("87_m0e13"), ExtResource("88_6piwa"), ExtResource("89_lpxmg"), ExtResource("90_442ok"), ExtResource("91_f56m8"), ExtResource("92_hclux"), ExtResource("93_k7eih"), ExtResource("94_c17uj"), ExtResource("95_5rlnf"), ExtResource("96_6qgj2"), ExtResource("97_eu7qp"), ExtResource("98_o6mp5"), ExtResource("99_x101w"), ExtResource("100_2o4up"), ExtResource("101_iw7fn"), ExtResource("102_mb5qk"), ExtResource("103_gv3th"), ExtResource("104_onuuk"), ExtResource("105_qlmll"), ExtResource("106_uwfjv"), ExtResource("107_ghuse"), ExtResource("108_7b37w"), ExtResource("109_0bepm"), ExtResource("110_1h6ao"), ExtResource("111_r1lfn"), ExtResource("112_104l4"), ExtResource("113_x4288"), ExtResource("114_10kti"), ExtResource("115_xqf0m"), ExtResource("116_3xu5f"), ExtResource("117_m4wmx"), ExtResource("118_oe8vd"), ExtResource("119_ftl3v"), ExtResource("120_muj85"), ExtResource("121_sgqb0"), ExtResource("122_h2a2j"), ExtResource("123_wtbh2"), ExtResource("124_s5vi0"), ExtResource("125_axss1"), ExtResource("126_eb6ft"), ExtResource("127_umrhs"), ExtResource("128_s5b45"), ExtResource("129_0udej"), ExtResource("130_43y4l"), ExtResource("131_n4m2g"), ExtResource("132_mlpq1"), ExtResource("133_5tde5"), ExtResource("134_ltx3k"), ExtResource("135_e5ufm"), ExtResource("136_57ybv"), ExtResource("137_787d8"), ExtResource("138_b2kc4"), ExtResource("139_lcknq"), ExtResource("140_61gf3"), ExtResource("141_wi4sp"), ExtResource("142_2x3ke"), ExtResource("143_lei0d"), ExtResource("144_6kheg"), ExtResource("145_t1udr"), ExtResource("146_x6vo8"), ExtResource("147_1io7o"), ExtResource("148_jwyij"), ExtResource("149_432ly"), ExtResource("150_pp8np"), ExtResource("151_sghav"), ExtResource("152_8ncdx"), ExtResource("153_b258m"), ExtResource("154_7eytx"), ExtResource("155_42i65"), ExtResource("156_yhelh"), ExtResource("157_cnhfj"), ExtResource("158_i1esn"), ExtResource("159_avv2y"), ExtResource("160_2q37s"), ExtResource("161_88ja2"), ExtResource("162_rg3yf"), ExtResource("163_s3j7t"), ExtResource("164_w6kne"), ExtResource("165_y22wf"), ExtResource("166_dcic0"), ExtResource("167_p5not"), ExtResource("168_1kiui"), ExtResource("169_0y14k"), ExtResource("170_27djj"), ExtResource("171_04b1i"), ExtResource("172_rviq7"), ExtResource("173_kuh4p"), ExtResource("174_wba14"), ExtResource("175_32bx3"), ExtResource("176_2nqka"), ExtResource("177_bss4l"), ExtResource("178_shhc3"), ExtResource("179_pisya"), ExtResource("180_14g1l"), ExtResource("181_xqdcj"), ExtResource("182_n0lel"), ExtResource("183_0n5l3"), ExtResource("184_kn428"), ExtResource("185_2mrix"), ExtResource("186_kceyh"), ExtResource("187_6v0w8"), ExtResource("188_vxuaq"), ExtResource("189_orsy3"), ExtResource("190_2jtao"), ExtResource("191_ku1ok"), ExtResource("192_ov7id"), ExtResource("193_sxj1l"), ExtResource("194_r83xw"), ExtResource("195_7oqq0"), ExtResource("196_poqkw"), ExtResource("197_u3na5"), ExtResource("198_k03fb"), ExtResource("199_tr30d"), ExtResource("200_jdhot"), ExtResource("201_po6lc"), ExtResource("202_qmn62"), ExtResource("203_bdb6n"), ExtResource("204_caoiu"), ExtResource("205_kt0ft"), ExtResource("206_vdsnx"), ExtResource("207_iqiw5"), ExtResource("208_fjs2r"), ExtResource("209_skx7r"), ExtResource("210_gid3g"), ExtResource("211_lv71d"), ExtResource("212_rvm2g"), ExtResource("213_xjp14"), ExtResource("214_5ocgs"), ExtResource("215_rbomi"), ExtResource("216_mu7yr"), ExtResource("217_xuj48"), ExtResource("218_4gsrd"), ExtResource("219_d4idx"), ExtResource("220_3d473"), ExtResource("221_8xlg5"), ExtResource("222_m7byl"), ExtResource("223_k2a1v"), ExtResource("224_amc2w"), ExtResource("225_jv6gc"), ExtResource("226_f77jg"), ExtResource("227_55ahy"), ExtResource("228_te2ah"), ExtResource("229_gp6kl"), ExtResource("230_xcow1"), ExtResource("231_v6psh"), ExtResource("232_2qd44"), ExtResource("233_p5ckg"), ExtResource("234_o74od"), ExtResource("235_prb1q"), ExtResource("236_qu1bq"), ExtResource("237_1aok8"), ExtResource("238_tve1d"), ExtResource("239_ul3ol"), ExtResource("240_u2hku"), ExtResource("241_hu8wi"), ExtResource("242_2k37e"), ExtResource("243_r1vuf"), ExtResource("244_4txqb"), ExtResource("245_mo123"), ExtResource("246_tvhbm"), ExtResource("247_52ft5"), ExtResource("248_0pvd7"), ExtResource("249_eimrh"), ExtResource("250_pjgdt"), ExtResource("251_xknqp"), ExtResource("252_3jywi"), ExtResource("253_n3v40"), ExtResource("254_t04ww"), ExtResource("255_deeyh"), ExtResource("256_rq5lg"), ExtResource("257_tfohu"), ExtResource("258_q12yw"), ExtResource("259_oei3s"), ExtResource("260_u3ion"), ExtResource("261_5y653"), ExtResource("262_c8ovv"), ExtResource("263_as2uo"), ExtResource("264_ukj83"), ExtResource("265_3cfyc"), ExtResource("266_fikp4"), ExtResource("267_nohy7"), ExtResource("268_k51dm"), ExtResource("269_40s24"), ExtResource("270_d7qjc"), ExtResource("271_bsuhw"), ExtResource("272_vbx05"), ExtResource("273_i7o7k"), ExtResource("274_5v33d"), ExtResource("275_y1uam"), ExtResource("276_bnwnd"), ExtResource("277_h4hqv"), ExtResource("278_undo7"), ExtResource("279_ig6i4"), ExtResource("280_vmlf3"), ExtResource("281_51qs1"), ExtResource("282_o1r4v"), ExtResource("283_khixo"), ExtResource("284_llpqv"), ExtResource("285_1y8qp"), ExtResource("286_h7oy4"), ExtResource("287_aqgiu"), ExtResource("288_evksy"), ExtResource("289_epq5q"), ExtResource("290_bpc6q"), ExtResource("291_5pih3"), ExtResource("292_j0ww1"), ExtResource("293_c2y7c"), ExtResource("294_q1n6a"), ExtResource("295_1x0o0"), ExtResource("296_2qjaw"), ExtResource("297_e6u2h"), ExtResource("298_kn7qd"), ExtResource("299_hxrqg"), ExtResource("300_r1a5x"), ExtResource("301_yxeab"), ExtResource("302_ejbmt"), ExtResource("303_bp8d3"), ExtResource("304_0lspr"), ExtResource("305_hfa6u"), ExtResource("306_4a33g"), ExtResource("307_kjalh"), ExtResource("308_8x7iq"), ExtResource("309_yxcg7"), ExtResource("310_0d5c8"), ExtResource("311_ssw52"), ExtResource("312_o2olr"), ExtResource("313_ec118"), ExtResource("314_jggwj"), ExtResource("315_uu5qu"), ExtResource("316_7f4mf"), ExtResource("317_d6udf"), ExtResource("318_q4hmb"), ExtResource("319_h7dgg"), ExtResource("320_4yduv"), ExtResource("321_5wtmd"), ExtResource("322_ln303"), ExtResource("323_qhtiu"), ExtResource("324_ru2tv"), ExtResource("325_kldoh"), ExtResource("326_7fd03"), ExtResource("327_duwpl"), ExtResource("328_fa7a3"), ExtResource("329_a6wms"), ExtResource("330_cmypw"), ExtResource("331_hr8t5"), ExtResource("332_datqx"), ExtResource("333_r8j6m"), ExtResource("334_r8304"), ExtResource("335_cma4c"), ExtResource("336_p014l"), ExtResource("337_jwoaa"), ExtResource("338_8yw1i"), ExtResource("339_mfcna"), ExtResource("340_b2vxs"), ExtResource("341_olcqr"), ExtResource("342_quc2l"), ExtResource("343_f8g28"), ExtResource("344_ke34p"), ExtResource("345_qkmnk"), ExtResource("346_2ulu8"), ExtResource("347_e05kn"), ExtResource("348_sx5tr"), ExtResource("349_o4j1c"), ExtResource("350_fj3o0"), ExtResource("351_bu8hh"), ExtResource("352_v5d6i"), ExtResource("353_firhu"), ExtResource("354_bmi8v"), ExtResource("355_r0iob"), ExtResource("356_s2bcg"), ExtResource("357_jtxes"), ExtResource("358_ujn5i"), ExtResource("359_b57nu"), ExtResource("360_2gfk1"), ExtResource("361_16h0b"), ExtResource("362_cjwpo"), ExtResource("363_udh3j"), ExtResource("364_oy8pd"), ExtResource("365_kvt4a"), ExtResource("366_emovu"), ExtResource("367_sbgvk"), ExtResource("368_n87xq"), ExtResource("369_2a50b"), ExtResource("370_onbwl"), ExtResource("371_35fqp"), ExtResource("372_fkn1m"), ExtResource("373_tcvir"), ExtResource("374_jk1lw"), ExtResource("375_jkepr"), ExtResource("376_f0dri"), ExtResource("377_j5anx"), ExtResource("378_conha"), ExtResource("379_jc1ng"), ExtResource("380_s6loa"), ExtResource("381_svy6m"), ExtResource("382_xw443"), ExtResource("383_fmx1o"), ExtResource("384_6r01r"), ExtResource("385_1lxw1"), ExtResource("386_lxubi"), ExtResource("387_4kot0"), ExtResource("388_bjrfx"), ExtResource("389_7ims4"), ExtResource("390_rpgus"), ExtResource("391_qeb2j"), ExtResource("392_agco1"), ExtResource("393_qj0o1"), ExtResource("394_c4glb"), ExtResource("395_7o06q"), ExtResource("396_caei8"), ExtResource("397_gcolg"), ExtResource("398_dbrn2"), ExtResource("399_jdngp"), ExtResource("400_vtgg3"), ExtResource("401_av5la"), ExtResource("402_mtgky"), ExtResource("403_v45qk"), ExtResource("404_1fl6w"), ExtResource("405_sfubp"), ExtResource("406_xgwu1"), ExtResource("407_shmpy"), ExtResource("408_gixls"), ExtResource("409_gnulv"), ExtResource("410_w5gi5"), ExtResource("411_ookbv"), ExtResource("412_bcj4m"), ExtResource("413_try3m"), ExtResource("414_62i83"), ExtResource("415_otg4u"), ExtResource("416_mke7k"), ExtResource("417_kcxh5"), ExtResource("418_8o01w"), ExtResource("419_x3vq7"), ExtResource("420_db8ct"), ExtResource("421_8iq1c"), ExtResource("422_mpll3"), ExtResource("423_rsjtr"), ExtResource("424_um7gq"), ExtResource("425_i3f7w"), ExtResource("426_rbgfx"), ExtResource("427_k10pf"), ExtResource("428_jvfhc"), ExtResource("429_2d3i5"), ExtResource("430_053hn"), ExtResource("431_avnkb"), ExtResource("432_b4yf4"), ExtResource("433_g8fv0"), ExtResource("434_sjw61"), ExtResource("435_hcfrf"), ExtResource("436_17bwb"), ExtResource("437_bjlpd"), ExtResource("438_vxu2h"), ExtResource("439_skj0t"), ExtResource("440_thhr8"), ExtResource("441_jolyc"), ExtResource("442_6wvob"), ExtResource("443_3ewab"), ExtResource("444_3ciaf"), ExtResource("445_8ptsm"), ExtResource("446_8hq16"), ExtResource("447_tf56m"), ExtResource("448_k1dpx"), ExtResource("449_1feek"), ExtResource("450_yys7u"), ExtResource("451_gypy1"), ExtResource("452_v5ayf"), ExtResource("453_3u8g4"), ExtResource("454_a4hlc"), ExtResource("455_pqtbg"), ExtResource("456_veimx"), ExtResource("457_p3onu"), ExtResource("458_04eqe"), ExtResource("459_m1s4w"), ExtResource("460_pfo3m"), ExtResource("461_6ak7y"), ExtResource("462_08ghv"), ExtResource("463_v4fvo"), ExtResource("464_so41o"), ExtResource("465_jd5fq"), ExtResource("466_dbqxb"), ExtResource("467_qvqen"), ExtResource("468_gvsgs"), ExtResource("469_o8wbk"), ExtResource("470_qq1fs"), ExtResource("471_vqorv"), ExtResource("472_8710o"), ExtResource("473_je8xc"), ExtResource("474_4ctid"), ExtResource("475_gh123"), ExtResource("476_nngqu"), ExtResource("477_e7b83"), ExtResource("478_qvisn"), ExtResource("479_m2mas"), ExtResource("480_soa2n"), ExtResource("481_qwn0q"), ExtResource("482_exyg8"), ExtResource("483_6icp4"), ExtResource("484_d0q74"), ExtResource("485_yo62g"), ExtResource("486_lhivb"), ExtResource("487_txcxp"), ExtResource("488_t17iu"), ExtResource("489_eo0ud"), ExtResource("490_o0jru"), ExtResource("491_mthb6"), ExtResource("492_1qd83"), ExtResource("493_y15ku"), ExtResource("494_8mcwb"), ExtResource("495_j50y3"), ExtResource("496_8ty8s"), ExtResource("497_30hk4"), ExtResource("498_nug4w"), ExtResource("499_m50jv"), ExtResource("500_0hin5"), ExtResource("501_wb7vu"), ExtResource("502_on5kj"), ExtResource("503_tetb2"), ExtResource("504_08o4u"), ExtResource("505_k13wk"), ExtResource("506_koyfu"), ExtResource("507_7d5ju"), ExtResource("508_1jf0d"), ExtResource("509_lpjf2"), ExtResource("510_gt611"), ExtResource("511_1xljf"), ExtResource("512_8sdsq"), ExtResource("513_inxcr"), ExtResource("514_os4q2"), ExtResource("515_kc2tg"), ExtResource("516_y3nc7"), ExtResource("517_g3uqd"), ExtResource("518_g7bmo"), ExtResource("519_eplan"), ExtResource("520_3ban7"), ExtResource("521_6yr73"), ExtResource("522_qcxm3"), ExtResource("523_6sqb3"), ExtResource("524_it2xq"), ExtResource("525_r48su"), ExtResource("526_06r2k"), ExtResource("527_8rm0c"), ExtResource("528_d7tj6"), ExtResource("529_x80r1"), ExtResource("530_vndwe"), ExtResource("531_k4mbm"), ExtResource("532_y7225"), ExtResource("533_atqqq"), ExtResource("534_6n06b"), ExtResource("535_abu3s"), ExtResource("536_wjdvq"), ExtResource("537_v1act"), ExtResource("538_25uw3"), ExtResource("539_uj630"), ExtResource("540_0aihi"), ExtResource("541_i32i1"), ExtResource("542_vbn00"), ExtResource("543_06mtm"), ExtResource("544_5xe4q"), ExtResource("545_sc7ok"), ExtResource("546_a2feu"), ExtResource("547_x5ea8"), ExtResource("548_4vrh4"), ExtResource("549_kguc8"), ExtResource("550_nss0l"), ExtResource("551_86u81"), ExtResource("552_p28bt"), ExtResource("553_ekbig"), ExtResource("554_esle0"), ExtResource("555_3f62p"), ExtResource("556_55d8d"), ExtResource("557_r26ko"), ExtResource("558_gxa1a"), ExtResource("559_38w3r"), ExtResource("560_xrhg7"), ExtResource("561_yfkr5"), ExtResource("562_rogno"), ExtResource("563_60r2l"), ExtResource("564_j052t"), ExtResource("565_pgh8t"), ExtResource("566_b3tjb"), ExtResource("567_gmd4f"), ExtResource("568_515ne"), ExtResource("569_dmf8p"), ExtResource("570_qxfsd"), ExtResource("571_k1ai3"), ExtResource("572_pwwbr"), ExtResource("573_5jhhl"), ExtResource("574_yp5l6"), ExtResource("575_v5x0m"), ExtResource("576_kc6m5"), ExtResource("577_7r7jj"), ExtResource("578_krkkh"), ExtResource("579_e1m8v"), ExtResource("580_aomjm"), ExtResource("581_1w2ka"), ExtResource("582_krfg6"), ExtResource("583_4y74n"), ExtResource("584_wpjje"), ExtResource("585_j2grh"), ExtResource("586_n36tl"), ExtResource("587_h1lnv"), ExtResource("588_f7asd"), ExtResource("589_x3o16"), ExtResource("590_5j40v"), ExtResource("591_wobu0"), ExtResource("592_1t5jh"), ExtResource("593_b6cfx"), ExtResource("594_usbpu"), ExtResource("595_qnk85"), ExtResource("596_sx7ox"), ExtResource("597_wgmta"), ExtResource("598_gq84p"), ExtResource("599_3f6r5"), ExtResource("600_dyrer"), ExtResource("601_uymmx"), ExtResource("602_cqc2w"), ExtResource("603_33si8"), ExtResource("604_2jl3n")])
+scroll_container = NodePath("CanvasLayer/MainControl/CollectionScreen/VScrollBar/GridContainer")
+name_collection_dialog = NodePath("CanvasLayer/MainControl/NameNewCollectionControl")
+done_naming_button = NodePath("CanvasLayer/MainControl/NameNewCollectionControl/Dialog/DoneButton")
+collection_name_editor = NodePath("CanvasLayer/MainControl/NameNewCollectionControl/Dialog/CollectionNameEditor")
+amount_collected_label = NodePath("CanvasLayer/MainControl/CollectionScreen/AmountCollected")
+load_collection_dialog = NodePath("CanvasLayer/MainControl/FileDialog")
+skylander_collection_exporter = ExtResource("7_gdu77")
+collection_name_label = NodePath("CanvasLayer/MainControl/CollectionScreen/CollectionName")
+delete_collections_dialog = NodePath("CanvasLayer/MainControl/FileDialogViewCollections")
+settings_screen = NodePath("CanvasLayer/MainControl/SettingsScreen")
+vert_scroller = NodePath("CanvasLayer/MainControl/CollectionScreen/VScrollBar")
+exit_program_button = NodePath("CanvasLayer/MainControl/ExitButton")
+back_to_menu_button = NodePath("CanvasLayer/MainControl/BackToMainMenu")
+vers_label = NodePath("CanvasLayer/MainControl/Title/AttributionAndVers")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="MainControl" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/MainControl"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_f7kmu")
+expand_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer/MainControl"]
+self_modulate = Color(1, 1, 1, 0.784314)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.587069, 0.632545, 0.816655, 0.752941)
+
+[node name="StartNewCollection" type="Button" parent="CanvasLayer/MainControl"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -382.0
+offset_bottom = -294.0
+grow_horizontal = 2
+grow_vertical = 0
+focus_mode = 0
+mouse_filter = 1
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 72
+text = "Start New Collection"
+flat = true
+autowrap_mode = 3
+
+[node name="LoadCollection" type="Button" parent="CanvasLayer/MainControl"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -287.0
+offset_bottom = -199.0
+grow_horizontal = 2
+grow_vertical = 0
+focus_mode = 0
+mouse_filter = 1
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 72
+text = "Load Collection"
+flat = true
+autowrap_mode = 3
+
+[node name="Settings" type="Button" parent="CanvasLayer/MainControl"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -88.0
+grow_horizontal = 2
+grow_vertical = 0
+focus_mode = 0
+mouse_filter = 1
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 72
+text = "Settings"
+flat = true
+
+[node name="ViewCollectionFiles" type="Button" parent="CanvasLayer/MainControl"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -178.0
+offset_bottom = -90.0
+grow_horizontal = 2
+grow_vertical = 0
+focus_mode = 0
+mouse_filter = 1
+theme = ExtResource("172_njq2s")
+theme_override_colors/font_hover_color = Color(0.638884, 2.02149e-06, 4.81307e-07, 1)
+theme_override_colors/font_pressed_color = Color(0.638884, 2.02149e-06, 4.81307e-07, 1)
+theme_override_colors/font_color = Color(0.638884, 2.02149e-06, 4.81307e-07, 1)
+theme_override_font_sizes/font_size = 72
+text = "Delete Collection"
+flat = true
+
+[node name="TempBlackout" type="ColorRect" parent="CanvasLayer/MainControl"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.803922)
+
+[node name="Title" type="Label" parent="CanvasLayer/MainControl"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 320.0
+grow_horizontal = 2
+theme = ExtResource("172_njq2s")
+theme_override_colors/font_color = Color(0.217285, 0.270798, 0.547345, 1)
+theme_override_colors/font_shadow_color = Color(0.52549, 0.52549, 0.882353, 0.552941)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 8
+theme_override_font_sizes/font_size = 108
+text = "Skylanders Collectors' App"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="AttributionAndVers" type="Label" parent="CanvasLayer/MainControl/Title"]
+self_modulate = Color(1, 1, 1, 0.764706)
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 287.0
+offset_bottom = 336.0
+grow_horizontal = 2
+theme = ExtResource("172_njq2s")
+theme_override_constants/outline_size = 8
+text = "Warrensaur - Vers. 1.95"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Disclaimers" type="Label" parent="CanvasLayer/MainControl/Title"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 1089.0
+offset_bottom = 1602.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("172_njq2s")
+theme_override_constants/shadow_offset_x = 4
+theme_override_constants/shadow_offset_y = 4
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 36
+theme_override_styles/normal = SubResource("StyleBoxFlat_d3b6n")
+text = "Activision, Skylanders, Portal of Power, and other trademarks are the property of their respective owners. This app is completely nonprofit and was developed as simply a way for fellow collectors to keep tabs on their growing collections and share them with others. Artwork and photographs here are not owned by nor profited from by me, and are used purely for an example to represent any given item.
+
+If you would like to request a photograph or art piece be removed and you are the owner. please reach out to me. Thank you!"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="DisclaimerAcknowledgment" type="Button" parent="CanvasLayer/MainControl/Title/Disclaimers"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -80.0
+offset_top = 36.0
+offset_right = 80.0
+offset_bottom = 146.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 92
+theme_override_styles/normal = SubResource("StyleBoxFlat_w04m4")
+text = "OK!"
+
+[node name="ViewCollections" type="Control" parent="CanvasLayer/MainControl"]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CollectionScreen" type="Control" parent="CanvasLayer/MainControl"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CollectionScreenBG" type="TextureRect" parent="CanvasLayer/MainControl/CollectionScreen"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -975.0
+offset_right = 1096.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5_4xe5p")
+expand_mode = 2
+
+[node name="CollectionScreenColorRect" type="ColorRect" parent="CanvasLayer/MainControl/CollectionScreen"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0.745098)
+
+[node name="CollectionName" type="Label" parent="CanvasLayer/MainControl/CollectionScreen"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 48.0
+grow_horizontal = 2
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 72
+text = "Collection Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AmountCollected" type="Label" parent="CanvasLayer/MainControl/CollectionScreen"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 63.0
+offset_bottom = 235.0
+grow_horizontal = 2
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 48
+text = "Amount Collected: X"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="FilterControl" type="Control" parent="CanvasLayer/MainControl/CollectionScreen"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 440.0
+offset_bottom = 556.0
+grow_horizontal = 2
+
+[node name="FilterButtons" type="Label" parent="CanvasLayer/MainControl/CollectionScreen/FilterControl"]
+layout_mode = 0
+offset_left = 16.0
+offset_right = 277.0
+offset_bottom = 80.0
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 72
+text = "Filter: "
+
+[node name="FilterOptions" type="OptionButton" parent="CanvasLayer/MainControl/CollectionScreen/FilterControl"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 238.0
+offset_right = -16.0
+offset_bottom = 88.0
+grow_horizontal = 2
+mouse_filter = 1
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 72
+item_count = 27
+popup/item_0/text = "Core"
+popup/item_1/text = "In-Game Variant"
+popup/item_1/id = 1
+popup/item_2/text = "Chase Variants"
+popup/item_2/id = 2
+popup/item_3/text = "Limited Editions"
+popup/item_3/id = 3
+popup/item_4/text = "Package Variants"
+popup/item_4/id = 4
+popup/item_5/text = "Traps"
+popup/item_5/id = 5
+popup/item_6/text = "Creation Crystals"
+popup/item_6/id = 6
+popup/item_7/text = "Adventure Pieces"
+popup/item_7/id = 7
+popup/item_8/text = "Magic Items"
+popup/item_8/id = 8
+popup/item_9/text = "LightCore"
+popup/item_9/id = 9
+popup/item_10/text = "Giants"
+popup/item_10/id = 10
+popup/item_11/text = "Swapper"
+popup/item_11/id = 11
+popup/item_12/text = "Trap Team"
+popup/item_12/id = 12
+popup/item_13/text = "SuperCharger"
+popup/item_13/id = 13
+popup/item_14/text = "Vehicles"
+popup/item_14/id = 14
+popup/item_15/text = "Sensei"
+popup/item_15/id = 15
+popup/item_16/text = "Villain"
+popup/item_16/id = 16
+popup/item_17/text = "Spyro's Adventure"
+popup/item_17/id = 17
+popup/item_18/text = "Giants (Game)"
+popup/item_18/id = 18
+popup/item_19/text = "Swap Force (Game)"
+popup/item_19/id = 19
+popup/item_20/text = "Trap Team (Game)"
+popup/item_20/id = 20
+popup/item_21/text = "SuperChargers (Game)"
+popup/item_21/id = 21
+popup/item_22/text = "Imaginators"
+popup/item_22/id = 22
+popup/item_23/text = "Game Disks"
+popup/item_23/id = 23
+popup/item_24/text = "Portals"
+popup/item_24/id = 24
+popup/item_25/text = "Minis"
+popup/item_25/id = 25
+popup/item_26/text = "No filter"
+popup/item_26/id = 26
+
+[node name="SearchControl" type="Control" parent="CanvasLayer/MainControl/CollectionScreen"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 320.0
+offset_bottom = 436.0
+grow_horizontal = 2
+
+[node name="SearchText" type="Label" parent="CanvasLayer/MainControl/CollectionScreen/SearchControl"]
+layout_mode = 0
+offset_left = 16.0
+offset_right = 277.0
+offset_bottom = 80.0
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 72
+text = "Search:"
+
+[node name="SearchLineEdit" type="LineEdit" parent="CanvasLayer/MainControl/CollectionScreen/SearchControl"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 301.0
+offset_right = -16.0
+offset_bottom = 88.0
+grow_horizontal = 2
+mouse_filter = 1
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 72
+placeholder_text = "(type here...)"
+
+[node name="VScrollBar" type="ScrollContainer" parent="CanvasLayer/MainControl/CollectionScreen"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 556.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("172_njq2s")
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 2
+scroll_deadzone = 50
+script = ExtResource("602_h3u1a")
+
+[node name="GridContainer" type="GridContainer" parent="CanvasLayer/MainControl/CollectionScreen/VScrollBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="NameNewCollectionControl" type="Control" parent="CanvasLayer/MainControl"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer/MainControl/NameNewCollectionControl"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.200223, 0.213397, 0.339493, 0.784314)
+
+[node name="Dialog" type="Label" parent="CanvasLayer/MainControl/NameNewCollectionControl"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -32.0
+offset_bottom = 32.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("174_vw7g7")
+theme_override_font_sizes/font_size = 64
+text = "Name your new collection!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CollectionNameEditor" type="LineEdit" parent="CanvasLayer/MainControl/NameNewCollectionControl/Dialog"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 64.0
+offset_bottom = 64.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("172_njq2s")
+placeholder_text = "(The time is now, Portal Master!)"
+alignment = 1
+max_length = 32
+
+[node name="DoneButton" type="Button" parent="CanvasLayer/MainControl/NameNewCollectionControl/Dialog"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 190.0
+offset_bottom = 322.0
+grow_horizontal = 2
+mouse_filter = 1
+theme = ExtResource("172_njq2s")
+theme_override_constants/outline_size = 9
+theme_override_font_sizes/font_size = 112
+text = "DONE!"
+flat = true
+
+[node name="FileDialog" type="FileDialog" parent="CanvasLayer/MainControl"]
+title = "Open a File"
+initial_position = 1
+size = Vector2i(600, 1200)
+theme = ExtResource("172_njq2s")
+ok_button_text = "Open"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 1
+filters = PackedStringArray("*.tres", "*.res", "*.remap", "*.skylanderscollection", "Resource Files")
+
+[node name="FileDialogViewCollections" type="FileDialog" parent="CanvasLayer/MainControl"]
+title = "Open a File"
+initial_position = 1
+size = Vector2i(600, 600)
+min_size = Vector2i(600, 600)
+theme = ExtResource("172_njq2s")
+ok_button_text = "Open"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 1
+filters = PackedStringArray("*.tres", "*.res", "*.skylanderscollection", "*.remap", "Resource File(s)")
+use_native_dialog = true
+
+[node name="ExitButton" type="Button" parent="CanvasLayer/MainControl"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 31.0
+offset_top = -82.0
+offset_right = 116.0
+offset_bottom = -34.0
+grow_vertical = 0
+focus_mode = 0
+mouse_filter = 1
+theme = ExtResource("172_njq2s")
+theme_override_colors/font_color = Color(0.638884, 2.02149e-06, 4.81307e-07, 1)
+text = "EXIT"
+
+[node name="BackToMainMenu" type="Button" parent="CanvasLayer/MainControl"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -270.0
+offset_top = -82.0
+offset_right = -15.0
+offset_bottom = -34.0
+grow_horizontal = 0
+grow_vertical = 0
+focus_mode = 0
+mouse_filter = 1
+theme = ExtResource("172_njq2s")
+theme_override_colors/font_color = Color(0.638884, 2.02149e-06, 4.81307e-07, 1)
+theme_override_font_sizes/font_size = 24
+text = "Return to Main Menu"
+
+[node name="SettingsScreen" type="Control" parent="CanvasLayer/MainControl"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer/MainControl/SettingsScreen"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.575479, 0.603123, 0.726522, 1)
+
+[node name="GridContainer" type="GridContainer" parent="CanvasLayer/MainControl/SettingsScreen"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SettingsTitle" type="Label" parent="CanvasLayer/MainControl/SettingsScreen/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 108
+text = "Settings"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ThemeSelector" type="Label" parent="CanvasLayer/MainControl/SettingsScreen/GridContainer"]
+layout_mode = 2
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 72
+text = "Theme:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ThemeDropdown" type="OptionButton" parent="CanvasLayer/MainControl/SettingsScreen/GridContainer"]
+layout_mode = 2
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 72
+alignment = 1
+selected = 0
+item_count = 12
+popup/item_0/text = "Light"
+popup/item_1/text = "Dark"
+popup/item_1/id = 1
+popup/item_2/text = "Magic"
+popup/item_2/id = 2
+popup/item_3/text = "Tech"
+popup/item_3/id = 3
+popup/item_4/text = "Fire"
+popup/item_4/id = 4
+popup/item_5/text = "Water"
+popup/item_5/id = 5
+popup/item_6/text = "Air"
+popup/item_6/id = 6
+popup/item_7/text = "Earth"
+popup/item_7/id = 7
+popup/item_8/text = "Life"
+popup/item_8/id = 8
+popup/item_9/text = "Undead"
+popup/item_9/id = 9
+popup/item_10/text = "Monochrome"
+popup/item_10/id = 10
+popup/item_11/text = "Monochrome (High Contrast)"
+popup/item_11/id = 11
+
+[node name="ScrollSpeed" type="Label" parent="CanvasLayer/MainControl/SettingsScreen/GridContainer"]
+layout_mode = 2
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 72
+text = "Scroll Speed:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ScrollSpeedButtons" type="GridContainer" parent="CanvasLayer/MainControl/SettingsScreen/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+columns = 6
+
+[node name="Low" type="Button" parent="CanvasLayer/MainControl/SettingsScreen/GridContainer/ScrollSpeedButtons"]
+layout_mode = 2
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 68
+text = "Low"
+
+[node name="Spacer" type="ColorRect" parent="CanvasLayer/MainControl/SettingsScreen/GridContainer/ScrollSpeedButtons"]
+custom_minimum_size = Vector2(108, 90)
+layout_mode = 2
+color = Color(1, 1, 1, 0)
+
+[node name="Medium" type="Button" parent="CanvasLayer/MainControl/SettingsScreen/GridContainer/ScrollSpeedButtons"]
+layout_mode = 2
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 68
+text = "Medium"
+
+[node name="Spacer2" type="ColorRect" parent="CanvasLayer/MainControl/SettingsScreen/GridContainer/ScrollSpeedButtons"]
+custom_minimum_size = Vector2(108, 90)
+layout_mode = 2
+color = Color(1, 1, 1, 0)
+
+[node name="High" type="Button" parent="CanvasLayer/MainControl/SettingsScreen/GridContainer/ScrollSpeedButtons"]
+layout_mode = 2
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 68
+text = "High"
+
+[node name="DisclaimerLabel" type="Label" parent="CanvasLayer/MainControl/SettingsScreen/GridContainer"]
+layout_mode = 2
+theme = ExtResource("172_njq2s")
+theme_override_colors/font_color = Color(0.539781, 0.201392, 0.265149, 1)
+theme_override_font_sizes/font_size = 58
+text = "NOTE! This app is in EARLY testing phases! Unexpected errors, data corruption or save file loss, and crashes are highly likely. Not all settings on this screen work yet. Thank you for your patience!"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="ReturnButton" type="Button" parent="CanvasLayer/MainControl/SettingsScreen"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -105.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_vertical = 8
+mouse_filter = 1
+theme = ExtResource("172_njq2s")
+theme_override_font_sizes/font_size = 88
+text = "Back to Home Screen"
+
+[node name="PermissionRequester" type="Control" parent="CanvasLayer" node_paths=PackedStringArray("disclaimer_acknowledgment_control", "disclaimer_blackout", "main_scene")]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("603_jmql8")
+disclaimer_acknowledgment_control = NodePath("../MainControl/Title/Disclaimers")
+disclaimer_blackout = NodePath("../MainControl/TempBlackout")
+main_scene = NodePath("../..")
+
+[node name="PermsBGColor" type="ColorRect" parent="CanvasLayer/PermissionRequester"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0.784314)
+
+[node name="PermsLabel" type="Label" parent="CanvasLayer/PermissionRequester"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 61.0
+offset_top = -102.0
+offset_right = -60.0
+offset_bottom = 103.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("172_njq2s")
+text = "This app requires access to your external storage to save and read collection data.
+
+Please enable permissions."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="OkButton" type="Button" parent="CanvasLayer/PermissionRequester"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = 191.0
+offset_bottom = 239.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("172_njq2s")
+text = "OK!"
+
+[node name="NoThanks" type="Button" parent="CanvasLayer/PermissionRequester"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = 290.0
+offset_bottom = 338.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("172_njq2s")
+text = "No thanks, close the program."
+
+[connection signal="filtered" from="." to="." method="_on_filtered"]
+[connection signal="pressed" from="CanvasLayer/MainControl/StartNewCollection" to="." method="_on_start_new_collection_pressed"]
+[connection signal="pressed" from="CanvasLayer/MainControl/LoadCollection" to="." method="_on_load_collection_pressed"]
+[connection signal="pressed" from="CanvasLayer/MainControl/Settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="CanvasLayer/MainControl/ViewCollectionFiles" to="." method="_on_view_collection_files_pressed"]
+[connection signal="pressed" from="CanvasLayer/MainControl/Title/Disclaimers/DisclaimerAcknowledgment" to="CanvasLayer/PermissionRequester" method="_on_disclaimer_acknowledgment_pressed"]
+[connection signal="item_selected" from="CanvasLayer/MainControl/CollectionScreen/FilterControl/FilterOptions" to="." method="_on_filter_options_item_selected"]
+[connection signal="text_changed" from="CanvasLayer/MainControl/CollectionScreen/SearchControl/SearchLineEdit" to="." method="_on_search_line_edit_text_changed"]
+[connection signal="pressed" from="CanvasLayer/MainControl/NameNewCollectionControl/Dialog/DoneButton" to="." method="_on_done_button_pressed"]
+[connection signal="file_selected" from="CanvasLayer/MainControl/FileDialog" to="." method="_on_file_dialog_file_selected"]
+[connection signal="file_selected" from="CanvasLayer/MainControl/FileDialogViewCollections" to="." method="_on_file_dialog_view_collections_file_selected"]
+[connection signal="pressed" from="CanvasLayer/MainControl/ExitButton" to="." method="_on_exit_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/MainControl/BackToMainMenu" to="." method="_on_back_to_main_menu_pressed"]
+[connection signal="pressed" from="CanvasLayer/MainControl/SettingsScreen/GridContainer/ScrollSpeedButtons/Low" to="." method="_on_low_pressed"]
+[connection signal="pressed" from="CanvasLayer/MainControl/SettingsScreen/GridContainer/ScrollSpeedButtons/Medium" to="." method="_on_medium_pressed"]
+[connection signal="pressed" from="CanvasLayer/MainControl/SettingsScreen/GridContainer/ScrollSpeedButtons/High" to="." method="_on_high_pressed"]
+[connection signal="pressed" from="CanvasLayer/MainControl/SettingsScreen/ReturnButton" to="." method="_on_return_button_pressed"]

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://chf5q7w7h8vpa"]
+
+[ext_resource type="Texture2D" uid="uid://bjpbwsxuq4hei" path="res://images/imaginators/SENSEI_RO_BOW.png" id="1_qsc6v"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_cva36"]
+
+[resource]
+script = ExtResource("2_cva36")
+character_name = "Ro-Bow"
+element = "Tech"
+image = ExtResource("1_qsc6v")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei"
+series = "Series 1"
+figure_is_collected = false
+min_value = 250.0
+max_value = 850.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = "Exclusive to Lost Imaginite Mines adventure pack which was largely unreleased in the USA, hence the high secondhand market value. This figure unlocks the level in Imaginators."

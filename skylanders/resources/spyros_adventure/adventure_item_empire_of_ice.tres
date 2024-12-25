@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bb4qa47dx65mr"]
+
+[ext_resource type="Texture2D" uid="uid://de3yikm1ch0fy" path="res://images/spyros_adventure/EMPIRE_OF_ICE.png" id="1_52b11"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_d7li2"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_d7li2")
+character_name = "Empire of Ice"
+element = ""
+image = ExtResource("1_52b11")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 65.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ckdtx4ntvm23a"]
+
+[ext_resource type="Texture2D" uid="uid://cwgp0qubwl86k" path="res://images/spyros_adventure/TERRABITE_S1_LOOSE.png" id="1_2wlvs"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_o7s0c"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_o7s0c")
+character_name = "Terrabite (Sidekick)"
+element = "Earth"
+image = ExtResource("1_2wlvs")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 20.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

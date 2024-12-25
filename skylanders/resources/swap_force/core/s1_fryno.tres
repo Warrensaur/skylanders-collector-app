@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://crjavlg7pf2ce"]
+
+[ext_resource type="Texture2D" uid="uid://d250dh2jgusxc" path="res://images/swap_force/S1_FRYNO.png" id="1_fk0d4"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_8rvi5"]
+
+[resource]
+script = ExtResource("2_8rvi5")
+character_name = "Fryno"
+element = "Fire"
+image = ExtResource("1_fk0d4")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 1.0
+max_value = 20.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

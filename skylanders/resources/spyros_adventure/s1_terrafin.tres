@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://k1xa80optb1d"]
+
+[ext_resource type="Texture2D" uid="uid://cxrxpxy8e60vy" path="res://images/spyros_adventure/TERRAFIN_S1_LOOSE.png" id="1_juwpo"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_kjkyl"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_kjkyl")
+character_name = "Terrafin"
+element = "Earth"
+image = ExtResource("1_juwpo")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 60.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

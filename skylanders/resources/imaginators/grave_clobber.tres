@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ddv62gl4teapd"]
+
+[ext_resource type="Texture2D" uid="uid://bo2wrrtp8iq8y" path="res://images/imaginators/SENSEI_VILLAIN_GRAVE_CLOBBER.png" id="1_asnl6"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_b2gwj"]
+
+[resource]
+script = ExtResource("2_b2gwj")
+character_name = "Grave Clobber"
+element = "Water"
+image = ExtResource("1_asnl6")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei Villain"
+series = "Series 1"
+figure_is_collected = false
+min_value = 10.0
+max_value = 50.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bb3uxwdgjx404"]
+
+[ext_resource type="Texture2D" uid="uid://ch26q8lq1cw8w" path="res://images/trap_team/TRAP_STEAMED_BROCCOLI_GUY.jpg" id="1_wj3ua"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_yr3k7"]
+
+[resource]
+script = ExtResource("2_yr3k7")
+character_name = "Steamed Broccoli Guy"
+element = "Life"
+image = ExtResource("1_wj3ua")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Trap"
+series = "Series 1"
+figure_is_collected = false
+min_value = 15.0
+max_value = 105.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = "A preloaded villain exclusive to the Life Toucan. When seeking this trap, make sure the seller can prove it holds the villain or that it is sealed."

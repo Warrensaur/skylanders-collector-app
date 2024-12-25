@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cl5okcdnvg8i8"]
+
+[ext_resource type="Texture2D" uid="uid://tdfgyqip6tn0" path="res://images/giants/S2_STUMP_SMASH_FLOCKED.png" id="1_gsntv"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_2emow"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_2emow")
+character_name = "White Flocked Stump Smash"
+element = "Life"
+image = ExtResource("1_gsntv")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 150.0
+max_value = 450.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

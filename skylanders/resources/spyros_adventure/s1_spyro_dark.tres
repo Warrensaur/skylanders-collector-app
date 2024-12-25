@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://p6l4np15jm4h"]
+
+[ext_resource type="Texture2D" uid="uid://b38k22lup5hsy" path="res://images/spyros_adventure/SPYRO_S1_DARK_LOOSE.png" id="1_4xewk"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_4oaol"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_4oaol")
+character_name = "Dark Spyro"
+element = "Magic"
+image = ExtResource("1_4xewk")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 10.0
+max_value = 140.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

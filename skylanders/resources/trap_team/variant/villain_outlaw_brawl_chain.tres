@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://nsyv7st4qsp2"]
+
+[ext_resource type="Texture2D" uid="uid://dloua3vko6t76" path="res://images/trap_team/OUTLAW_BRAWL_CHAIN.jpg" id="1_muvi5"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="1_w6l2q"]
+
+[resource]
+script = ExtResource("1_w6l2q")
+character_name = "Outlaw Brawl & Chain"
+element = "Water"
+image = ExtResource("1_muvi5")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Trap"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = "A preloaded villain exclusive to the Water Log Holder. When seeking this trap, make sure the seller can prove it holds the villain or that it is sealed."

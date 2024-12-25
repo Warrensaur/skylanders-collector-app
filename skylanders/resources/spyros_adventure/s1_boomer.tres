@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bw0is0lm6ekic"]
+
+[ext_resource type="Texture2D" uid="uid://0pywfurool0d" path="res://images/spyros_adventure/BOOMER_SERIES_1_LOOSE.png" id="1_jg3h3"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="1_u8kb1"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("1_u8kb1")
+character_name = "Boomer"
+element = "Tech"
+image = ExtResource("1_jg3h3")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

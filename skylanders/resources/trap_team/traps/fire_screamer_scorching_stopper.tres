@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ctelh7iyteo8i"]
+
+[ext_resource type="Texture2D" uid="uid://dy5440a6whiak" path="res://images/trap_team/TRAP_FIRE_SCREAMER.png" id="1_lv2ao"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_txnsr"]
+
+[resource]
+script = ExtResource("2_txnsr")
+character_name = "Fire Screamer (Scorching Stopper)"
+element = "Fire"
+image = ExtResource("1_lv2ao")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Trap"
+series = "Series 1"
+figure_is_collected = false
+min_value = 1.5
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

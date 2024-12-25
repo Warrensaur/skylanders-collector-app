@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://drn2qwwef7kiw"]
+
+[ext_resource type="Texture2D" uid="uid://fduotluje1el" path="res://images/spyros_adventure/ZAP_S1_GITD.png" id="1_2pqmv"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_141s0"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_141s0")
+character_name = "GITD Zap"
+element = "Water"
+image = ExtResource("1_2pqmv")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 400.0
+max_value = 800.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

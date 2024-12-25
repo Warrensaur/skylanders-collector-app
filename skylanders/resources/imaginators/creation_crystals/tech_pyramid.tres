@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://c111nhteno0n5"]
+
+[ext_resource type="Texture2D" uid="uid://dk53350lisexp" path="res://images/imaginators/CC_TECH_PYRAMID.jpg" id="1_mt6s4"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_hmv18"]
+
+[resource]
+script = ExtResource("2_hmv18")
+character_name = "Tech Pyramid"
+element = "Tech"
+image = ExtResource("1_mt6s4")
+released_with_game = "Imaginators"
+base_is = "Creation Crystal"
+figure_type = "Creation Crystal"
+series = "Series 1"
+figure_is_collected = false
+min_value = 0.0
+max_value = 0.0
+does_figure_work = false
+figure_condition = 0
+estimated_val = 0.0
+place_in_array_index = 0
+notes = "No value provided because this figure is unreleased. Prototypes exist but there are no legitimate ones in existence."

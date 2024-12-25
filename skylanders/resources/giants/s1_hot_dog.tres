@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://b4t7o2eldt6v2"]
+
+[ext_resource type="Texture2D" uid="uid://debi1fitoi4c8" path="res://images/giants/S1_HOT_DOG.png" id="1_ul22o"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_0jsad"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_0jsad")
+character_name = "Hot Dog"
+element = "Fire"
+image = ExtResource("1_ul22o")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

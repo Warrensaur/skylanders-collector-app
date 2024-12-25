@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://jw08vrjjv4jr"]
+
+[ext_resource type="Texture2D" uid="uid://drf5lddyg48k5" path="res://images/imaginators/SENSEI_EMBER_DEC_EMBER.png" id="1_dy6hv"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_qvpct"]
+
+[resource]
+script = ExtResource("2_qvpct")
+character_name = "Dec-Ember"
+element = "Fire"
+image = ExtResource("1_dy6hv")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei"
+series = "Series 1"
+figure_is_collected = false
+min_value = 250.0
+max_value = 1000.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

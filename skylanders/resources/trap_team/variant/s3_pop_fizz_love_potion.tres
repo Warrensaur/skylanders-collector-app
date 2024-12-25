@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://h07o8u5ej1vi"]
+
+[ext_resource type="Texture2D" uid="uid://blhobtvgoc74r" path="res://images/trap_team/S3_POP_FIZZ_LOVE_POTION.png" id="1_eoaha"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_0kdk7"]
+
+[resource]
+script = ExtResource("2_0kdk7")
+character_name = "Love Potion Pop Fizz"
+element = "Magic"
+image = ExtResource("1_eoaha")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Core"
+series = "Series 3"
+figure_is_collected = false
+min_value = 5.0
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

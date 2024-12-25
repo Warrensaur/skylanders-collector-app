@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dar83e31g3i25"]
+
+[ext_resource type="Texture2D" uid="uid://bvoqx7crspqlc" path="res://images/swap_force/ADVENTURE_ITEM_FIERY_FORGE.png" id="1_s0hxy"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_f2dcy"]
+
+[resource]
+script = ExtResource("2_f2dcy")
+character_name = "Fiery Forge"
+element = ""
+image = ExtResource("1_s0hxy")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Magic Item"
+series = "Series 1"
+figure_is_collected = false
+min_value = 0.5
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

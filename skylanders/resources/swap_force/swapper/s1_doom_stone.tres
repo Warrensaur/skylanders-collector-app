@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bi74jeut02sqm"]
+
+[ext_resource type="Texture2D" uid="uid://d14ucjm50kcru" path="res://images/swap_force/S1_DOOM_STONE.png" id="1_p6gsc"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_l1det"]
+
+[resource]
+script = ExtResource("2_l1det")
+character_name = "Doom Stone"
+element = "Earth"
+image = ExtResource("1_p6gsc")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Swapper"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

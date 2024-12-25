@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://1o63ffistewk"]
+
+[ext_resource type="Texture2D" uid="uid://hd4ajaoh7jq0" path="res://images/eons_elite/EONS_ELITE_GILL_GRUNT.png" id="1_e65m4"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_toeij"]
+
+[resource]
+script = ExtResource("2_toeij")
+character_name = "Gill Grunt"
+element = "Water"
+image = ExtResource("1_e65m4")
+released_with_game = "Trap Team"
+base_is = "White"
+figure_type = "Eon's Elite"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 75.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = "Acts as a series 1 Legendary figure."

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ce8fy81g600ko"]
+
+[ext_resource type="Texture2D" uid="uid://d0cn034y24hv6" path="res://images/trap_team/ADVENTURE_ITEM_SUNSCRAPER_SPIRE.png" id="1_i738y"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_h1pcj"]
+
+[resource]
+script = ExtResource("2_h1pcj")
+character_name = "Sunscraper Spire"
+element = ""
+image = ExtResource("1_i738y")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Adventure Piece"
+series = "Series 1"
+figure_is_collected = false
+min_value = 25.0
+max_value = 125.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

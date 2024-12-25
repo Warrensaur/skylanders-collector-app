@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dyjnyn8myle78"]
+
+[ext_resource type="Texture2D" uid="uid://ck3up7y5qumjj" path="res://images/swap_force/S1_DOOM_STONE_GOLD_BRONZE.png" id="1_13l1e"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_7re1n"]
+
+[resource]
+script = ExtResource("2_7re1n")
+character_name = "Gold & Bronze Doom Stone"
+element = "Earth"
+image = ExtResource("1_13l1e")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Swapper"
+series = "Series 1"
+figure_is_collected = false
+min_value = 400.0
+max_value = 1100.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

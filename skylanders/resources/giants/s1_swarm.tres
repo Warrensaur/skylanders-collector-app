@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cpk7offkeh0a1"]
+
+[ext_resource type="Texture2D" uid="uid://dgudarhb4mv1f" path="res://images/giants/S1_SWARM.png" id="1_wbyd1"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_t0brl"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_t0brl")
+character_name = "Swarm"
+element = "Air"
+image = ExtResource("1_wbyd1")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Giant"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

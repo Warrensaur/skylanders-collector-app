@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://mpg3hbpkfrkc"]
+
+[ext_resource type="Texture2D" uid="uid://bf72vxa5h3em7" path="res://images/imaginators/SENSEI_AIR_STRIKE_EGG_BOMBER.png" id="1_n6xsf"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_4mryi"]
+
+[resource]
+script = ExtResource("2_4mryi")
+character_name = "Egg Bomber Air Strike"
+element = "Air"
+image = ExtResource("1_n6xsf")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

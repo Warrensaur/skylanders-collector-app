@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://culvs5c5ufxcw"]
+
+[ext_resource type="Texture2D" uid="uid://crmqt4wxt6a3g" path="res://images/imaginators/SENSEI_VILLAIN_TAE_KWON_CROW_MYSTICAL.png" id="1_bh2cd"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_dpsee"]
+
+[resource]
+script = ExtResource("2_dpsee")
+character_name = "Mystical Tae Kwon Crow"
+element = "Fire"
+image = ExtResource("1_bh2cd")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei Villain"
+series = "Series 1"
+figure_is_collected = false
+min_value = 10.0
+max_value = 50.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

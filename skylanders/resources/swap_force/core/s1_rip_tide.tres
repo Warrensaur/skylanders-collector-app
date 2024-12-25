@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://kly424wn4cks"]
+
+[ext_resource type="Texture2D" uid="uid://brjlxhrp4lku" path="res://images/swap_force/S1_RIP_TIDE.png" id="1_7jrso"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_ghuer"]
+
+[resource]
+script = ExtResource("2_ghuer")
+character_name = "Rip Tide"
+element = "Water"
+image = ExtResource("1_7jrso")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ba8fw2gak7qws"]
+
+[ext_resource type="Texture2D" uid="uid://c18kvufnawvgh" path="res://images/swap_force/ADVENTURE_ITEM_PLATINUM_SHEEP.png" id="1_laetk"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_pgo7f"]
+
+[resource]
+script = ExtResource("2_pgo7f")
+character_name = "Platinum Sheep"
+element = ""
+image = ExtResource("1_laetk")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Magic Item"
+series = "Series 1"
+figure_is_collected = false
+min_value = 2.5
+max_value = 55.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

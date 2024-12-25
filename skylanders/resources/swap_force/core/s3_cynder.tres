@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://b3hn6qcpnwox"]
+
+[ext_resource type="Texture2D" uid="uid://db1qstblvfng3" path="res://images/swap_force/S3_CYNDER.png" id="1_3rpcq"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_h546e"]
+
+[resource]
+script = ExtResource("2_h546e")
+character_name = "Phantom Cynder"
+element = "Undead"
+image = ExtResource("1_3rpcq")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Core"
+series = "Series 3"
+figure_is_collected = false
+min_value = 0.5
+max_value = 20.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

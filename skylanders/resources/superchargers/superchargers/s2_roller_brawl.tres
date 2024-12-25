@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://c2yxrdnkydkeh"]
+
+[ext_resource type="Texture2D" uid="uid://l6uvtwlset07" path="res://images/superchargers/S2_ROLLER_BRAWL.png" id="1_u71nm"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_5kcwo"]
+
+[resource]
+script = ExtResource("2_5kcwo")
+character_name = "Bone Bash Roller Brawl"
+element = "Undead"
+image = ExtResource("1_u71nm")
+released_with_game = "SuperChargers"
+base_is = "Engine"
+figure_type = "SuperCharger"
+series = "Series 2"
+figure_is_collected = false
+min_value = 5.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

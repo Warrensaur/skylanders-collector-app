@@ -1,0 +1,206 @@
+[gd_scene load_steps=5 format=3 uid="uid://cptfukpq1ijas"]
+
+[ext_resource type="Script" path="res://scenes/skylander_displayer.gd" id="1_yemui"]
+[ext_resource type="Resource" uid="uid://c7exqoa340x38" path="res://skylanders/resources/spyros_adventure/s1_bash.tres" id="2_leslw"]
+[ext_resource type="Texture2D" uid="uid://dcky5dphihv5c" path="res://images/spyros_adventure/BASH_SERIES_1_LOOSE.jpg" id="2_uj1rx"]
+[ext_resource type="Theme" uid="uid://cjah6fwnx7ihn" path="res://themes/light_theme.tres" id="3_875jn"]
+
+[node name="SkylanderDisplayer" type="Control" node_paths=PackedStringArray("skylander_name_label", "skylander_element", "skylander_info", "collected_button", "does_figure_work_button", "figure_condition_dropdown", "figure_picture_texture_rect", "backdrop_a", "backdrop_b", "notes")]
+custom_minimum_size = Vector2(1080, 720)
+layout_mode = 3
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+grow_horizontal = 2
+script = ExtResource("1_yemui")
+skylander_name_label = NodePath("BackdropB/SkylanderName")
+skylander_element = NodePath("BackdropB/SkylanderElement")
+skylander_info = NodePath("BackdropB/Info")
+collected_button = NodePath("BackdropB/CollectedButton")
+does_figure_work_button = NodePath("BackdropB/DoesFigureWorkButton")
+figure_condition_dropdown = NodePath("BackdropB/ConditionDropdown")
+figure_picture_texture_rect = NodePath("BackdropB/TextureRect")
+skylander = ExtResource("2_leslw")
+backdrop_a = NodePath("BackdropA")
+backdrop_b = NodePath("BackdropB")
+notes = NodePath("BackdropB/Notes")
+
+[node name="BackdropA" type="ColorRect" parent="."]
+self_modulate = Color(1, 1, 1, 0.470588)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BackdropB" type="ColorRect" parent="."]
+self_modulate = Color(1, 1, 1, 0.627451)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 15.0
+offset_top = 15.0
+offset_right = -14.0
+offset_bottom = -17.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SkylanderName" type="Label" parent="BackdropB"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+theme = ExtResource("3_875jn")
+theme_override_font_sizes/font_size = 64
+text = "SkylanderName"
+horizontal_alignment = 2
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="SkylanderElement" type="Label" parent="BackdropB"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 93.0
+offset_bottom = 165.0
+grow_horizontal = 2
+theme = ExtResource("3_875jn")
+theme_override_font_sizes/font_size = 36
+text = "Element"
+vertical_alignment = 1
+uppercase = true
+
+[node name="Info" type="Label" parent="BackdropB"]
+custom_minimum_size = Vector2(540, 0)
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_top = 104.0
+offset_right = 562.0
+offset_bottom = -302.0
+grow_vertical = 2
+theme = ExtResource("3_875jn")
+theme_override_colors/font_color = Color(0.575479, 0.603123, 0.726522, 1)
+theme_override_colors/font_outline_color = Color(0.000255153, 0.0192172, 0.200047, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 24
+text = "Released With: Spyro's Adventure
+Base: Green
+Type: Core
+Series: Series 1
+Value: $X - $X
+Estimated Value: X"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Notes" type="Label" parent="BackdropB"]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = 344.0
+offset_right = 583.0
+offset_bottom = -79.0
+grow_vertical = 2
+theme = ExtResource("3_875jn")
+theme_override_colors/font_color = Color(0.712055, 0.733978, 0.828087, 1)
+theme_override_colors/font_outline_color = Color(6.49765e-07, 0, 0.369266, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 28
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CollectedButton" type="CheckButton" parent="BackdropB"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -316.0
+offset_top = -72.0
+grow_horizontal = 0
+grow_vertical = 0
+focus_mode = 0
+theme = ExtResource("3_875jn")
+theme_override_font_sizes/font_size = 64
+text = "Collected?"
+
+[node name="DoesFigureWorkButton" type="CheckButton" parent="BackdropB"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -513.0
+offset_top = -141.0
+offset_bottom = -69.0
+grow_horizontal = 0
+grow_vertical = 0
+focus_mode = 0
+theme = ExtResource("3_875jn")
+theme_override_font_sizes/font_size = 48
+text = "Does Figure Work?"
+alignment = 2
+
+[node name="ConditionDropdown" type="OptionButton" parent="BackdropB"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -828.0
+offset_top = -69.0
+offset_right = -366.0
+offset_bottom = -21.0
+grow_horizontal = 0
+grow_vertical = 0
+focus_mode = 0
+theme = ExtResource("3_875jn")
+action_mode = 1
+item_count = 6
+popup/item_0/text = "New In Box (Unopened)"
+popup/item_1/text = "New In Box (Opened)"
+popup/item_1/id = 1
+popup/item_2/text = "New In Box (Damaged)"
+popup/item_2/id = 2
+popup/item_3/text = "Loose (With Peripherals)"
+popup/item_3/id = 3
+popup/item_4/text = "Loose (No Peripherals)"
+popup/item_4/id = 5
+popup/item_5/text = "Loose (Damaged)"
+popup/item_5/id = 6
+
+[node name="Condition" type="Label" parent="BackdropB"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 619.0
+offset_right = 195.0
+offset_bottom = 667.0
+theme = ExtResource("3_875jn")
+text = "Condition"
+
+[node name="TextureRect" type="TextureRect" parent="BackdropB"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -446.0
+offset_top = -174.5
+offset_right = -88.0
+offset_bottom = 160.5
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("2_uj1rx")
+expand_mode = 1
+
+[connection signal="toggled" from="BackdropB/CollectedButton" to="." method="_on_collected_button_toggled"]
+[connection signal="toggled" from="BackdropB/DoesFigureWorkButton" to="." method="_on_does_figure_work_button_toggled"]
+[connection signal="item_selected" from="BackdropB/ConditionDropdown" to="." method="_on_condition_dropdown_item_selected"]

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cppayfw4b4kii"]
+
+[ext_resource type="Texture2D" uid="uid://c33acdaoo422x" path="res://images/trap_team/S2_MINI_JINI.png" id="1_0ut5k"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_mn2b3"]
+
+[resource]
+script = ExtResource("2_mn2b3")
+character_name = "Mini-Jini"
+element = "Magic"
+image = ExtResource("1_0ut5k")
+released_with_game = "Trap Team"
+base_is = "Red"
+figure_type = "Mini"
+series = "Series 2"
+figure_is_collected = false
+min_value = 5.0
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

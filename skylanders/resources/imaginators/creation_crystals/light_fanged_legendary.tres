@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dk3nd1u51bfbr"]
+
+[ext_resource type="Texture2D" uid="uid://c4diiovysieg7" path="res://images/imaginators/CC_LIGHT_FANGED_LEGENDARY.png" id="1_axpot"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_gjyaq"]
+
+[resource]
+script = ExtResource("2_gjyaq")
+character_name = "Legendary Light Fanged"
+element = "Light"
+image = ExtResource("1_axpot")
+released_with_game = "Imaginators"
+base_is = "Creation Crystal"
+figure_type = "Creation Crystal"
+series = "Series 1"
+figure_is_collected = false
+min_value = 15.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bm2xvsws8g2v0"]
+
+[ext_resource type="Texture2D" uid="uid://0pn3dyvv6m5r" path="res://images/giants/S1_EYE_BRAWL_METALLIC_PURPLE.png" id="1_8j8qk"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_kks7v"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_kks7v")
+character_name = "Metallic Purple Eye-Brawl"
+element = "Undead"
+image = ExtResource("1_8j8qk")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Giant"
+series = "Series 1"
+figure_is_collected = false
+min_value = 150.0
+max_value = 350.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

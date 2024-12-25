@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://uahy5id3q0bt"]
+
+[ext_resource type="Texture2D" uid="uid://c0hdn7p5bmgeo" path="res://images/giants/S2_HEX_LIGHTCORE.png" id="1_eswol"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_vmhpb"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_vmhpb")
+character_name = "Hex"
+element = "Undead"
+image = ExtResource("1_eswol")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "LightCore"
+series = "Series 2"
+figure_is_collected = false
+min_value = 4.0
+max_value = 55.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

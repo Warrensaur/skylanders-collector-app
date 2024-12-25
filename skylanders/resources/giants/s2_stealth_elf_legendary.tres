@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://derny2vj8fx0p"]
+
+[ext_resource type="Texture2D" uid="uid://4vymjwq5nrio" path="res://images/giants/S2_STEALTH_ELF_LEGENDARY.png" id="1_afsln"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_7wf86"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_7wf86")
+character_name = "Legendary Stealth Elf"
+element = "Life"
+image = ExtResource("1_afsln")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 5.0
+max_value = 75.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

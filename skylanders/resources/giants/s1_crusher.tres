@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dep5048hqamj5"]
+
+[ext_resource type="Texture2D" uid="uid://xyll1lo5j0kd" path="res://images/giants/S1_CRUSHER.png" id="1_ggu4c"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="1_su58f"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("1_su58f")
+character_name = "Crusher"
+element = "Earth"
+image = ExtResource("1_ggu4c")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Giant"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

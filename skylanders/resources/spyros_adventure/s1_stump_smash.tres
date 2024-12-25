@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bodtqa6n6be6j"]
+
+[ext_resource type="Texture2D" uid="uid://d3j81gdtd3gnh" path="res://images/spyros_adventure/STUMP_SMASH_S1_LOOSE.png" id="1_8ram2"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_hcx2c"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_hcx2c")
+character_name = "Stump Smash"
+element = "Life"
+image = ExtResource("1_8ram2")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 0.5
+max_value = 15.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://b24h0u5hjreq"]
+
+[ext_resource type="Texture2D" uid="uid://dhl10np5d6a6f" path="res://images/spyros_adventure/PIRATE_SEAS.png" id="1_jb8sb"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_6qw6p"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_6qw6p")
+character_name = "Pirate Seas"
+element = ""
+image = ExtResource("1_jb8sb")
+released_with_game = "Spyro's Adventure"
+base_is = "Green"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 65.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

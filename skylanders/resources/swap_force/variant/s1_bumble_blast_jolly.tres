@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://brrhf0lfb768q"]
+
+[ext_resource type="Texture2D" uid="uid://caau8k5y6wqxt" path="res://images/swap_force/S1_BUMBLE_BLAST_JOLLY.png" id="1_t472s"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_7o10u"]
+
+[resource]
+script = ExtResource("2_7o10u")
+character_name = "Jolly Bumble Blast"
+element = "Life"
+image = ExtResource("1_t472s")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Core"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

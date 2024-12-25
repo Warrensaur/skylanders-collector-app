@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://dx11pngg5hv2s"]
+
+[ext_resource type="Texture2D" uid="uid://3msfho3bly1n" path="res://images/superchargers/S1_HIGH_VOLT.png" id="1_5cxa5"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_lqog5"]
+
+[resource]
+script = ExtResource("2_lqog5")
+character_name = "High Volt"
+element = "Tech"
+image = ExtResource("1_5cxa5")
+released_with_game = "SuperChargers"
+base_is = "Engine"
+figure_type = "SuperCharger"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

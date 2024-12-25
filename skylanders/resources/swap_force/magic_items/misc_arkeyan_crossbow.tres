@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://1l66x7vkq5rv"]
+
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="1_xhsag"]
+[ext_resource type="Texture2D" uid="uid://x76yr43suiga" path="res://images/swap_force/ADVENTURE_ITEM_ARKEYAN_CROSSBOW.png" id="1_ykmq1"]
+
+[resource]
+script = ExtResource("1_xhsag")
+character_name = "Arkeyan Crossbow"
+element = ""
+image = ExtResource("1_ykmq1")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Magic Item"
+series = "Series 1"
+figure_is_collected = false
+min_value = 0.5
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

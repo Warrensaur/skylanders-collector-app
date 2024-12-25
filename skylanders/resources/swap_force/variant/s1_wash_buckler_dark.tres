@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ctaly1hi5kcc5"]
+
+[ext_resource type="Texture2D" uid="uid://c7d6hs6fl2vy6" path="res://images/swap_force/S1_WASH_BUCKLER_DARK.png" id="1_744x6"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_h8y7q"]
+
+[resource]
+script = ExtResource("2_h8y7q")
+character_name = "Dark Wash Buckler"
+element = "Water"
+image = ExtResource("1_744x6")
+released_with_game = "Swap Force"
+base_is = "Blue"
+figure_type = "Swapper"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 25.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0

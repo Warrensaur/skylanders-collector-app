@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://cfm47pkukcegi"]
+
+[ext_resource type="Texture2D" uid="uid://c4ixkvk3q56yg" path="res://images/imaginators/SENSEI_BARBELLA_PINK.png" id="1_m1s4b"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_ewapd"]
+
+[resource]
+script = ExtResource("2_ewapd")
+character_name = "Pink Barbella"
+element = "Earth"
+image = ExtResource("1_m1s4b")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei"
+series = "Series 1"
+figure_is_collected = false
+min_value = 250.0
+max_value = 500.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

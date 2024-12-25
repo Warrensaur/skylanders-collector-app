@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://7ps1poqpggc"]
+
+[ext_resource type="Texture2D" uid="uid://jti1v65jl5al" path="res://images/giants/S2_DOUBLE_TROUBLE.png" id="1_oa8na"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_3ujkj"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_3ujkj")
+character_name = "Double Trouble"
+element = "Magic"
+image = ExtResource("1_oa8na")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 3.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

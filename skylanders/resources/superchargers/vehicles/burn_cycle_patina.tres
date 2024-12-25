@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://ccm36iivj74be"]
+
+[ext_resource type="Texture2D" uid="uid://cnfumgfmc3mtm" path="res://images/superchargers/VEHICLE_BURN_CYCLE_PATINA.png" id="1_5sy7n"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_s64bx"]
+
+[resource]
+script = ExtResource("2_s64bx")
+character_name = "Patina Burn Cycle"
+element = "Fire"
+image = ExtResource("1_5sy7n")
+released_with_game = "SuperChargers"
+base_is = "Engine"
+figure_type = "Vehicle"
+series = "Series 1"
+figure_is_collected = false
+min_value = 250.0
+max_value = 600.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = ""

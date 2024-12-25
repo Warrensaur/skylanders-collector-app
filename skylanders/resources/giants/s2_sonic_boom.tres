@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://e22ah1mmrjn8"]
+
+[ext_resource type="Texture2D" uid="uid://bfpc5in5crfdq" path="res://images/giants/S2_SONIC_BOOM.png" id="1_4lf3i"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_xqswr"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_xqswr")
+character_name = "Sonic Boom"
+element = "Air"
+image = ExtResource("1_4lf3i")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Core"
+series = "Series 2"
+figure_is_collected = false
+min_value = 2.0
+max_value = 35.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0

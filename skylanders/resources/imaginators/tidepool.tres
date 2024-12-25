@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bpxpb8436yvjf"]
+
+[ext_resource type="Texture2D" uid="uid://3vmyucrqee2j" path="res://images/imaginators/SENSEI_TIDEPOOL.png" id="1_vkq21"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_uqspb"]
+
+[resource]
+script = ExtResource("2_uqspb")
+character_name = "Tidepool"
+element = "Water"
+image = ExtResource("1_vkq21")
+released_with_game = "Imaginators"
+base_is = "Sensei"
+figure_type = "Sensei"
+series = "Series 1"
+figure_is_collected = false
+min_value = 75.0
+max_value = 225.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
+place_in_array_index = 0
+notes = "Very few released in the USA, hence the high aftermarket price."

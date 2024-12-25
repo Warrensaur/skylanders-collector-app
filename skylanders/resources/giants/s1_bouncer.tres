@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Skylander" load_steps=3 format=3 uid="uid://bfflungqaavln"]
+
+[ext_resource type="Texture2D" uid="uid://6xsr8piqiw55" path="res://images/giants/S1_BOUNCER.png" id="1_erewx"]
+[ext_resource type="Script" path="res://skylanders/skylander.gd" id="2_a16qq"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("2_a16qq")
+character_name = "Bouncer"
+element = "Tech"
+image = ExtResource("1_erewx")
+released_with_game = "Giants"
+base_is = "Orange"
+figure_type = "Giant"
+series = "Series 1"
+figure_is_collected = false
+min_value = 5.0
+max_value = 45.0
+does_figure_work = true
+figure_condition = 4
+estimated_val = 0.0
